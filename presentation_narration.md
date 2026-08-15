@@ -4,7 +4,7 @@
 
 ## Slide 1 — Title Slide
 
-Good morning, respected Chairperson, esteemed members of the panel, and my guide Dr. P. P. Rao. My name is Saumya Singh, and this is my final defence presentation on the topic — "Corporate Responsibility Regarding the Concern of Greenwashing, Policy and Legal Initiatives: A Critical Study."
+Good morning, respected Vice Chancellor, esteemed professors, and my colleagues. My name is Saumya Singh, and this is my final defence presentation on the topic — "Corporate Responsibility Regarding the Concern of Greenwashing, Policy and Legal Initiatives: A Critical Study."
 
 This research began from a straightforward observation: companies across India and the world are making environmental claims that often have no real substance behind them. The question is — does our legal system actually hold them accountable for that? Over the next thirty-five to forty minutes, I will walk you through how I investigated this question, what I found, and what I propose as a way forward.
 
