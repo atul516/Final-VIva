@@ -1,0 +1,2961 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 4: Comparative Jurisdictional Tables & Best Practice Matrix | Anti-Greenwashing Regulation</title>
+  <meta name="description" content="Doctoral Thesis Chapter 4 Comparative Tables: Anti-Greenwashing Regulation Across 13 Jurisdictions and 20 Consolidated Best Practices by Saumya Singh (CNLU Patna).">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome 6 Pro/Free CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <script>
+    (function () {
+      const saved = localStorage.getItem('jurisdiction_theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <style>
+    :root {
+      /* Dark Theme (Default) */
+      --bg-primary: #070b14;
+      --bg-secondary: #0e1626;
+      --bg-surface: #131f36;
+      --bg-card: rgba(16, 26, 46, 0.75);
+      --bg-card-hover: rgba(24, 38, 66, 0.9);
+      --bg-glass: rgba(14, 22, 38, 0.7);
+      --bg-input: #0a101d;
+      
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-medium: rgba(255, 255, 255, 0.14);
+      --border-accent: rgba(16, 185, 129, 0.35);
+      --border-glow: rgba(59, 130, 246, 0.4);
+
+      --text-main: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --text-highlight: #38bdf8;
+
+      --accent-emerald: #10b981;
+      --accent-emerald-subtle: rgba(16, 185, 129, 0.15);
+      --accent-teal: #14b8a6;
+      --accent-teal-subtle: rgba(20, 184, 166, 0.15);
+      --accent-cyan: #06b6d4;
+      --accent-blue: #3b82f6;
+      --accent-blue-subtle: rgba(59, 130, 246, 0.15);
+      --accent-indigo: #6366f1;
+      --accent-indigo-subtle: rgba(99, 102, 241, 0.15);
+      --accent-amber: #f59e0b;
+      --accent-amber-subtle: rgba(245, 158, 11, 0.15);
+      --accent-rose: #f43f5e;
+      --accent-rose-subtle: rgba(244, 63, 94, 0.15);
+      --accent-purple: #a855f7;
+      --accent-purple-subtle: rgba(168, 85, 247, 0.15);
+
+      --badge-bg: rgba(255, 255, 255, 0.06);
+      --table-stripe: rgba(255, 255, 255, 0.015);
+      --table-hover: rgba(59, 130, 246, 0.06);
+
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.35);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+      --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6);
+      --shadow-glow: 0 0 30px rgba(16, 185, 129, 0.15);
+
+      --font-display: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+      --font-heading: 'Plus Jakarta Sans', sans-serif;
+      --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-xl: 26px;
+      --radius-pill: 9999px;
+
+      --transition-fast: 0.15s ease;
+      --transition-normal: 0.25s ease;
+      --transition-smooth: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="light"] {
+      --bg-primary: #f4f6fb;
+      --bg-secondary: #ffffff;
+      --bg-surface: #edf2f9;
+      --bg-card: rgba(255, 255, 255, 0.95);
+      --bg-card-hover: #ffffff;
+      --bg-glass: rgba(255, 255, 255, 0.85);
+      --bg-input: #ffffff;
+
+      --border-subtle: rgba(0, 0, 0, 0.07);
+      --border-medium: rgba(0, 0, 0, 0.14);
+      --border-accent: rgba(16, 185, 129, 0.5);
+      --border-glow: rgba(59, 130, 246, 0.25);
+
+      --text-main: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #64748b;
+      --text-highlight: #0284c7;
+
+      --accent-emerald-subtle: rgba(16, 185, 129, 0.1);
+      --accent-teal-subtle: rgba(20, 184, 166, 0.1);
+      --accent-blue-subtle: rgba(59, 130, 246, 0.1);
+      --accent-indigo-subtle: rgba(99, 102, 241, 0.1);
+      --accent-amber-subtle: rgba(245, 158, 11, 0.1);
+      --accent-rose-subtle: rgba(244, 63, 94, 0.1);
+      --accent-purple-subtle: rgba(168, 85, 247, 0.1);
+
+      --badge-bg: rgba(0, 0, 0, 0.04);
+      --table-stripe: rgba(0, 0, 0, 0.015);
+      --table-hover: rgba(59, 130, 246, 0.04);
+
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+      --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.09);
+      --shadow-glow: 0 0 30px rgba(16, 185, 129, 0.08);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      transition: background-color var(--transition-normal), color var(--transition-normal);
+      overflow-x: hidden;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Background Atmospheric Ambient Glows */
+    .ambient-glow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .glow-blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      opacity: 0.6;
+      transition: all 1s ease;
+    }
+    .glow-1 {
+      top: -12%;
+      left: 10%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.16) 0%, rgba(0,0,0,0) 70%);
+    }
+    .glow-2 {
+      top: 35%;
+      right: -10%;
+      width: 650px;
+      height: 650px;
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.13) 0%, rgba(0,0,0,0) 70%);
+    }
+    .glow-3 {
+      bottom: -15%;
+      left: 25%;
+      width: 750px;
+      height: 750px;
+      background: radial-gradient(circle, rgba(168, 85, 247, 0.1) 0%, rgba(0,0,0,0) 70%);
+    }
+
+    /* Container */
+    .container {
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      position: relative;
+      z-index: 1;
+      flex: 1;
+    }
+
+    /* Top Navigation Bar */
+    .top-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1.5rem;
+      margin-bottom: 2rem;
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-sm);
+      position: sticky;
+      top: 1rem;
+      z-index: 50;
+    }
+
+    .brand-group {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      text-decoration: none;
+      color: inherit;
+    }
+    .brand-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent-emerald), var(--accent-cyan));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-size: 1.15rem;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    }
+    .brand-text h4 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+    .brand-text p {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.55rem 1.1rem;
+      border-radius: var(--radius-md);
+      font-size: 0.85rem;
+      font-weight: 600;
+      font-family: var(--font-heading);
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all var(--transition-normal);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .btn-secondary {
+      background: var(--bg-surface);
+      border-color: var(--border-subtle);
+      color: var(--text-main);
+    }
+    .btn-secondary:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border-medium);
+      color: var(--accent-emerald);
+      transform: translateY(-1px);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent-emerald), var(--accent-teal));
+      color: #ffffff;
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.25);
+    }
+    .btn-primary:hover {
+      filter: brightness(1.1);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(16, 185, 129, 0.35);
+    }
+
+    .btn-icon {
+      width: 38px;
+      height: 38px;
+      padding: 0;
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all var(--transition-normal);
+    }
+    .btn-icon:hover {
+      border-color: var(--accent-emerald);
+      color: var(--accent-emerald);
+      background: var(--bg-card-hover);
+      transform: translateY(-1px);
+    }
+
+    /* Hero Header Section */
+    .hero-header {
+      background: var(--bg-card);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan), var(--accent-blue), var(--accent-purple), var(--accent-amber));
+    }
+
+    .hero-meta-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 0.85rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.78rem;
+      font-weight: 700;
+      font-family: var(--font-heading);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .badge-emerald {
+      background: var(--accent-emerald-subtle);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+    .badge-cyan {
+      background: rgba(6, 182, 212, 0.15);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(6, 182, 212, 0.3);
+    }
+    .badge-blue {
+      background: var(--accent-blue-subtle);
+      color: var(--accent-blue);
+      border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+    .badge-amber {
+      background: var(--accent-amber-subtle);
+      color: var(--accent-amber);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+    .badge-purple {
+      background: var(--accent-purple-subtle);
+      color: var(--accent-purple);
+      border: 1px solid rgba(168, 85, 247, 0.3);
+    }
+    .badge-rose {
+      background: var(--accent-rose-subtle);
+      color: var(--accent-rose);
+      border: 1px solid rgba(244, 63, 94, 0.3);
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: 2.25rem;
+      font-weight: 800;
+      line-height: 1.22;
+      margin-bottom: 0.85rem;
+      background: linear-gradient(135deg, #ffffff 40%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: -0.02em;
+    }
+    [data-theme="light"] .hero-title {
+      background: linear-gradient(135deg, #0f172a 30%, #334155 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.08rem;
+      color: var(--text-secondary);
+      max-width: 1100px;
+      line-height: 1.6;
+      margin-bottom: 1.75rem;
+    }
+
+    .scholar-meta-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.8rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-subtle);
+      font-size: 0.88rem;
+    }
+    .scholar-item {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--text-secondary);
+    }
+    .scholar-item i {
+      color: var(--accent-emerald);
+      font-size: 1rem;
+    }
+    .scholar-item strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    /* KPI Summary Stats */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.35rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      transition: all var(--transition-normal);
+      box-shadow: var(--shadow-sm);
+    }
+    .kpi-card:hover {
+      border-color: var(--border-medium);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .kpi-icon-box {
+      width: 52px;
+      height: 52px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+    .kpi-val {
+      font-family: var(--font-display);
+      font-size: 1.85rem;
+      font-weight: 800;
+      line-height: 1.1;
+      color: var(--text-main);
+    }
+    .kpi-lbl {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      margin-top: 0.2rem;
+    }
+
+    /* Tab Controller */
+    .view-controller {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    .tabs-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 1rem;
+    }
+
+    .tab-btn-group {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      padding: 0.65rem 1.25rem;
+      border-radius: var(--radius-md);
+      font-family: var(--font-heading);
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      background: transparent;
+      border: 1px solid transparent;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+      transition: all var(--transition-normal);
+    }
+    .tab-btn:hover {
+      color: var(--text-main);
+      background: var(--bg-surface);
+    }
+    .tab-btn.active {
+      color: #ffffff;
+      background: linear-gradient(135deg, var(--accent-emerald), #0d9488);
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    .tab-badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.72rem;
+      font-weight: 700;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    /* Filter & Search Bar */
+    .controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .search-box-wrapper {
+      position: relative;
+      flex: 1;
+      min-width: 280px;
+      max-width: 500px;
+    }
+    .search-icon {
+      position: absolute;
+      left: 1rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      pointer-events: none;
+      font-size: 0.95rem;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.7rem 2.6rem 0.7rem 2.7rem;
+      background: var(--bg-input);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      outline: none;
+      transition: all var(--transition-normal);
+    }
+    .search-input:focus {
+      border-color: var(--accent-emerald);
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
+    }
+    .search-clear {
+      position: absolute;
+      right: 0.85rem;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: none;
+      font-size: 0.85rem;
+      padding: 0.2rem;
+    }
+    .search-clear:hover {
+      color: var(--text-main);
+    }
+
+    .filter-chips-group {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-chip {
+      padding: 0.4rem 0.85rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      cursor: pointer;
+      transition: all var(--transition-fast);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .filter-chip:hover {
+      border-color: var(--border-medium);
+      color: var(--text-main);
+    }
+    .filter-chip.active {
+      background: var(--accent-emerald-subtle);
+      border-color: var(--accent-emerald);
+      color: var(--accent-emerald);
+    }
+
+    .layout-toggles {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* Content Panes */
+    .tab-pane {
+      display: none;
+      animation: fadeIn 0.35s ease forwards;
+    }
+    .tab-pane.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Section Card Wrapper */
+    .content-section-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-lg);
+      margin-bottom: 2.5rem;
+      overflow: hidden;
+    }
+
+    .section-header-bar {
+      padding: 1.5rem 2rem;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      background: linear-gradient(180deg, var(--bg-surface) 0%, transparent 100%);
+    }
+
+    .section-header-title {
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+    }
+    .section-header-title i {
+      font-size: 1.4rem;
+      color: var(--accent-emerald);
+    }
+    .section-header-title h2 {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+    .section-header-title p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin-top: 0.15rem;
+    }
+
+    .results-count-tag {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    /* Table Component */
+    .table-responsive-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    table.data-matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    table.data-matrix-table th {
+      background: var(--bg-surface);
+      color: var(--text-main);
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 1.1rem 1.5rem;
+      border-bottom: 2px solid var(--border-medium);
+      white-space: nowrap;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    table.data-matrix-table td {
+      padding: 1.35rem 1.5rem;
+      border-bottom: 1px solid var(--border-subtle);
+      vertical-align: top;
+      line-height: 1.65;
+    }
+
+    table.data-matrix-table tbody tr {
+      transition: background-color var(--transition-fast);
+    }
+    table.data-matrix-table tbody tr:nth-child(even) {
+      background: var(--table-stripe);
+    }
+    table.data-matrix-table tbody tr:hover {
+      background: var(--table-hover);
+    }
+
+    /* Jurisdiction Column Specifics */
+    .jurisdiction-badge-cell {
+      min-width: 180px;
+    }
+    .jurisdiction-name-box {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-family: var(--font-heading);
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+    .flag-icon-circle {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .region-subtag {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+      display: block;
+    }
+
+    /* Regulations Cell */
+    .regulations-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      min-width: 280px;
+      max-width: 380px;
+    }
+    .reg-item {
+      position: relative;
+      padding-left: 1.25rem;
+      font-size: 0.88rem;
+      color: var(--text-main);
+    }
+    .reg-item::before {
+      content: '•';
+      position: absolute;
+      left: 0.2rem;
+      top: 0;
+      color: var(--accent-cyan);
+      font-weight: 900;
+      font-size: 1.1rem;
+    }
+    .reg-year {
+      display: inline-block;
+      padding: 0.1rem 0.45rem;
+      border-radius: var(--radius-sm);
+      background: var(--badge-bg);
+      border: 1px solid var(--border-subtle);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-left: 0.25rem;
+    }
+
+    /* Best Practice Features Cell */
+    .features-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+    .feature-item {
+      position: relative;
+      padding-left: 1.35rem;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+    }
+    .feature-item::before {
+      content: '▸';
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--accent-emerald);
+      font-weight: 900;
+      font-size: 1rem;
+    }
+    .feature-item strong {
+      color: var(--text-main);
+      font-weight: 700;
+      font-family: var(--font-heading);
+    }
+    .feature-item em {
+      font-style: italic;
+      color: var(--text-highlight);
+    }
+
+    /* Table 2 Number Column */
+    .index-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      background: var(--accent-emerald-subtle);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 0.88rem;
+    }
+
+    .best-practice-title-cell {
+      min-width: 240px;
+      max-width: 320px;
+    }
+    .best-practice-title-cell h4 {
+      font-family: var(--font-heading);
+      font-size: 0.98rem;
+      font-weight: 700;
+      color: var(--text-main);
+      line-height: 1.35;
+    }
+    .category-tag {
+      display: inline-block;
+      margin-top: 0.4rem;
+      padding: 0.15rem 0.55rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .description-cell {
+      min-width: 320px;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .exemplars-cell {
+      min-width: 260px;
+      font-size: 0.86rem;
+      color: var(--text-secondary);
+    }
+    .exemplar-badge-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .exemplar-entry {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      padding: 0.5rem 0.75rem;
+      font-size: 0.84rem;
+      line-height: 1.45;
+    }
+    .exemplar-entry strong {
+      color: var(--accent-cyan);
+      font-weight: 600;
+    }
+
+    /* Interactive Cards View (Grid Mode) */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 1.5rem;
+      padding: 1.75rem;
+    }
+
+    .jurisdiction-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      transition: all var(--transition-normal);
+      position: relative;
+      overflow: hidden;
+    }
+    .jurisdiction-card:hover {
+      border-color: var(--accent-emerald);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+    .jurisdiction-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--card-accent, var(--accent-emerald));
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .card-title-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .card-title-group h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .card-block {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .card-block-label {
+      font-family: var(--font-heading);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .card-features-container {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+    }
+
+    /* Heatmap Comparison Matrix */
+    .heatmap-table th, .heatmap-table td {
+      text-align: center;
+      vertical-align: middle;
+      padding: 1rem 0.8rem;
+    }
+    .heatmap-table th.col-jurisdiction, .heatmap-table td.col-jurisdiction {
+      text-align: left;
+      min-width: 170px;
+    }
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      padding: 0.35rem 0.7rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.76rem;
+      font-weight: 700;
+      font-family: var(--font-heading);
+      white-space: nowrap;
+    }
+    .status-yes {
+      background: rgba(16, 185, 129, 0.18);
+      color: #10b981;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+    .status-pending {
+      background: rgba(245, 158, 11, 0.18);
+      color: #f59e0b;
+      border: 1px solid rgba(245, 158, 11, 0.4);
+    }
+    .status-partial {
+      background: rgba(59, 130, 246, 0.18);
+      color: #38bdf8;
+      border: 1px solid rgba(59, 130, 246, 0.4);
+    }
+    .status-no {
+      background: rgba(244, 63, 94, 0.14);
+      color: #f43f5e;
+      border: 1px solid rgba(244, 63, 94, 0.3);
+    }
+
+    /* Highlight Search Matching */
+    mark.search-highlight {
+      background: rgba(245, 158, 11, 0.35);
+      color: inherit;
+      padding: 0.1em 0.25em;
+      border-radius: 4px;
+      font-weight: 700;
+      border: 1px solid rgba(245, 158, 11, 0.6);
+    }
+
+    /* Sources and Citation Footer Card */
+    .sources-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: 2rem 2.5rem;
+      margin-bottom: 2.5rem;
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+    .sources-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--text-main);
+    }
+    .sources-card p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+    }
+    .sources-tag-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1.25rem;
+    }
+    .source-tag {
+      padding: 0.35rem 0.75rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* Modal / Deep Inspector */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 1000;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .modal-overlay.open {
+      display: flex;
+      animation: modalFadeIn 0.25s ease forwards;
+    }
+
+    @keyframes modalFadeIn {
+      from { opacity: 0; transform: scale(0.96); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .modal-dialog {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-medium);
+      border-radius: var(--radius-xl);
+      max-width: 750px;
+      width: 100%;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: var(--shadow-lg);
+      padding: 2rem;
+      position: relative;
+    }
+    .modal-close-btn {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all var(--transition-fast);
+    }
+    .modal-close-btn:hover {
+      color: var(--text-main);
+      border-color: var(--accent-rose);
+      background: var(--accent-rose-subtle);
+    }
+
+    /* Quick Toast */
+    .toast-notification {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--accent-emerald);
+      color: var(--text-main);
+      padding: 0.85rem 1.4rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      z-index: 2000;
+      transform: translateY(100px);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .toast-notification.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* Footer */
+    footer.page-footer {
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border-subtle);
+      padding: 2.5rem 1.5rem;
+      text-align: center;
+      margin-top: auto;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      align-items: center;
+    }
+    .footer-author {
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    /* Print Optimization Stylesheet */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+        font-size: 11pt;
+      }
+      .ambient-glow, .top-nav, .view-controller, .nav-actions, .kpi-grid, .layout-toggles, .modal-overlay, .toast-notification, footer.page-footer {
+        display: none !important;
+      }
+      .container {
+        max-width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .content-section-card {
+        border: 1px solid #cccccc !important;
+        box-shadow: none !important;
+        break-inside: avoid;
+        margin-bottom: 2rem !important;
+        background: #ffffff !important;
+      }
+      .hero-header {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 1rem 0 !important;
+        background: #ffffff !important;
+      }
+      .hero-title {
+        color: #000000 !important;
+        -webkit-text-fill-color: #000000 !important;
+        font-size: 18pt !important;
+      }
+      table.data-matrix-table th {
+        background: #f0f0f0 !important;
+        color: #000000 !important;
+        border-bottom: 2px solid #000000 !important;
+      }
+      table.data-matrix-table td {
+        border-bottom: 1px solid #dddddd !important;
+        color: #000000 !important;
+      }
+      .tab-pane {
+        display: block !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        page-break-after: always;
+      }
+      .badge-pill, .index-pill, .status-badge {
+        border: 1px solid #999999 !important;
+        color: #000000 !important;
+        background: transparent !important;
+      }
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 992px) {
+      .hero-title {
+        font-size: 1.85rem;
+      }
+      .container {
+        padding: 1.25rem 1rem;
+      }
+      .section-header-bar {
+        padding: 1.25rem 1.5rem;
+      }
+      table.data-matrix-table td, table.data-matrix-table th {
+        padding: 1rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .hero-title {
+        font-size: 1.5rem;
+      }
+      .top-nav {
+        flex-direction: column;
+        gap: 0.85rem;
+        align-items: flex-start;
+      }
+      .nav-actions {
+        width: 100%;
+        justify-content: space-between;
+      }
+      .tabs-row {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .tab-btn-group {
+        width: 100%;
+      }
+      .tab-btn {
+        flex: 1;
+        text-align: center;
+        justify-content: center;
+      }
+      .search-box-wrapper {
+        min-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Ambient Light / Dark Glows -->
+  <div class="ambient-glow" aria-hidden="true">
+    <div class="glow-blob glow-1"></div>
+    <div class="glow-blob glow-2"></div>
+    <div class="glow-blob glow-3"></div>
+  </div>
+
+  <!-- Toast Feedback -->
+  <div id="toastNotification" class="toast-notification" role="status" aria-live="polite">
+    <i class="fa-solid fa-circle-check text-emerald-400"></i>
+    <span id="toastMessage">Copied to clipboard</span>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav" aria-label="Main Navigation">
+      <a href="#" class="brand-group">
+        <div class="brand-icon">
+          <i class="fa-solid fa-scale-balanced"></i>
+        </div>
+        <div class="brand-text">
+          <h4>Doctoral Research Chapter 4</h4>
+          <p>Comparative Anti-Greenwashing Legal Regimes</p>
+        </div>
+      </a>
+
+      <div class="nav-actions">
+        <button class="btn btn-secondary" onclick="exportDataCSV()" title="Export current dataset to CSV">
+          <i class="fa-solid fa-file-csv text-emerald-400"></i>
+          <span>Export CSV</span>
+        </button>
+        <button class="btn btn-secondary" onclick="window.print()" title="Print or save as academic PDF">
+          <i class="fa-solid fa-print"></i>
+          <span>Print / PDF</span>
+        </button>
+        <button id="themeToggleBtn" class="btn-icon" onclick="toggleTheme()" aria-label="Toggle color theme" title="Switch Dark / Light Theme">
+          <i class="fa-solid fa-sun" id="themeIcon"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Header -->
+    <header class="hero-header">
+      <div class="hero-meta-row">
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <span class="badge-pill badge-emerald"><i class="fa-solid fa-landmark"></i> Empirical Legal Analysis</span>
+          <span class="badge-pill badge-cyan"><i class="fa-solid fa-globe"></i> 13 Jurisdictions</span>
+          <span class="badge-pill badge-purple"><i class="fa-solid fa-award"></i> 20 Best Practice Features</span>
+        </div>
+        <div style="display: flex; gap: 0.5rem; align-items: center;">
+          <button class="btn btn-secondary" style="padding: 0.35rem 0.8rem; font-size: 0.8rem;" onclick="copyThesisCitation()">
+            <i class="fa-regular fa-copy"></i> Copy Citation
+          </button>
+        </div>
+      </div>
+
+      <h1 class="hero-title">Chapter 4 — Comparative Tables: Anti-Greenwashing Regulation Across Jurisdictions</h1>
+      <p class="hero-subtitle">
+        A structured cross-jurisdictional taxonomy evaluating anti-greenwashing regulatory architectures, statutory substantiation standards, enforcement mechanisms, director liabilities, and consolidated international best practice benchmarks across the European Union, United Kingdom, United States, Australia, Canada, Latin America, Asia-Pacific, and Africa.
+      </p>
+
+      <div class="scholar-meta-bar">
+        <div class="scholar-item">
+          <i class="fa-solid fa-user-graduate"></i>
+          <span>Researcher: <strong>Saumya Singh</strong></span>
+        </div>
+        <div class="scholar-item">
+          <i class="fa-solid fa-university"></i>
+          <span>Institution: <strong>Chanakya National Law University (CNLU), Patna</strong></span>
+        </div>
+        <div class="scholar-item">
+          <i class="fa-solid fa-book-bookmark"></i>
+          <span>Doctoral Thesis: <strong>Corporate Responsibility and Anti-Greenwashing Law</strong></span>
+        </div>
+        <div class="scholar-item">
+          <i class="fa-solid fa-calendar-check"></i>
+          <span>Legal State of Art: <strong>2024–2026 Directives & Enactments</strong></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Executive KPI Grid -->
+    <section class="kpi-grid" aria-label="Key Research Metrics">
+      <div class="kpi-card">
+        <div class="kpi-icon-box" style="background: var(--accent-emerald-subtle); color: var(--accent-emerald);">
+          <i class="fa-solid fa-earth-americas"></i>
+        </div>
+        <div>
+          <div class="kpi-val" id="kpiJurisdictions">13</div>
+          <div class="kpi-lbl">Jurisdictions Mapped</div>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon-box" style="background: var(--accent-blue-subtle); color: var(--accent-blue);">
+          <i class="fa-solid fa-list-check"></i>
+        </div>
+        <div>
+          <div class="kpi-val" id="kpiPractices">20</div>
+          <div class="kpi-lbl">Benchmark Best Practices</div>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon-box" style="background: var(--accent-purple-subtle); color: var(--accent-purple);">
+          <i class="fa-solid fa-gavel"></i>
+        </div>
+        <div>
+          <div class="kpi-val">100%</div>
+          <div class="kpi-lbl">Hard Law & Statutory Citations</div>
+        </div>
+      </div>
+
+      <div class="kpi-card">
+        <div class="kpi-icon-box" style="background: var(--accent-amber-subtle); color: var(--accent-amber);">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div>
+          <div class="kpi-val">4 Continents</div>
+          <div class="kpi-lbl">Global Legal Convergence</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- View & Search Controller -->
+    <div class="view-controller">
+      <div class="tabs-row">
+        <div class="tab-btn-group" role="tablist">
+          <button class="tab-btn active" role="tab" aria-selected="true" onclick="switchMainTab('tab-jurisdictions')">
+            <i class="fa-solid fa-table-columns"></i>
+            <span>Table 1: Jurisdictional Regulations</span>
+            <span class="tab-badge" id="tab1Badge">13</span>
+          </button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="switchMainTab('tab-best-practices')">
+            <i class="fa-solid fa-star"></i>
+            <span>Table 2: Consolidated Best Practices</span>
+            <span class="tab-badge" id="tab2Badge">20</span>
+          </button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="switchMainTab('tab-heatmap')">
+            <i class="fa-solid fa-chart-simple"></i>
+            <span>Comparative Regulatory Matrix</span>
+          </button>
+          <button class="tab-btn" role="tab" aria-selected="false" onclick="switchMainTab('tab-sources')">
+            <i class="fa-solid fa-book-open"></i>
+            <span>Statutory Index & Sources</span>
+          </button>
+        </div>
+
+        <div class="layout-toggles">
+          <button id="btnViewTable" class="btn-icon active" onclick="setLayoutMode('table')" title="Table View">
+            <i class="fa-solid fa-table"></i>
+          </button>
+          <button id="btnViewCards" class="btn-icon" onclick="setLayoutMode('cards')" title="Card Grid View">
+            <i class="fa-solid fa-grip"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="controls-row">
+        <!-- Live Search -->
+        <div class="search-box-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="globalSearchInput" class="search-input" placeholder="Search directives, keywords, countries, penalties, standards..." oninput="handleSearch(this.value)" aria-label="Search content">
+          <button id="searchClearBtn" class="search-clear" onclick="clearSearch()" title="Clear search">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <!-- Filter Chips for Table 1 -->
+        <div id="filterChipsTable1" class="filter-chips-group">
+          <span style="font-size: 0.78rem; color: var(--text-muted); font-weight: 600; margin-right: 0.25rem;">Filter Region:</span>
+          <button class="filter-chip active" onclick="filterJurisdictionRegion('all', this)">All (13)</button>
+          <button class="filter-chip" onclick="filterJurisdictionRegion('Europe', this)"><i class="fa-solid fa-euro-sign"></i> Europe</button>
+          <button class="filter-chip" onclick="filterJurisdictionRegion('North America', this)"><i class="fa-solid fa-flag-usa"></i> N. America</button>
+          <button class="filter-chip" onclick="filterJurisdictionRegion('Latin America', this)"><i class="fa-solid fa-mountain-sun"></i> Latin America</button>
+          <button class="filter-chip" onclick="filterJurisdictionRegion('Asia-Pacific', this)"><i class="fa-solid fa-sun"></i> Asia-Pacific</button>
+          <button class="filter-chip" onclick="filterJurisdictionRegion('Africa', this)"><i class="fa-solid fa-tree"></i> Africa</button>
+        </div>
+
+        <!-- Filter Chips for Table 2 -->
+        <div id="filterChipsTable2" class="filter-chips-group" style="display: none;">
+          <span style="font-size: 0.78rem; color: var(--text-muted); font-weight: 600; margin-right: 0.25rem;">Filter Category:</span>
+          <button class="filter-chip active" onclick="filterPracticeCategory('all', this)">All (20)</button>
+          <button class="filter-chip" onclick="filterPracticeCategory('Verification & Assurance', this)">Assurance & Verification</button>
+          <button class="filter-chip" onclick="filterPracticeCategory('Substantiation & LCA', this)">Substantiation & LCA</button>
+          <button class="filter-chip" onclick="filterPracticeCategory('Governance & Liability', this)">Governance & Directors</button>
+          <button class="filter-chip" onclick="filterPracticeCategory('Enforcement & Sanctions', this)">Penalties & Enforcement</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- TAB 1: TABLE 1 - JURISDICTION-WISE REGULATIONS & BEST PRACTICE FEATURES -->
+    <!-- ========================================================================= -->
+    <div id="tab-jurisdictions" class="tab-pane active" role="tabpanel">
+      <div class="content-section-card">
+        <div class="section-header-bar">
+          <div class="section-header-title">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <div>
+              <h2>Table 1: Jurisdiction-wise Greenwashing Regulations and Best Practice Features</h2>
+              <p>Granular comparative mapping across statutory instruments, disclosure mandates, and key legal innovations.</p>
+            </div>
+          </div>
+          <div class="results-count-tag" id="table1CountTag">Showing 13 of 13 jurisdictions</div>
+        </div>
+
+        <!-- Table View -->
+        <div id="table1TableView" class="table-responsive-wrapper">
+          <table class="data-matrix-table" id="jurisdictionDataTable">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Jurisdiction</th>
+                <th style="width: 32%;">Main Greenwashing Regulations</th>
+                <th style="width: 48%;">Best Practice Features (Keywords & Phrases)</th>
+              </tr>
+            </thead>
+            <tbody id="jurisdictionTableBody">
+              <!-- Rendered via JavaScript -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Card Grid View -->
+        <div id="table1CardView" class="cards-grid" style="display: none;">
+          <!-- Rendered via JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- TAB 2: TABLE 2 - CONSOLIDATED BEST PRACTICES (ACROSS ALL JURISDICTIONS) -->
+    <!-- ========================================================================= -->
+    <div id="tab-best-practices" class="tab-pane" role="tabpanel">
+      <div class="content-section-card">
+        <div class="section-header-bar">
+          <div class="section-header-title">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <h2>Table 2: Consolidated Best Practices in Anti-Greenwashing Regulation</h2>
+              <p>Twenty synthesized gold-standard regulatory mechanisms derived from global comparative jurisprudence.</p>
+            </div>
+          </div>
+          <div class="results-count-tag" id="table2CountTag">Showing 20 of 20 best practices</div>
+        </div>
+
+        <!-- Table View -->
+        <div id="table2TableView" class="table-responsive-wrapper">
+          <table class="data-matrix-table" id="bestPracticesDataTable">
+            <thead>
+              <tr>
+                <th style="width: 6%; text-align: center;">#</th>
+                <th style="width: 25%;">Best Practice Principle</th>
+                <th style="width: 39%;">Substantive Description & Legal Rationale</th>
+                <th style="width: 30%;">Jurisdiction Exemplars & Applied Standards</th>
+              </tr>
+            </thead>
+            <tbody id="bestPracticesTableBody">
+              <!-- Rendered via JavaScript -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Card Grid View -->
+        <div id="table2CardView" class="cards-grid" style="display: none;">
+          <!-- Rendered via JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- TAB 3: HEATMAP COMPARATIVE REGULATORY MATRIX -->
+    <!-- ========================================================================= -->
+    <div id="tab-heatmap" class="tab-pane" role="tabpanel">
+      <div class="content-section-card">
+        <div class="section-header-bar">
+          <div class="section-header-title">
+            <i class="fa-solid fa-chart-simple"></i>
+            <div>
+              <h2>Cross-Jurisdictional Regulatory Heatmap & Comparative Feature Matrix</h2>
+              <p>Side-by-side synthesis of regulatory teeth, stringency standards, and enforcement powers across key dimensions.</p>
+            </div>
+          </div>
+          <button class="btn btn-secondary" onclick="exportHeatmapCSV()">
+            <i class="fa-solid fa-download"></i> Export Heatmap
+          </button>
+        </div>
+
+        <div class="table-responsive-wrapper">
+          <table class="data-matrix-table heatmap-table" id="heatmapDataTable">
+            <thead>
+              <tr>
+                <th class="col-jurisdiction">Jurisdiction</th>
+                <th>Pre-Market Approval</th>
+                <th>Mandatory LCA</th>
+                <th>Scope 3 GHG</th>
+                <th>Double Materiality</th>
+                <th>Reversed Burden</th>
+                <th>Turnover Fines</th>
+                <th>Director Liability</th>
+                <th>Private Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-jurisdiction"><strong>European Union</strong><br><span class="text-muted" style="font-size:0.75rem;">CSRD / GCD / ECGT</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Mandatory (GCD)</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Science-based</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> ESRS E1</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Mandatory</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Pre-Approval</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> &ge;4% Turnover</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Board Sign-off</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Rep. Actions</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>United Kingdom</strong><br><span class="text-muted" style="font-size:0.75rem;">FCA / CMA / DMCCA</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Ex-post / Ongoing</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Full Lifecycle</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> TCFD / ISSB</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Financial Focus</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Substantiation</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Up to 10% Global</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> SM&CR Criminal</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Derivative Actions</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>United States</strong><br><span class="text-muted" style="font-size:0.75rem;">FTC / SEC / States</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Voluntary Guides</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Claim-specific</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Withdrawn (2025)</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Financial Only</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Prior Substantiation</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Statutory Caps</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Rule 10b-5 Fraud</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Primary Lever (Class)</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Australia</strong><br><span class="text-muted" style="font-size:0.75rem;">ASIC / AASB S2</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Active Surveillance</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> True to Label</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> AASB S2 (Phased)</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> ISSB Aligned</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Method Proof</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Major Penalties</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Personal Liability</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Regulatory Led</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Canada</strong><br><span class="text-muted" style="font-size:0.75rem;">Competition Act C-59</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Ex-post</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> IRM Method</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> In IRM Scope</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Single Materiality</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Affirmative Burden</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Up to 3% Global</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Due Diligence</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Tribunal (June 2025)</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Brazil</strong><br><span class="text-muted" style="font-size:0.75rem;">CDC / CONAR / CVM</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Annex U (2025)</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Tech Evidence</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Voluntary</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Comply/Explain</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Mandatory Proof</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> High Admin Fines</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> 1 Yr Prison (CDC)</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> PROCONs / MPF</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Mexico</strong><br><span class="text-muted" style="font-size:0.75rem;">Environmental / Criminal</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Ex-post</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> General Norms</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Not Mandatory</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Not Specified</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Proposed Bill</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Criminal Fines</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> 2-10 Yrs Custodial</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Public Prosecution</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Chile</strong><br><span class="text-muted" style="font-size:0.75rem;">Proposed Bill / Consumer</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Ex-post</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Scientific Basis</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Not Explicit</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Not Specified</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Reversed (Court)</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> $640k + Ad Ban</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Corporate Entity</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> SERNAC / NGO</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Colombia</strong><br><span class="text-muted" style="font-size:0.75rem;">Decree 1369/2014</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Prior Verification</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Prior Proof</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Not Mandatory</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Single Focus</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Prior Verification</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> SIC Penalties</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Corporate Level</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Consumer Claims</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Singapore</strong><br><span class="text-muted" style="font-size:0.75rem;">CPFTA / MAS / CCS</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> MAS / CCS</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Verifiable Claim</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> FY2026 Mandate</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> ISSB Aligned</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> 5-Principle Rule</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> S$250k Fines</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> 7 Yrs Imprisonment</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> CPFTA Mechanism</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>South Africa</strong><br><span class="text-muted" style="font-size:0.75rem;">CPA / ARB / King IV</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Ex-post</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Scientific Proof</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> JSE Guidance</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Integrated Report</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> ARB Standard</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> CPA Tribunal</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> King IV Duty of Care</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> ARB & Tribunal</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Japan</strong><br><span class="text-muted" style="font-size:0.75rem;">FSA / SSBJ / PRI</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Ex-post</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Fund Labelling</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> SSBJ Standards</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> ISSB Alignment</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> FSA Guidelines</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Soft Law Focus</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Standard Fiduciary</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> PRI & Investor</span></td>
+              </tr>
+              <tr>
+                <td class="col-jurisdiction"><strong>Kenya</strong><br><span class="text-muted" style="font-size:0.75rem;">Taxonomy / EMCA / CPA</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> KGFT Taxonomy</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> DNSH Principle</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Not Mandatory</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Social Safeguards</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> Constitutional</span></td>
+                <td><span class="status-badge status-partial"><i class="fa-solid fa-circle-half-stroke"></i> CPA Penalties</span></td>
+                <td><span class="status-badge status-no"><i class="fa-solid fa-xmark"></i> Environmental Duty</span></td>
+                <td><span class="status-badge status-yes"><i class="fa-solid fa-check"></i> Constitutional Standing</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================================= -->
+    <!-- TAB 4: STATUTORY INDEX & AUTHORITATIVE SOURCES -->
+    <!-- ========================================================================= -->
+    <div id="tab-sources" class="tab-pane" role="tabpanel">
+      <div class="sources-card">
+        <h3><i class="fa-solid fa-scroll text-emerald-400"></i> Primary Legal Sources & Statutory Authorities</h3>
+        <p>
+          This comparative data framework was compiled directly from primary statutory texts, regulatory rules, judicial determinations, and international sustainability assurance standards analyzed in <strong>Chapter 4</strong> of the doctoral thesis.
+        </p>
+        
+        <div style="margin-top: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem;">
+          <div class="exemplar-entry">
+            <strong style="color: var(--accent-emerald);">European Union</strong><br>
+            • Corporate Sustainability Reporting Directive (CSRD), Directive 2022/2464/EU<br>
+            • Empowering Consumers for the Green Transition Directive (ECGT), Directive 2024/825/EU (effective Sept 2026)<br>
+            • Green Claims Directive (GCD) Proposal, COM/2023/166 (Trilogue Stage as of Jan 2026)<br>
+            • Unfair Commercial Practices Directive (UCPD), Directive 2005/29/EC (as amended)
+          </div>
+
+          <div class="exemplar-entry">
+            <strong style="color: var(--accent-cyan);">United Kingdom</strong><br>
+            • FCA Anti-Greenwashing Rule, ESG Sourcebook ESG 4.3.1R & FG24/3 (in force 31 May 2024)<br>
+            • Digital Markets, Competition and Consumers Act (DMCCA) 2024 (c. 13)<br>
+            • UK Competition and Markets Authority (CMA) Green Claims Code & Sector Guidance (2024)<br>
+            • Companies Act 2006, Section 172 & Senior Managers and Certification Regime (SM&CR)
+          </div>
+
+          <div class="exemplar-entry">
+            <strong style="color: var(--accent-blue);">United States</strong><br>
+            • Federal Trade Commission (FTC) Guides for the Use of Environmental Marketing Claims (16 CFR Part 260)<br>
+            • Securities Exchange Act of 1934, Section 10(b) & SEC Rule 10b-5 (17 CFR § 240.10b-5)<br>
+            • NYAG v. JBS USA Food Company (N.Y. Sup. Ct. 2024); ClientEarth v. Shell (2023)
+          </div>
+
+          <div class="exemplar-entry">
+            <strong style="color: var(--accent-purple);">Australia & Canada</strong><br>
+            • Australia Treasury Laws Amendment Act 2024 & AASB S2 Climate-related Disclosures<br>
+            • ASIC v. Vanguard Investments Australia [2024] FCA 268; ASIC v. Mercer Financial Services [2024] FCA 850<br>
+            • Canada Competition Act, R.S.C. 1985, c. C-34 (as amended by Bill C-59, Royal Assent 20 June 2024)
+          </div>
+
+          <div class="exemplar-entry">
+            <strong style="color: var(--accent-amber);">Latin America, Asia & Africa</strong><br>
+            • Brazil CONAR Advertising Self-Regulatory Code (Annex U, 2025) & CVM Res. 59/2021<br>
+            • Colombia Decree 1369/2014 & Singapore CCS Guidance on Environmental Claims (Oct 2025)<br>
+            • South Africa King IV Report on Corporate Governance & Kenya Draft Green Finance Taxonomy (2024)
+          </div>
+
+          <div class="exemplar-entry">
+            <strong style="color: var(--accent-rose);">Global International Standards</strong><br>
+            • UN High-Level Expert Group (HLEG), <em>Integrity Matters: Net Zero Commitments</em> (COP27, 2022)<br>
+            • Amsterdam District Court, <em>Fossielvrij NL v. KLM Royal Dutch Airlines</em> (March 2024)<br>
+            • ISO 14021:2016 (Self-declared claims), ISO 14064-3, IAASB ISAE 3000 & ISSA 5000 (Sustainability Assurance)
+          </div>
+        </div>
+
+        <div class="sources-tag-cloud">
+          <span class="source-tag">CSRD (2022/2464)</span>
+          <span class="source-tag">ECGT (2024/825)</span>
+          <span class="source-tag">GCD (COM/2023/166)</span>
+          <span class="source-tag">FCA ESG 4.3.1R</span>
+          <span class="source-tag">DMCCA 2024</span>
+          <span class="source-tag">Bill C-59 (Canada)</span>
+          <span class="source-tag">AASB S2 (Australia)</span>
+          <span class="source-tag">CONAR Annex U</span>
+          <span class="source-tag">FTC 16 CFR §260</span>
+          <span class="source-tag">Rule 10b-5 (SEC)</span>
+          <span class="source-tag">ISAE 3000 / ISSA 5000</span>
+          <span class="source-tag">UN HLEG (2022)</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Detail Inspection Modal -->
+  <div id="detailModal" class="modal-overlay" onclick="handleModalBackdropClick(event)">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" onclick="closeModal()" aria-label="Close dialog">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div id="modalBodyContent">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Page Footer -->
+  <footer class="page-footer">
+    <div class="footer-content">
+      <div class="footer-author">
+        Doctoral Thesis by Saumya Singh &bull; Chanakya National Law University (CNLU), Patna
+      </div>
+      <div>
+        Corporate Responsibility & Comparative Anti-Greenwashing Legal Jurisprudence &bull; Chapter 4 Statutory Tables
+      </div>
+      <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 0.25rem;">
+        Compiled from official gazettes, regulatory sourcebooks, court decrees & statutory enactments as of 2024–2026.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT LOGIC -->
+  <!-- ========================================================================= -->
+  <script>
+    /* =========================================================================
+       DATASET DEFINITIONS (100% faithful to Chapter4_Jurisdiction_Tables.md)
+       ========================================================================= */
+
+    const JURISDICTIONS_DATA = [
+      {
+        id: "eu",
+        name: "European Union",
+        region: "Europe",
+        flag: "🇪🇺",
+        color: "#3b82f6",
+        regulations: [
+          "Corporate Sustainability Reporting Directive (CSRD), 2023",
+          "Green Claims Directive (GCD) (Directive 2024/825, trilogue as of Jan 2026)",
+          "Empowering Consumers for the Green Transition Directive (ECGT), Directive 2024/825, effective Sep 2026",
+          "Unfair Commercial Practices Directive (UCPD), as amended"
+        ],
+        features: [
+          {
+            title: "Mandatory pre-publication approval",
+            text: "Mandatory pre-publication approval of explicit environmental claims by accredited independent verifiers (GCD); \"Certificate of Conformity\" issued before claim goes public"
+          },
+          {
+            title: "Third-party assurance",
+            text: "Third-party assurance — mandatory limited assurance from Year 1 of CSRD reporting; pathway to reasonable assurance (audit-standard) by October 2028"
+          },
+          {
+            title: "Double materiality assessment",
+            text: "Double materiality assessment — companies must disclose both how sustainability issues affect the firm <em>and</em> how the firm impacts environment/society"
+          },
+          {
+            title: "Lifecycle assessment (LCA) mandatory",
+            text: "Lifecycle assessment (LCA) mandatory — GCD requires robust, science-based LCA for any environmental product claim"
+          },
+          {
+            title: "Prohibition of generic or vague claims",
+            text: "Prohibition of generic or vague claims — \"eco-friendly,\" \"green,\" \"climate neutral\" without specific evidence are banned under ECGT"
+          },
+          {
+            title: "Ban on offsetting-based \"net zero\" or \"carbon neutral\" claims",
+            text: "Ban on offsetting-based \"net zero\" or \"carbon neutral\" claims unless residual-only after maximum reductions"
+          },
+          {
+            title: "Turnover-linked penalties",
+            text: "Turnover-linked penalties — minimum 4% of annual turnover in the Member State + confiscation of revenues from misleading activity + temporary public procurement exclusion"
+          },
+          {
+            title: "Board-level accountability",
+            text: "Board-level accountability — directors retain ultimate responsibility for accuracy of sustainability reports under CSRD"
+          },
+          {
+            title: "Convergent hard-law framework",
+            text: "Convergent hard-law framework — three interlocking instruments covering corporate reporting, product-level marketing, and consumer protection"
+          }
+        ]
+      },
+      {
+        id: "uk",
+        name: "United Kingdom",
+        region: "Europe",
+        flag: "🇬🇧",
+        color: "#6366f1",
+        regulations: [
+          "FCA Anti-Greenwashing Rule (ESG 4.3.1R), effective 31 May 2024",
+          "UK Green Claims Code (CMA)",
+          "Digital Markets, Competition and Consumers Act (DMCCA) 2024",
+          "Consumer Protection from Unfair Trading Regulations (CPRs)",
+          "Senior Managers and Certification Regime (SM&CR)",
+          "Companies Act 2006, s. 172 (directors' duties)"
+        ],
+        features: [
+          {
+            title: "FCA \"fair, clear and not misleading\" standard",
+            text: "FCA \"fair, clear and not misleading\" standard — claims must be substantiated with reliable evidence, complete (full lifecycle), and comparable only against genuinely similar products"
+          },
+          {
+            title: "Ongoing lifecycle compliance obligation",
+            text: "Ongoing lifecycle compliance obligation — substantiation is not a one-off exercise; firms must maintain compliance throughout product life"
+          },
+          {
+            title: "Turnover-linked fines",
+            text: "Turnover-linked fines — CMA can impose up to 10% of global turnover for consumer law breaches including greenwashing, under DMCCA 2024"
+          },
+          {
+            title: "Personal director liability",
+            text: "Personal director liability — Senior Managers Regime creates personal criminal liability for ESG disclosure governance failures"
+          },
+          {
+            title: "\"Assumption of responsibility\" doctrine (Vedanta)",
+            text: "\"Assumption of responsibility\" doctrine (Vedanta) — publishing a sustainability report creates a legal duty of care if stated processes are not followed"
+          },
+          {
+            title: "Derivative actions",
+            text: "Derivative actions — shareholders can sue directors for inadequate climate strategy (ClientEarth v Shell model)"
+          },
+          {
+            title: "Six-principle Green Claims Code",
+            text: "Six-principle Green Claims Code — truthful, clear, substantiated, full-lifecycle, fair comparisons, no misleading omissions"
+          },
+          {
+            title: "Sector-specific targeting",
+            text: "Sector-specific targeting — CMA fashion industry guidance (Sep 2024) on misleading buzzwords"
+          }
+        ]
+      },
+      {
+        id: "us",
+        name: "United States",
+        region: "North America",
+        flag: "🇺🇸",
+        color: "#f43f5e",
+        regulations: [
+          "FTC Green Guides (1992, revised 2012; update pending)",
+          "Securities Exchange Act s. 10(b) & Rule 10b-5 (SEC)",
+          "SEC Climate Disclosure Rules (adopted Mar 2024; administratively stayed Apr 2024; withdrawn Mar 2025)",
+          "State consumer protection statutes (class actions)"
+        ],
+        features: [
+          {
+            title: "Claim-specific substantiation standards",
+            text: "Claim-specific substantiation standards — Green Guides provide detailed guidance for biodegradability, compostability, recyclability, carbon offsets, renewable energy claims; companies must possess adequate evidence <em>before</em> marketing"
+          },
+          {
+            title: "\"Adequate and proper substantiation\" standard",
+            text: "\"Adequate and proper substantiation\" standard — companies bear the burden of proof for every environmental claim"
+          },
+          {
+            title: "Securities-law materiality approach",
+            text: "Securities-law materiality approach — environmental representations in SEC filings treated as material mis-statements subject to Rule 10b-5; personal officer/director liability for securities fraud"
+          },
+          {
+            title: "Private litigation as primary enforcement lever",
+            text: "Private litigation as primary enforcement lever — class actions (P&G Charmin, 2025; JBS USA, 2024) fill the gap where agency action is reduced or withdrawn"
+          },
+          {
+            title: "No-offsetting-as-substitute principle",
+            text: "No-offsetting-as-substitute principle — \"carbon neutral\" claims without documented emission reductions face litigation risk"
+          },
+          {
+            title: "Fragmented regulatory framework, politically vulnerable",
+            text: "Fragmented regulatory framework, politically vulnerable — no single federal greenwashing law; rules subject to judicial stays and executive withdrawal; state-level litigation fills gap"
+          }
+        ]
+      },
+      {
+        id: "australia",
+        name: "Australia",
+        region: "Asia-Pacific",
+        flag: "🇦🇺",
+        color: "#10b981",
+        regulations: [
+          "Corporations Act 2001 (Cth) — misleading and deceptive conduct",
+          "ASIC Act 2001 (Cth)",
+          "Treasury Laws Amendment (Financial Market Infrastructure and Other Measures) Act 2024 — mandatory climate disclosure regime",
+          "Australian Sustainability Reporting Standard AASB S2 (ISSB S2-aligned)"
+        ],
+        features: [
+          {
+            title: "Active regulatory surveillance",
+            text: "Active regulatory surveillance — ASIC conducted 47 greenwashing interventions in 15 months (to June 2024): 37 corrective disclosures, 8 infringement notices, 2 civil penalty proceedings"
+          },
+          {
+            title: "Substantial civil penalties",
+            text: "Substantial civil penalties — ASIC v. Mercer ($11.3 M penalty); ASIC v. Vanguard ($20 M penalty) established that misleading ESG fund disclosures carry serious financial consequences"
+          },
+          {
+            title: "\"True to label\" standard",
+            text: "\"True to label\" standard — product names and claims must accurately reflect underlying substance; undefined terms like \"socially responsible\" or \"ethical\" without methodology are prohibited"
+          },
+          {
+            title: "Disclosure of methodology mandatory",
+            text: "Disclosure of methodology mandatory — companies must explain how sustainability factors are integrated into investment decisions"
+          },
+          {
+            title: "Phased mandatory climate reporting",
+            text: "Phased mandatory climate reporting (commenced 1 Jan 2025): Group 1 entities from FY2025; Group 2 from FY2026; Group 3 from FY2027"
+          },
+          {
+            title: "ISSB-aligned reporting standard (AASB S2)",
+            text: "ISSB-aligned reporting standard (AASB S2) — mandatory Scope 1, 2 and 3 GHG disclosures; scenario analysis including a \">2°C\" scenario; TCFD-based governance, strategy, risk management disclosures"
+          },
+          {
+            title: "Personal director accountability",
+            text: "Personal director accountability — directors personally liable for content of sustainability reports; ASIC adopts proportionate but active enforcement posture"
+          },
+          {
+            title: "Consistency requirement",
+            text: "Consistency requirement — internal controls must ensure climate-related statements are consistent across all corporate communications"
+          }
+        ]
+      },
+      {
+        id: "canada",
+        name: "Canada",
+        region: "North America",
+        flag: "🇨🇦",
+        color: "#f59e0b",
+        regulations: [
+          "Competition Act (as amended by Bill C-59, Royal Assent 20 June 2024)",
+          "Competition Bureau Final Guidelines on Environmental Claims, June 2025"
+        ],
+        features: [
+          {
+            title: "Greenwashing-specific amendments to competition law",
+            text: "Greenwashing-specific amendments to competition law — explicit prohibition of deceptive environmental claims in the Competition Act; first major jurisdiction to embed greenwashing standards directly in competition statute"
+          },
+          {
+            title: "Two-tier substantiation standard",
+            text: "Two-tier substantiation standard — product claims: \"adequate and proper test\"; business activity claims: \"adequate and proper substantiation in accordance with internationally recognized methodology\" (IRM)"
+          },
+          {
+            title: "Affirmative burden of proof",
+            text: "Affirmative burden of proof — companies must substantiate claims <em>proactively</em>; burden is on the company, not the complainant or regulator"
+          },
+          {
+            title: "Private right of action",
+            text: "Private right of action — unprecedented among major jurisdictions; businesses and consumers may bring applications to Competition Tribunal if it is \"in the public interest\" (effective June 20, 2025)"
+          },
+          {
+            title: "\"Due diligence\" safe harbour",
+            text: "\"Due diligence\" safe harbour — defence available if company took reasonable steps to prevent deceptive marketing"
+          },
+          {
+            title: "Substantial penalties",
+            text: "Substantial penalties — up to CAD $10 M for first offence or 3% of annual worldwide gross revenues (whichever is greater); up to CAD $15 M for subsequent offences"
+          },
+          {
+            title: "\"Greenhushing\" risk acknowledged",
+            text: "\"Greenhushing\" risk acknowledged — Competition Bureau guidelines explicitly recognise risk of chilling legitimate sustainability disclosure; proportionality and clarity built into enforcement guidance"
+          }
+        ]
+      },
+      {
+        id: "brazil",
+        name: "Brazil",
+        region: "Latin America",
+        flag: "🇧🇷",
+        color: "#10b981",
+        regulations: [
+          "Consumer Protection Code (Código de Defesa do Consumidor — CDC)",
+          "CONAR Advertising Self-Regulatory Code, Annex U (effective late 2025)",
+          "CVM Resolution 59/2021 (ESG metrics in stock exchange filings)",
+          "Proposed Bill 2838/22 (national greenwashing taxonomy — pending)"
+        ],
+        features: [
+          {
+            title: "Mandatory proof of environmental claims",
+            text: "Mandatory proof of environmental claims — CONAR Annex U (2025) makes technical documentation or recognised certifications a prerequisite for any sustainability claim in advertising"
+          },
+          {
+            title: "Multi-actor enforcement",
+            text: "Multi-actor enforcement — Federal Public Prosecutor's Office, consumer defence agencies (PROCONs), National Consumer Secretariat, CONAR, and CVM all hold concurrent jurisdiction"
+          },
+          {
+            title: "Criminal liability for misleading advertising",
+            text: "Criminal liability for misleading advertising — up to 1 year imprisonment for entities sponsoring or creating false environmental advertisements under the Consumer Protection Code"
+          },
+          {
+            title: "Significant administrative fines",
+            text: "Significant administrative fines — 2022 administrative action resulted in fine exceeding R$ 12 million (~€2.3 M) for ESG advertising violations"
+          },
+          {
+            title: "\"Comply or explain\" ESG disclosures",
+            text: "\"Comply or explain\" ESG disclosures — CVM Resolution 59/2021 requires ESG metrics in filings; no mandatory assurance yet"
+          },
+          {
+            title: "Developing national taxonomy",
+            text: "Developing national taxonomy — Bill 2838/22 proposes uniform taxonomy and enhanced penalties; not yet law"
+          }
+        ]
+      },
+      {
+        id: "mexico",
+        name: "Mexico",
+        region: "Latin America",
+        flag: "🇲🇽",
+        color: "#a855f7",
+        regulations: [
+          "General Environmental Protection Laws",
+          "Proposed amendment to Federal Criminal Code (greenwashing bill — pending)"
+        ],
+        features: [
+          {
+            title: "Criminalisation of greenwashing",
+            text: "Criminalisation of greenwashing — proposed bill defines greenwashing as \"false or simulated information on environmental or sustainability performance for benefit or profit\" — a specific environmental crime"
+          },
+          {
+            title: "Custodial sentences",
+            text: "Custodial sentences — proposed penalty of 2 to 10 years imprisonment for managers and executives"
+          },
+          {
+            title: "Corporate criminal liability",
+            text: "Corporate criminal liability — legal entities themselves would face liability for environmental offences"
+          },
+          {
+            title: "Organisational due diligence obligation",
+            text: "Organisational due diligence obligation — prosecutors required to investigate \"failures in organisational due control,\" placing a positive legal expectation on companies to maintain robust ESG compliance systems"
+          }
+        ]
+      },
+      {
+        id: "chile",
+        name: "Chile",
+        region: "Latin America",
+        flag: "🇨🇱",
+        color: "#ef4444",
+        regulations: [
+          "Proposed Greenwashing Bill (pending before legislature)",
+          "Consumer Protection Law (general)"
+        ],
+        features: [
+          {
+            title: "Reversed burden of proof",
+            text: "Reversed burden of proof — business must <em>prove</em> the veracity of its environmental claims in court (unlike most regimes where complainant bears initial burden)"
+          },
+          {
+            title: "Advertising ban as penalty",
+            text: "Advertising ban as penalty — convicted companies may be barred from making sustainability-related advertising claims for 1 to 5 years"
+          },
+          {
+            title: "Substantial fines",
+            text: "Substantial fines — up to USD 640,000 per violation"
+          },
+          {
+            title: "Goes beyond \"misleading advertising\"",
+            text: "Goes beyond \"misleading advertising\" — bill frames greenwashing as a distinct environmental wrong, not merely a marketing infraction"
+          }
+        ]
+      },
+      {
+        id: "colombia",
+        name: "Colombia",
+        region: "Latin America",
+        flag: "🇨🇴",
+        color: "#f59e0b",
+        regulations: [
+          "Decree 1369/2014 (environmental advertising verification)",
+          "Consumer Protection Statute (general)"
+        ],
+        features: [
+          {
+            title: "Mandatory verification of environmental advertising",
+            text: "Mandatory verification of environmental advertising — Decree 1369 requires prior substantiation of environmental claims in advertising"
+          },
+          {
+            title: "Fines under consumer law",
+            text: "Fines under consumer law for unsubstantiated or deceptive environmental claims"
+          }
+        ]
+      },
+      {
+        id: "singapore",
+        name: "Singapore",
+        region: "Asia-Pacific",
+        flag: "🇸🇬",
+        color: "#06b6d4",
+        regulations: [
+          "Consumer Protection (Fair Trading) Act (CPFTA)",
+          "MAS ESG Disclosure Guidelines",
+          "CCS Anti-Greenwashing Guidance (Oct 2025)"
+        ],
+        features: [
+          {
+            title: "Monetary Authority of Singapore (MAS) jurisdiction",
+            text: "Monetary Authority of Singapore (MAS) jurisdiction over ESG claims affecting securities transactions — fines up to S$250,000 or 7 years' imprisonment for false environmental claims influencing investment decisions"
+          },
+          {
+            title: "Five-principle substantiation framework (CCS, 2025)",
+            text: "Five-principle substantiation framework (CCS, 2025) — claims must be accurate, specific, not misleading by omission, verifiable, and fair in comparison"
+          },
+          {
+            title: "Phased GHG reporting",
+            text: "Phased GHG reporting — Scope 1 & 2 mandatory from FY2025; Scope 3 from FY2026; assurance requirements to follow"
+          },
+          {
+            title: "SGX mandatory ESG reporting",
+            text: "SGX mandatory ESG reporting for listed companies with external review"
+          }
+        ]
+      },
+      {
+        id: "south-africa",
+        name: "South Africa",
+        region: "Africa",
+        flag: "🇿🇦",
+        color: "#14b8a6",
+        regulations: [
+          "Consumer Protection Act (CPA) — s.29 (false, misleading, deceptive marketing); s.22 (plain language)",
+          "Advertising Regulatory Board (ARB)",
+          "King IV Code on Corporate Governance"
+        ],
+        features: [
+          {
+            title: "Board-level ESG responsibility",
+            text: "Board-level ESG responsibility — King IV mandates boards take \"ultimate responsibility\" for integrated ESG strategy, linking sustainability oversight to directors' statutory duty of care"
+          },
+          {
+            title: "ARB strict enforcement",
+            text: "ARB strict enforcement — ruled against Ryanair for claiming to be \"Europe's lowest-emission airline\" without scientific substantiation"
+          },
+          {
+            title: "Integrated governance model",
+            text: "Integrated governance model — sustainability claims, board accountability, and consumer protection law operate as a unified framework under King IV + CPA"
+          }
+        ]
+      },
+      {
+        id: "japan",
+        name: "Japan",
+        region: "Asia-Pacific",
+        flag: "🇯🇵",
+        color: "#f43f5e",
+        regulations: [
+          "Financial Services Agency (FSA) ESG Disclosure Guidelines",
+          "Green Growth Strategy (2020)",
+          "Sustainability Standards Board of Japan (SSBJ) — IFRS S1/S2-equivalent standards (target March 2025)"
+        ],
+        features: [
+          {
+            title: "ISSB-aligned disclosure standards",
+            text: "ISSB-aligned disclosure standards — SSBJ move toward IFRS S1/S2 equivalence raises bar for ESG claim accuracy"
+          },
+          {
+            title: "Enhanced ESG investment product labelling",
+            text: "Enhanced ESG investment product labelling — FSA guidelines reduce risk of misleading \"green fund\" classifications"
+          },
+          {
+            title: "Investor-driven accountability",
+            text: "Investor-driven accountability — institutional investor pressure via Principles for Responsible Investment (PRI) fills the enforcement gap in the absence of specific greenwashing legislation"
+          }
+        ]
+      },
+      {
+        id: "kenya",
+        name: "Kenya",
+        region: "Africa",
+        flag: "🇰🇪",
+        color: "#10b981",
+        regulations: [
+          "Kenya Green Finance Taxonomy (draft, April 2024)",
+          "Consumer Protection Act 2012",
+          "Environmental Management and Coordination Act (EMCA) 1999",
+          "Advertising Standards Body of Kenya Code"
+        ],
+        features: [
+          {
+            title: "Green Finance Taxonomy",
+            text: "Green Finance Taxonomy — draft KGFT requires activities to demonstrate alignment with environmental objectives, \"do no significant harm,\" and meet minimum social safeguards (ILO/OECD-aligned)"
+          },
+          {
+            title: "Constitutional environmental rights",
+            text: "Constitutional environmental rights — communities mobilise around constitutional right to clean environment, supported by international NGOs, creating litigation pressure even without a specific greenwashing statute"
+          }
+        ]
+      }
+    ];
+
+    const BEST_PRACTICES_DATA = [
+      {
+        num: 1,
+        title: "Mandatory pre-publication / ex ante approval of claims",
+        category: "Verification & Assurance",
+        description: "Environmental claims must be verified and approved by an independent, accredited body <em>before</em> they are published or broadcast. This shifts the paradigm from reactive penalty to proactive prevention.",
+        exemplars: "EU Green Claims Directive (Certificate of Conformity); Colombia Decree 1369/2014; India Supreme Court's SDC directive (<em>IMA v. UOI</em>, 2024) — narrowed to food/health"
+      },
+      {
+        num: 2,
+        title: "Third-party verification by accredited bodies",
+        category: "Verification & Assurance",
+        description: "Verification must be conducted by independent, accredited conformity assessment bodies — not internal teams or commercially conflicted parties.",
+        exemplars: "EU CSRD (mandatory limited assurance from Year 1); EU GCD (accredited verifiers); Australia ASIC (AASB S2); UK FCA (ISAE 3000 standard)"
+      },
+      {
+        num: 3,
+        title: "Mandatory limited assurance (escalating to reasonable assurance)",
+        category: "Verification & Assurance",
+        description: "Sustainability data must be assured at least to \"limited assurance\" standard from the commencement of the reporting regime, with a credible pathway toward full \"reasonable assurance\" (audit-equivalent).",
+        exemplars: "EU CSRD: limited assurance from FY2024; reasonable assurance by October 2028; Australia AASB S2: limited assurance from commencement"
+      },
+      {
+        num: 4,
+        title: "Double materiality assessment",
+        category: "Substantiation & LCA",
+        description: "Companies must report both on how sustainability issues affect the business (financial materiality) <em>and</em> on how business operations affect the environment/society (impact materiality). Single-direction materiality enables selective disclosure and thus greenwashing.",
+        exemplars: "EU CSRD / ESRS; contrasted with single-direction materiality in ISSB S1/S2 (financial materiality only)"
+      },
+      {
+        num: 5,
+        title: "Mandatory lifecycle assessment (LCA) for product claims",
+        category: "Substantiation & LCA",
+        description: "Any environmental claim about a product must be backed by a full lifecycle assessment covering raw material extraction, production, use, and end-of-life disposal. Partial or \"cherry-picked\" lifecycle data is prohibited.",
+        exemplars: "EU Green Claims Directive; FTC Green Guides (lifecycle consideration); UK Green Claims Code; Australia ASIC guidance"
+      },
+      {
+        num: 6,
+        title: "Mandatory Scope 3 GHG emissions reporting",
+        category: "Substantiation & LCA",
+        description: "Companies must disclose emissions from their supply chains (Scope 3), not just direct operations (Scope 1) and energy use (Scope 2). Excluding Scope 3 allows companies to claim climate progress while hiding their largest emissions source.",
+        exemplars: "EU CSRD / ESRS E1; Australia AASB S2 (mandatory Scope 3); SEC rules originally included Scope 3 but withdrew under political pressure; HLEG \"Integrity Matters\" (zero tolerance for pledges excluding value chain)"
+      },
+      {
+        num: 7,
+        title: "Burden of proof reversed onto the claimant",
+        category: "Enforcement & Sanctions",
+        description: "The company making the environmental claim must affirmatively prove it is accurate. It is not for the consumer, investor, or regulator to disprove the claim.",
+        exemplars: "Canada Competition Act (Bill C-59): \"adequate and proper\" substantiation required by the company; Chile proposed greenwashing bill (court burden on company); EU GCD (pre-approval burden on company); FTC Green Guides (substantiation before marketing)"
+      },
+      {
+        num: 8,
+        title: "Affirmative claim-specific substantiation standards",
+        category: "Substantiation & LCA",
+        description: "Generic substantiation is insufficient. Regulators specify <em>what</em> evidence is required <em>per claim type</em> — e.g., \"carbon neutral\" requires a complete lifecycle emissions inventory, retirement of verified credits, and disclosure of methodology; \"biodegradable\" requires testing under a named standard with timeframe and conditions specified.",
+        exemplars: "FTC Green Guides; EU Green Claims Directive (LCA + verified methodology); UK FCA guidance (FG24/3); India CCPA Guidelines 2024 (mandatory substantiation but without claim-specific detail — identified as a gap)"
+      },
+      {
+        num: 9,
+        title: "Prohibition of generic or vague environmental claims",
+        category: "Substantiation & LCA",
+        description: "Terms such as \"eco-friendly,\" \"green,\" \"sustainable,\" \"natural,\" \"clean,\" or \"climate neutral\" without specific, verifiable evidence are prohibited. Only claims tied to demonstrated, specific attributes are permitted.",
+        exemplars: "EU ECGT Directive 2024/825; UK Green Claims Code & CMA guidance; FTC Green Guides; Australia ASIC Information Sheet 271; India CCPA Guidelines 2024; CONAR Annex U (Brazil)"
+      },
+      {
+        num: 10,
+        title: "Ban on offsetting as a substitute for emission reductions in \"net zero\" / \"carbon neutral\" claims",
+        category: "Substantiation & LCA",
+        description: "\"Net zero\" or \"climate neutral\" claims may not be based primarily on the purchase of carbon offsets. Offsets may only be used for <em>residual</em> emissions, after maximum feasible reductions within the company's own operations and value chain.",
+        exemplars: "EU ECGT Directive (explicit ban); UN HLEG \"Integrity Matters\" (zero tolerance for offset-reliant pledges); KLM ruling (Amsterdam District Court, 2024) — \"offsetting fallacy\"; JBS USA NYAG litigation (2024)"
+      },
+      {
+        num: 11,
+        title: "Turnover-linked, proportionate penalties",
+        category: "Enforcement & Sanctions",
+        description: "Penalties must scale with the size of the company and the magnitude of the benefit gained from greenwashing. Fixed-rate or low-cap penalties are insufficient deterrents for large corporations (they become a \"cost of doing business\").",
+        exemplars: "EU: minimum 4% of annual turnover in the Member State; UK CMA: up to 10% of global turnover (DMCCA 2024); Canada: up to CAD $10M or 3% of worldwide gross revenues; Australia: unlimited civil penalties (case-by-case); contrast: India Section 166(7) Companies Act — max ₹5 lakh fixed fine"
+      },
+      {
+        num: 12,
+        title: "Director/officer personal liability for ESG disclosure failures",
+        category: "Governance & Liability",
+        description: "Senior executives and board members must face personal legal consequences — not just corporate liability — for authorising or failing to prevent misleading environmental claims. Corporate liability alone creates insufficient deterrence because the personal decision-maker is insulated from consequences.",
+        exemplars: "UK: Senior Managers Regime (personal criminal liability); FCA AGR and Companies Act s.172; EU CSRD (directors retain ultimate responsibility); Australia AASB S2 (directors personally liable for sustainability reports); US: Rule 10b-5 personal liability for officer/director misstatements"
+      },
+      {
+        num: 13,
+        title: "Codified fiduciary duty to oversee environmental disclosures",
+        category: "Governance & Liability",
+        description: "Directors' environmental oversight responsibilities must be explicitly embedded in corporate governance statutes, not left to judicial implication. This creates a non-derogable governance-level accountability for the accuracy of sustainability claims.",
+        exemplars: "UK Companies Act 2006, s.172 (interpreted by courts to include climate/ESG risks); EU CSRD (board-level sign-off); Australia AASB S2 (director responsibility); South Africa King IV Code; India — Section 166(2) Companies Act has the textual foundation but lacks enforcement architecture"
+      },
+      {
+        num: 14,
+        title: "Private right of action / private enforcement mechanisms",
+        category: "Enforcement & Sanctions",
+        description: "Private parties (individuals, consumers, NGOs, competitors) must have legal standing to challenge greenwashing claims directly before courts or tribunals without depending on under-resourced regulatory agencies.",
+        exemplars: "Canada (Competition Tribunal private action, effective June 2025); US (class actions under state consumer protection law; FTC litigation model); UK derivative actions (ClientEarth v Shell); EU — primarily public enforcement model but consumer representative actions under ECGT"
+      },
+      {
+        num: 15,
+        title: "Mandatory disclosure of ESG screening methodologies",
+        category: "Verification & Assurance",
+        description: "Financial institutions and investment funds must explicitly disclose the criteria, thresholds, and processes used to classify an investment as \"ESG,\" \"sustainable,\" \"responsible,\" or \"ethical.\" Silence on methodology makes ESG labels inherently misleading.",
+        exemplars: "Australia ASIC (ASIC v. Vanguard; ASIC v. Mercer); Singapore MAS ESG disclosure guidelines; EU CSRD (ESRS disclosures on policies and methodologies); UK FCA Consumer Duty and COBS framework"
+      },
+      {
+        num: 16,
+        title: "Consistency requirement across all corporate communications",
+        category: "Substantiation & LCA",
+        description: "Environmental claims must be consistent across all formats — annual reports, sustainability reports, investor presentations, advertising, packaging, and websites. A company cannot apply rigorous standards to regulated disclosures while making loosely substantiated claims in marketing.",
+        exemplars: "Australia ASIC RG 280; UK FCA FG24/3; EU Green Claims Directive (claims in all media); FTC Green Guides"
+      },
+      {
+        num: 17,
+        title: "Safe harbours for good-faith disclosure (\"comply or explain\")",
+        category: "Governance & Liability",
+        description: "To prevent \"greenhushing\" (companies going silent on sustainability to avoid liability), legal frameworks should provide clearly defined safe harbours for voluntary, good-faith disclosure that is transparently qualified and evidence-based.",
+        exemplars: "Canada Competition Bureau Guidelines (2025) — \"due diligence\" defence; EU ECGT — EU Ecolabel as safe harbour; UK FCA — relies on qualifying language and documented evidence as mitigating factors"
+      },
+      {
+        num: 18,
+        title: "Coordinated multi-agency enforcement architecture",
+        category: "Enforcement & Sanctions",
+        description: "Greenwashing crosses consumer protection, securities, environmental, and company law jurisdictions. Effective enforcement requires coordination between agencies with automatic referral mechanisms and shared substantiation standards, rather than siloed jurisdiction.",
+        exemplars: "EU (CSRD + GCD + ECGT operate jointly; Commission + national authorities + civil courts); UK (FCA + CMA + Trading Standards coordinating); contrast: India — CCPA / SEBI / MCA / MoEFCC operate without formal referral mechanism, creating regulatory arbitrage"
+      },
+      {
+        num: 19,
+        title: "Recognition and regulation of \"futurewashing\" / unsubstantiated pledges",
+        category: "Substantiation & LCA",
+        description: "Forward-looking commitments (\"Net Zero by 2040,\" \"carbon neutral by 2030\") must be backed by documented, actionable implementation plans. A publicly stated pledge without interim targets, Scope 3 data, and a transition plan is a misleading omission of material fact.",
+        exemplars: "UN HLEG (interim targets required for 2025, 2030, 2035); JBS USA NYAG litigation (2024) — no viable plan = fraud; EU CSRD (transition plans must be disclosed and updated every 5 years); UK FCA guidance"
+      },
+      {
+        num: 20,
+        title: "Science-based, internationally recognised methodologies",
+        category: "Substantiation & LCA",
+        description: "Environmental claims must be grounded in methods recognised by standard-setting bodies or regulatory authorities in multiple jurisdictions. Proprietary or un-tested methodologies do not satisfy substantiation requirements.",
+        exemplars: "Canada Competition Act — \"internationally recognized methodology\" standard; ISO 14021 (self-declared claims); ISO 14064-3 (GHG quantification and verification); ISAE 3000 (sustainability assurance); ISSA 5000 (forthcoming global sustainability assurance standard)"
+      }
+    ];
+
+    /* =========================================================================
+       STATE MANAGEMENT & CONTROLLER
+       ========================================================================= */
+
+    let currentTab = 'tab-jurisdictions';
+    let currentLayout = 'table'; // 'table' or 'cards'
+    let currentSearchQuery = '';
+    let selectedRegion = 'all';
+    let selectedPracticeCategory = 'all';
+
+    // Theme Management
+    function toggleTheme() {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('jurisdiction_theme', newTheme);
+      updateThemeIcon(newTheme);
+      showToast(`Switched to ${newTheme.toUpperCase()} theme`);
+    }
+
+    function updateThemeIcon(theme) {
+      const icon = document.getElementById('themeIcon');
+      if (theme === 'light') {
+        icon.className = 'fa-solid fa-moon';
+      } else {
+        icon.className = 'fa-solid fa-sun';
+      }
+    }
+
+    // Tab Switching
+    function switchMainTab(tabId) {
+      currentTab = tabId;
+      document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+
+      const activePane = document.getElementById(tabId);
+      if (activePane) activePane.classList.add('active');
+
+      const activeBtn = Array.from(document.querySelectorAll('.tab-btn')).find(b => b.getAttribute('onclick').includes(tabId));
+      if (activeBtn) activeBtn.classList.add('active');
+
+      // Update Filter Bar visibility
+      const filter1 = document.getElementById('filterChipsTable1');
+      const filter2 = document.getElementById('filterChipsTable2');
+      if (tabId === 'tab-jurisdictions') {
+        filter1.style.display = 'flex';
+        filter2.style.display = 'none';
+      } else if (tabId === 'tab-best-practices') {
+        filter1.style.display = 'none';
+        filter2.style.display = 'flex';
+      } else {
+        filter1.style.display = 'none';
+        filter2.style.display = 'none';
+      }
+
+      renderAll();
+    }
+
+    // Layout Mode (Table vs Card)
+    function setLayoutMode(mode) {
+      currentLayout = mode;
+      document.getElementById('btnViewTable').classList.toggle('active', mode === 'table');
+      document.getElementById('btnViewCards').classList.toggle('active', mode === 'cards');
+
+      const t1Table = document.getElementById('table1TableView');
+      const t1Cards = document.getElementById('table1CardView');
+      const t2Table = document.getElementById('table2TableView');
+      const t2Cards = document.getElementById('table2CardView');
+
+      if (mode === 'table') {
+        t1Table.style.display = 'block';
+        t1Cards.style.display = 'none';
+        t2Table.style.display = 'block';
+        t2Cards.style.display = 'none';
+      } else {
+        t1Table.style.display = 'none';
+        t1Cards.style.display = 'grid';
+        t2Table.style.display = 'none';
+        t2Cards.style.display = 'grid';
+      }
+    }
+
+    // Filter by Jurisdiction Region
+    function filterJurisdictionRegion(region, element) {
+      selectedRegion = region;
+      document.querySelectorAll('#filterChipsTable1 .filter-chip').forEach(c => c.classList.remove('active'));
+      element.classList.add('active');
+      renderTable1();
+    }
+
+    // Filter by Best Practice Category
+    function filterPracticeCategory(category, element) {
+      selectedPracticeCategory = category;
+      document.querySelectorAll('#filterChipsTable2 .filter-chip').forEach(c => c.classList.remove('active'));
+      element.classList.add('active');
+      renderTable2();
+    }
+
+    // Search Logic
+    function handleSearch(val) {
+      currentSearchQuery = val.trim().toLowerCase();
+      document.getElementById('searchClearBtn').style.display = currentSearchQuery ? 'block' : 'none';
+      renderAll();
+    }
+
+    function clearSearch() {
+      const input = document.getElementById('globalSearchInput');
+      input.value = '';
+      currentSearchQuery = '';
+      document.getElementById('searchClearBtn').style.display = 'none';
+      input.focus();
+      renderAll();
+    }
+
+    // Helper: Highlight query terms in text
+    function highlightMatch(text, query) {
+      if (!query || !text) return text;
+      const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(${escaped})`, 'gi');
+      return text.replace(regex, '<mark class="search-highlight">$1</mark>');
+    }
+
+    /* =========================================================================
+       RENDER FUNCTIONS
+       ========================================================================= */
+
+    function renderTable1() {
+      const filtered = JURISDICTIONS_DATA.filter(item => {
+        // Region filter
+        if (selectedRegion !== 'all' && item.region !== selectedRegion) return false;
+        // Search query filter
+        if (currentSearchQuery) {
+          const q = currentSearchQuery;
+          const matchName = item.name.toLowerCase().includes(q);
+          const matchRegion = item.region.toLowerCase().includes(q);
+          const matchRegs = item.regulations.some(r => r.toLowerCase().includes(q));
+          const matchFeats = item.features.some(f => f.title.toLowerCase().includes(q) || f.text.toLowerCase().includes(q));
+          if (!matchName && !matchRegion && !matchRegs && !matchFeats) return false;
+        }
+        return true;
+      });
+
+      // Update counters
+      document.getElementById('table1CountTag').innerText = `Showing ${filtered.length} of ${JURISDICTIONS_DATA.length} jurisdictions`;
+      document.getElementById('tab1Badge').innerText = filtered.length;
+
+      // 1. Render Table View
+      const tbody = document.getElementById('jurisdictionTableBody');
+      tbody.innerHTML = filtered.map(item => {
+        const highlightedName = highlightMatch(item.name, currentSearchQuery);
+        const highlightedRegion = highlightMatch(item.region, currentSearchQuery);
+
+        const regsHtml = item.regulations.map(reg => {
+          return `<li class="reg-item">${highlightMatch(reg, currentSearchQuery)}</li>`;
+        }).join('');
+
+        const featsHtml = item.features.map(f => {
+          return `<li class="feature-item">${highlightMatch(f.text, currentSearchQuery)}</li>`;
+        }).join('');
+
+        return `
+          <tr id="row-jur-${item.id}">
+            <td class="jurisdiction-badge-cell">
+              <div class="jurisdiction-name-box">
+                <span class="flag-icon-circle">${item.flag}</span>
+                <div>
+                  <strong>${highlightedName}</strong>
+                  <span class="region-subtag">${highlightedRegion}</span>
+                </div>
+              </div>
+              <div style="margin-top: 0.75rem;">
+                <button class="btn btn-secondary" style="padding: 0.25rem 0.6rem; font-size: 0.74rem;" onclick="openJurisdictionModal('${item.id}')">
+                  <i class="fa-solid fa-eye"></i> Details
+                </button>
+              </div>
+            </td>
+            <td>
+              <ul class="regulations-list">
+                ${regsHtml}
+              </ul>
+            </td>
+            <td>
+              <ul class="features-list">
+                ${featsHtml}
+              </ul>
+            </td>
+          </tr>
+        `;
+      }).join('');
+
+      // 2. Render Cards View
+      const cardGrid = document.getElementById('table1CardView');
+      cardGrid.innerHTML = filtered.map(item => {
+        const highlightedName = highlightMatch(item.name, currentSearchQuery);
+        const highlightedRegion = highlightMatch(item.region, currentSearchQuery);
+
+        const regsList = item.regulations.map(r => `<li class="reg-item" style="font-size:0.84rem;">${highlightMatch(r, currentSearchQuery)}</li>`).join('');
+        const featsList = item.features.map(f => `<li class="feature-item" style="font-size:0.86rem;">${highlightMatch(f.text, currentSearchQuery)}</li>`).join('');
+
+        return `
+          <div class="jurisdiction-card" style="--card-accent: ${item.color};">
+            <div class="card-header">
+              <div class="card-title-group">
+                <span class="flag-icon-circle">${item.flag}</span>
+                <div>
+                  <h3>${highlightedName}</h3>
+                  <span class="region-subtag">${highlightedRegion}</span>
+                </div>
+              </div>
+              <button class="btn-icon" style="width:32px;height:32px;" onclick="openJurisdictionModal('${item.id}')" title="Inspect">
+                <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.85rem;"></i>
+              </button>
+            </div>
+
+            <div class="card-block">
+              <div class="card-block-label"><i class="fa-solid fa-gavel"></i> Primary Regulatory Instruments</div>
+              <ul class="regulations-list" style="min-width: unset; max-width: 100%;">
+                ${regsList}
+              </ul>
+            </div>
+
+            <div class="card-block">
+              <div class="card-block-label"><i class="fa-solid fa-shield-halved"></i> Best Practice Features & Standards</div>
+              <ul class="features-list">
+                ${featsList}
+              </ul>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderTable2() {
+      const filtered = BEST_PRACTICES_DATA.filter(item => {
+        // Category filter
+        if (selectedPracticeCategory !== 'all' && item.category !== selectedPracticeCategory) return false;
+        // Search query filter
+        if (currentSearchQuery) {
+          const q = currentSearchQuery;
+          const matchTitle = item.title.toLowerCase().includes(q);
+          const matchDesc = item.description.toLowerCase().includes(q);
+          const matchExemp = item.exemplars.toLowerCase().includes(q);
+          const matchCat = item.category.toLowerCase().includes(q);
+          if (!matchTitle && !matchDesc && !matchExemp && !matchCat) return false;
+        }
+        return true;
+      });
+
+      // Update counters
+      document.getElementById('table2CountTag').innerText = `Showing ${filtered.length} of ${BEST_PRACTICES_DATA.length} best practices`;
+      document.getElementById('tab2Badge').innerText = filtered.length;
+
+      // 1. Render Table View
+      const tbody = document.getElementById('bestPracticesTableBody');
+      tbody.innerHTML = filtered.map(item => {
+        const highlightedTitle = highlightMatch(item.title, currentSearchQuery);
+        const highlightedDesc = highlightMatch(item.description, currentSearchQuery);
+        const highlightedExemp = highlightMatch(item.exemplars, currentSearchQuery);
+
+        let catBadgeClass = 'badge-cyan';
+        if (item.category.includes('Verification')) catBadgeClass = 'badge-emerald';
+        if (item.category.includes('Governance')) catBadgeClass = 'badge-purple';
+        if (item.category.includes('Enforcement')) catBadgeClass = 'badge-rose';
+        if (item.category.includes('Substantiation')) catBadgeClass = 'badge-blue';
+
+        return `
+          <tr id="row-bp-${item.num}">
+            <td style="text-align: center;">
+              <span class="index-pill">${item.num}</span>
+            </td>
+            <td class="best-practice-title-cell">
+              <h4>${highlightedTitle}</h4>
+              <span class="category-tag ${catBadgeClass}">${item.category}</span>
+            </td>
+            <td class="description-cell">
+              ${highlightedDesc}
+            </td>
+            <td class="exemplars-cell">
+              <div class="exemplar-entry">
+                <i class="fa-solid fa-landmark text-emerald-400" style="margin-right: 0.35rem;"></i>
+                ${highlightedExemp}
+              </div>
+            </td>
+          </tr>
+        `;
+      }).join('');
+
+      // 2. Render Cards View
+      const cardGrid = document.getElementById('table2CardView');
+      cardGrid.innerHTML = filtered.map(item => {
+        const highlightedTitle = highlightMatch(item.title, currentSearchQuery);
+        const highlightedDesc = highlightMatch(item.description, currentSearchQuery);
+        const highlightedExemp = highlightMatch(item.exemplars, currentSearchQuery);
+
+        let catBadgeClass = 'badge-cyan';
+        if (item.category.includes('Verification')) catBadgeClass = 'badge-emerald';
+        if (item.category.includes('Governance')) catBadgeClass = 'badge-purple';
+        if (item.category.includes('Enforcement')) catBadgeClass = 'badge-rose';
+        if (item.category.includes('Substantiation')) catBadgeClass = 'badge-blue';
+
+        return `
+          <div class="jurisdiction-card" style="--card-accent: var(--accent-cyan);">
+            <div class="card-header">
+              <div style="display:flex; align-items:center; gap:0.75rem;">
+                <span class="index-pill">${item.num}</span>
+                <div>
+                  <h3 style="font-size:1.05rem;">${highlightedTitle}</h3>
+                  <span class="category-tag ${catBadgeClass}" style="margin-top:0.2rem;">${item.category}</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-block">
+              <div class="card-block-label"><i class="fa-solid fa-file-contract"></i> Core Legal Mechanism</div>
+              <p style="font-size:0.88rem; color:var(--text-secondary); line-height:1.55;">
+                ${highlightedDesc}
+              </p>
+            </div>
+
+            <div class="card-block">
+              <div class="card-block-label"><i class="fa-solid fa-scale-balanced"></i> Jurisdiction Exemplars</div>
+              <div class="exemplar-entry" style="font-size:0.84rem;">
+                ${highlightedExemp}
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderAll() {
+      renderTable1();
+      renderTable2();
+    }
+
+    /* =========================================================================
+       MODALS & DEEP INSPECTOR
+       ========================================================================= */
+
+    function openJurisdictionModal(jurId) {
+      const jur = JURISDICTIONS_DATA.find(j => j.id === jurId);
+      if (!jur) return;
+
+      const regsList = jur.regulations.map(r => `<li><i class="fa-solid fa-caret-right text-cyan-400"></i> ${r}</li>`).join('');
+      const featsList = jur.features.map(f => `
+        <li style="margin-bottom:0.75rem;">
+          <strong style="color:var(--text-main);">${f.title}:</strong>
+          <span style="color:var(--text-secondary);">${f.text.replace(f.title + ' — ', '')}</span>
+        </li>
+      `).join('');
+
+      const modalBody = document.getElementById('modalBodyContent');
+      modalBody.innerHTML = `
+        <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.5rem;">
+          <span class="flag-icon-circle" style="width:48px;height:48px;font-size:1.6rem;">${jur.flag}</span>
+          <div>
+            <h2 style="font-family:var(--font-display); font-size:1.65rem; color:var(--text-main);">${jur.name}</h2>
+            <span class="badge-pill badge-emerald" style="margin-top:0.25rem;">${jur.region} Regulatory Architecture</span>
+          </div>
+        </div>
+
+        <div style="margin-bottom:1.5rem;">
+          <h4 style="font-family:var(--font-heading); font-size:0.95rem; margin-bottom:0.6rem; color:var(--text-main);">
+            <i class="fa-solid fa-landmark text-emerald-400" style="margin-right:0.4rem;"></i> Governing Statutes & Statutory Instruments:
+          </h4>
+          <ul style="list-style:none; display:flex; flex-direction:column; gap:0.4rem; padding-left:0.5rem; font-size:0.9rem;">
+            ${regsList}
+          </ul>
+        </div>
+
+        <div style="margin-bottom:1.75rem;">
+          <h4 style="font-family:var(--font-heading); font-size:0.95rem; margin-bottom:0.75rem; color:var(--text-main);">
+            <i class="fa-solid fa-shield-halved text-cyan-400" style="margin-right:0.4rem;"></i> Substantive Best Practice Provisions:
+          </h4>
+          <ul style="list-style:none; padding-left:0.5rem; font-size:0.88rem; line-height:1.55;">
+            ${featsList}
+          </ul>
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; gap:0.75rem; border-top:1px solid var(--border-subtle); padding-top:1.25rem;">
+          <button class="btn btn-secondary" onclick="copyJurisdictionText('${jur.id}')">
+            <i class="fa-regular fa-copy"></i> Copy Jurisdiction Summary
+          </button>
+          <button class="btn btn-primary" onclick="closeModal()">
+            Done
+          </button>
+        </div>
+      `;
+
+      document.getElementById('detailModal').classList.add('open');
+    }
+
+    function closeModal() {
+      document.getElementById('detailModal').classList.remove('open');
+    }
+
+    function handleModalBackdropClick(e) {
+      if (e.target.id === 'detailModal') {
+        closeModal();
+      }
+    }
+
+    // Keyboard ESC to close modal
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    /* =========================================================================
+       EXPORT & UTILITIES
+       ========================================================================= */
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastNotification');
+      document.getElementById('toastMessage').innerText = msg;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2800);
+    }
+
+    function copyThesisCitation() {
+      const citation = `Saumya Singh, 'Comparative Tables: Anti-Greenwashing Regulation Across Jurisdictions', in Corporate Responsibility and Anti-Greenwashing Law (Doctoral Thesis, Chanakya National Law University 2026), Chapter 4.`;
+      navigator.clipboard.writeText(citation).then(() => {
+        showToast("Thesis citation copied to clipboard!");
+      });
+    }
+
+    function copyJurisdictionText(jurId) {
+      const jur = JURISDICTIONS_DATA.find(j => j.id === jurId);
+      if (!jur) return;
+      const text = `${jur.name} (${jur.region})\n\nRegulations:\n${jur.regulations.map(r => '• ' + r).join('\n')}\n\nKey Provisions:\n${jur.features.map(f => '• ' + f.text.replace(/<[^>]+>/g, '')).join('\n')}`;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(`Copied ${jur.name} summary to clipboard!`);
+      });
+    }
+
+    function exportDataCSV() {
+      let csv = "Jurisdiction,Region,Main Regulations,Best Practice Features\n";
+      JURISDICTIONS_DATA.forEach(j => {
+        const regs = `"${j.regulations.join('; ').replace(/"/g, '""')}"`;
+        const feats = `"${j.features.map(f => f.text.replace(/<[^>]+>/g, '')).join('; ').replace(/"/g, '""')}"`;
+        csv += `"${j.name}","${j.region}",${regs},${feats}\n`;
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement("a");
+      const url = URL.createObjectURL(blob);
+      link.setAttribute("href", url);
+      link.setAttribute("download", "Chapter4_AntiGreenwashing_Jurisdictions.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      showToast("Jurisdiction data exported as CSV");
+    }
+
+    function exportHeatmapCSV() {
+      let csv = "Jurisdiction,Pre-Market Approval,Mandatory LCA,Scope 3 GHG,Double Materiality,Reversed Burden,Turnover Fines,Director Liability,Private Action\n";
+      const rows = document.querySelectorAll("#heatmapDataTable tbody tr");
+      rows.forEach(tr => {
+        const cols = Array.from(tr.querySelectorAll("td")).map(td => `"${td.innerText.trim().replace(/\n/g, ' ').replace(/"/g, '""')}"`);
+        csv += cols.join(",") + "\n";
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement("a");
+      const url = URL.createObjectURL(blob);
+      link.setAttribute("href", url);
+      link.setAttribute("download", "Chapter4_Regulatory_Heatmap.csv");
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      showToast("Heatmap matrix exported as CSV");
+    }
+
+    /* =========================================================================
+       INITIALIZATION
+       ========================================================================= */
+    document.addEventListener('DOMContentLoaded', () => {
+      const savedTheme = localStorage.getItem('jurisdiction_theme') || 'dark';
+      updateThemeIcon(savedTheme);
+      renderAll();
+    });
+  </script>
+</body>
+</html>
