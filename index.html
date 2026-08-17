@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corporate Responsibility & Anti-Greenwashing Portal | Saumya Singh (CNLU)</title>
+  <meta name="description"
+    content="Doctoral Research Portals for 'Corporate Responsibility Regarding the Concern of Greenwashing, Policy and Legal Initiatives: A Critical Study' by Saumya Singh, CNLU Patna.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Theme Script (Zero-Flash) -->
+  <script>
+    (function () {
+      const saved = localStorage.getItem('viva_hub_theme');
+      if (saved) {
+        document.documentElement.setAttribute('data-theme', saved);
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <style>
+    :root {
+      /* Dark Theme (Default) */
+      --bg-primary: #060913;
+      --bg-secondary: #0c1222;
+      --bg-card: rgba(15, 23, 42, 0.8);
+      --bg-card-hover: rgba(24, 36, 62, 0.95);
+      --border-subtle: rgba(255, 255, 255, 0.08);
+      --border-medium: rgba(255, 255, 255, 0.16);
+      
+      --text-main: #f8fafc;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --text-bright: #ffffff;
+
+      --accent-emerald: #10b981;
+      --accent-blue: #3b82f6;
+      --accent-purple: #a855f7;
+
+      --font-display: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+      --font-ui: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-xl: 26px;
+      --radius-full: 9999px;
+
+      --shadow-card: 0 12px 36px rgba(0, 0, 0, 0.4);
+      --shadow-hover: 0 20px 50px rgba(0, 0, 0, 0.6);
+      
+      --transition-normal: 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    [data-theme="light"] {
+      --bg-primary: #f8fafc;
+      --bg-secondary: #f1f5f9;
+      --bg-card: rgba(255, 255, 255, 0.95);
+      --bg-card-hover: rgba(255, 255, 255, 1);
+      --border-subtle: rgba(0, 0, 0, 0.08);
+      --border-medium: rgba(0, 0, 0, 0.14);
+      
+      --text-main: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #64748b;
+      --text-bright: #020617;
+
+      --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.06);
+      --shadow-hover: 0 20px 45px rgba(0, 0, 0, 0.12);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      min-height: 100vh;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      transition: background-color var(--transition-normal), color var(--transition-normal);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Ambient Background Glows */
+    .ambient-glow {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    .glow-blob {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(130px);
+      opacity: 0.35;
+      transition: opacity var(--transition-normal);
+    }
+
+    [data-theme="light"] .glow-blob {
+      opacity: 0.15;
+    }
+
+    .glow-1 {
+      top: -10%;
+      left: 10%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, #10b981, transparent 70%);
+    }
+
+    .glow-2 {
+      top: 30%;
+      right: -5%;
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, #3b82f6, transparent 70%);
+    }
+
+    .glow-3 {
+      bottom: -10%;
+      left: 30%;
+      width: 550px;
+      height: 550px;
+      background: radial-gradient(circle, #a855f7, transparent 70%);
+    }
+
+    .site-wrapper {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header */
+    .header-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 24px 0 16px;
+    }
+
+    .brand-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(59, 130, 246, 0.2));
+      border: 1px solid var(--border-medium);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+    }
+
+    .brand-title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: var(--text-bright);
+      letter-spacing: -0.01em;
+    }
+
+    .brand-sub {
+      font-size: 0.76rem;
+      font-family: var(--font-mono);
+      color: var(--text-muted);
+    }
+
+    .theme-toggle-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      transition: all var(--transition-normal);
+    }
+
+    .theme-toggle-btn:hover {
+      color: var(--text-bright);
+      border-color: var(--border-medium);
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero-section {
+      text-align: center;
+      padding: 40px 0 48px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      border-radius: var(--radius-full);
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(16, 185, 129, 0.35);
+      color: var(--accent-emerald);
+      font-family: var(--font-ui);
+      font-size: 0.84rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: 2.6rem;
+      font-weight: 800;
+      line-height: 1.22;
+      letter-spacing: -0.03em;
+      color: var(--text-bright);
+      max-width: 980px;
+      margin-bottom: 16px;
+    }
+
+    .gradient-emerald {
+      background: linear-gradient(135deg, #34d399, #10b981);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      max-width: 780px;
+      margin-bottom: 16px;
+    }
+
+    .scholar-tag {
+      font-family: var(--font-mono);
+      font-size: 0.84rem;
+      color: var(--text-muted);
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 6px 18px;
+      border-radius: var(--radius-full);
+    }
+
+    .scholar-tag strong {
+      color: var(--text-bright);
+    }
+
+    /* Portals Grid (3 Cards) */
+    .portals-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-bottom: 56px;
+    }
+
+    .portal-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: 34px 28px;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+      box-shadow: var(--shadow-card);
+      transition: all var(--transition-normal);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .portal-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--accent-color, var(--accent-emerald));
+      opacity: 0.8;
+    }
+
+    .portal-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--accent-color, var(--accent-emerald));
+      box-shadow: var(--shadow-hover), 0 0 35px var(--glow-color, rgba(16, 185, 129, 0.25));
+      background: var(--bg-card-hover);
+    }
+
+    .portal-card-icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.75rem;
+      margin-bottom: 22px;
+      background: var(--icon-bg, rgba(16, 185, 129, 0.15));
+      border: 1px solid var(--icon-border, rgba(16, 185, 129, 0.35));
+    }
+
+    .portal-tag {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent-color, var(--accent-emerald));
+      margin-bottom: 8px;
+    }
+
+    .portal-title {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: var(--text-bright);
+      line-height: 1.3;
+      margin-bottom: 14px;
+    }
+
+    .portal-description {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.65;
+      margin-bottom: 28px;
+      flex-grow: 1;
+    }
+
+    .portal-highlights {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .portal-highlight-item {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .portal-highlight-item i {
+      font-size: 0.75rem;
+      color: var(--accent-color, var(--accent-emerald));
+      flex-shrink: 0;
+    }
+
+    .portal-cta {
+      margin-top: auto;
+      padding: 14px 20px;
+      border-radius: var(--radius-md);
+      font-family: var(--font-ui);
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: var(--cta-bg, linear-gradient(135deg, #10b981, #059669));
+      color: #ffffff;
+      border: 1px solid var(--cta-border, #34d399);
+      transition: all var(--transition-normal);
+    }
+
+    .portal-card:hover .portal-cta {
+      transform: scale(1.02);
+      box-shadow: 0 0 25px var(--glow-color, rgba(16, 185, 129, 0.4));
+    }
+
+    /* Footer */
+    .site-footer {
+      margin-top: auto;
+      border-top: 1px solid var(--border-subtle);
+      padding: 24px 0 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+
+    .site-footer strong {
+      color: var(--text-secondary);
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .portals-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      .hero-title {
+        font-size: 2.1rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .hero-title {
+        font-size: 1.75rem;
+      }
+      .hero-subtitle {
+        font-size: 0.95rem;
+      }
+      .portal-card {
+        padding: 26px 20px;
+      }
+      .site-footer {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Ambient Glows -->
+  <div class="ambient-glow">
+    <div class="glow-blob glow-1"></div>
+    <div class="glow-blob glow-2"></div>
+    <div class="glow-blob glow-3"></div>
+  </div>
+
+  <div class="site-wrapper">
+
+    <!-- Top Header -->
+    <header class="header-bar">
+      <a href="index.html" class="brand-box">
+        <div class="brand-icon">⚖️</div>
+        <div>
+          <div class="brand-title">Anti-Greenwashing Research Suite</div>
+          <div class="brand-sub">Doctoral Dissertation | CNLU Patna</div>
+        </div>
+      </a>
+
+      <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Toggle Dark / Light Theme" aria-label="Toggle theme">
+        <i class="fa-solid fa-sun" id="themeIcon"></i>
+      </button>
+    </header>
+
+    <!-- Hero Header -->
+    <section class="hero-section">
+      <div class="badge-pill">
+        <i class="fa-solid fa-graduation-cap"></i> Ph.D. Dissertation & Viva Voce Portal
+      </div>
+
+      <h1 class="hero-title">
+        Corporate Responsibility Regarding the Concern of <span class="gradient-emerald">Greenwashing</span>, Policy & Legal Initiatives: A Critical Study
+      </h1>
+
+      <p class="hero-subtitle">
+        Select one of the three interactive portals below to explore the visual research infographics, searchable litigation database, or comparative jurisdictional matrix.
+      </p>
+
+      <div class="scholar-tag">
+        Researcher: <strong>Saumya Singh</strong> &bull; Supervisor: <strong>Dr. Puripanda Parvateeswararao</strong> &bull; <strong>CNLU, Patna</strong>
+      </div>
+    </section>
+
+    <!-- Three Portal Links Grid -->
+    <main class="portals-grid">
+
+      <!-- Portal 1: Thesis Interactive Research Portal -->
+      <a href="thesis_anti_greenwashing_portal.html" class="portal-card" style="--accent-color: #10b981; --glow-color: rgba(16, 185, 129, 0.3); --icon-bg: rgba(16, 185, 129, 0.15); --icon-border: rgba(16, 185, 129, 0.35); --cta-bg: linear-gradient(135deg, #10b981, #059669); --cta-border: #34d399;">
+        <div class="portal-card-icon">🛡️</div>
+        <div class="portal-tag">Portal 01 &bull; Comprehensive Dashboard</div>
+        <h2 class="portal-title">Doctoral Thesis Interactive Research Portal</h2>
+        <p class="portal-description">
+          Visual infographic breakdowns across Chapters 2 through 6. Features Hohfeldian analytical models, 7 Sins taxonomies, SEBI BRSR Core frameworks, and statutory governance reform proposals.
+        </p>
+        <ul class="portal-highlights">
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> 33 Comprehensive Infographic Sections</li>
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> Hohfeldian Legal Rights & Decoupling Models</li>
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> Instant section search & interactive diagrams</li>
+        </ul>
+        <div class="portal-cta">
+          <span>Launch Research Portal</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </a>
+
+      <!-- Portal 2: Case Law Ready Reckoner -->
+      <a href="thesis_case_law_ready_reckoner.html" class="portal-card" style="--accent-color: #3b82f6; --glow-color: rgba(59, 130, 246, 0.3); --icon-bg: rgba(59, 130, 246, 0.15); --icon-border: rgba(59, 130, 246, 0.35); --cta-bg: linear-gradient(135deg, #3b82f6, #2563eb); --cta-border: #60a5fa;">
+        <div class="portal-card-icon">⚖️</div>
+        <div class="portal-tag">Portal 02 &bull; Precedent Litigation Database</div>
+        <h2 class="portal-title">Thesis Case Law Ready Reckoner</h2>
+        <p class="portal-description">
+          Searchable compendium of 40+ landmark Indian and international greenwashing precedents. Filter by jurisdiction, court/regulator, legal forum, statutory grounds, and judicial outcomes.
+        </p>
+        <ul class="portal-highlights">
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> 40+ Indian (SC, NGT, ASCI) & Global Rulings</li>
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> Multi-faceted filtering by jurisdiction & forum</li>
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> Detailed ratio decidendi & legal principles</li>
+        </ul>
+        <div class="portal-cta">
+          <span>Open Case Law Database</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </a>
+
+      <!-- Portal 3: Comparative Jurisdiction Tables -->
+      <a href="Chapter4_Jurisdiction_Tables.html" class="portal-card" style="--accent-color: #a855f7; --glow-color: rgba(168, 85, 247, 0.3); --icon-bg: rgba(168, 85, 247, 0.15); --icon-border: rgba(168, 85, 247, 0.35); --cta-bg: linear-gradient(135deg, #a855f7, #7e22ce); --cta-border: #c084fc;">
+        <div class="portal-card-icon">🌐</div>
+        <div class="portal-tag">Portal 03 &bull; Comparative Matrix</div>
+        <h2 class="portal-title">Chapter 4: Jurisdiction Tables & Best Practice Matrix</h2>
+        <p class="portal-description">
+          Exhaustive comparative legal dataset evaluating 13 global jurisdictions across 20 consolidated best practice benchmarks. Features scoring cards, enforcement radar, and statutory matrices.
+        </p>
+        <ul class="portal-highlights">
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> 13 Jurisdictions (EU, UK, US, India, Australia, etc.)</li>
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> 20 Consolidated Best Practices Matrix</li>
+          <li class="portal-highlight-item"><i class="fa-solid fa-check"></i> Interactive filters & regulatory maturity scoring</li>
+        </ul>
+        <div class="portal-cta">
+          <span>Explore Jurisdiction Tables</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+      </a>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div>
+        &copy; 2024–2026 <strong>Saumya Singh</strong> &bull; Chanakya National Law University (CNLU), Patna
+      </div>
+      <div>
+        Ph.D. Research Suite &bull; Published Web Edition
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Theme Script -->
+  <script>
+    function toggleTheme() {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('viva_hub_theme', newTheme);
+      updateThemeIcon(newTheme);
+    }
+
+    function updateThemeIcon(theme) {
+      const icon = document.getElementById('themeIcon');
+      if (icon) {
+        icon.className = theme === 'light' ? 'fa-solid fa-moon' : 'fa-solid fa-sun';
+      }
+    }
+
+    (function () {
+      const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+      updateThemeIcon(currentTheme);
+    })();
+  </script>
+</body>
+
+</html>
