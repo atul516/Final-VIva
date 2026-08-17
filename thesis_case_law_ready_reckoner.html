@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctoral Thesis Case Law Ready Reckoner | Saumya Singh (CNLU)</title>
+  <meta name="description" content="Comprehensive Case Law Ready Reckoner for Doctoral Thesis on Corporate Responsibility and Greenwashing by Saumya Singh, Chanakya National Law University (CNLU), Patna.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <style>
+    :root {
+      --bg-primary: #090d16;
+      --bg-secondary: #0f172a;
+      --bg-card: rgba(15, 23, 42, 0.78);
+      --bg-card-hover: rgba(30, 41, 59, 0.88);
+      --bg-glass: rgba(15, 23, 42, 0.65);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-focus: rgba(16, 185, 129, 0.45);
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent-emerald: #10b981;
+      --accent-teal: #14b8a6;
+      --accent-cyan: #06b6d4;
+      --accent-blue: #3b82f6;
+      --accent-indigo: #6366f1;
+      --accent-gold: #f59e0b;
+      --accent-rose: #f43f5e;
+      --accent-purple: #a855f7;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.6);
+      --font-heading: 'Plus Jakarta Sans', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    .light {
+      --bg-primary: #f8fafc;
+      --bg-secondary: #ffffff;
+      --bg-card: rgba(255, 255, 255, 0.92);
+      --bg-card-hover: #ffffff;
+      --bg-glass: rgba(255, 255, 255, 0.85);
+      --border-color: rgba(0, 0, 0, 0.08);
+      --border-focus: rgba(16, 185, 129, 0.6);
+      --text-primary: #0f172a;
+      --text-secondary: #334155;
+      --text-muted: #64748b;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+      --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.12);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      line-height: 1.6;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+    /* Background Luminous Glows */
+    .glow-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+      overflow: hidden;
+    }
+    .glow-1 {
+      position: absolute;
+      top: -10%;
+      left: 15%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(16, 185, 129, 0.12) 0%, rgba(0,0,0,0) 70%);
+      filter: blur(80px);
+    }
+    .glow-2 {
+      position: absolute;
+      top: 30%;
+      right: -5%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, rgba(0,0,0,0) 70%);
+      filter: blur(80px);
+    }
+    .glow-3 {
+      position: absolute;
+      bottom: -10%;
+      left: 30%;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(245, 158, 11, 0.08) 0%, rgba(0,0,0,0) 70%);
+      filter: blur(90px);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero Header */
+    header.hero-header {
+      background: var(--bg-card);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      padding: 2.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-lg);
+      position: relative;
+      overflow: hidden;
+    }
+    header.hero-header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--accent-emerald), var(--accent-cyan), var(--accent-blue), var(--accent-gold));
+    }
+
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.5rem;
+    }
+
+    .meta-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 0.9rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: rgba(16, 185, 129, 0.12);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .header-controls {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn-icon {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      width: 42px;
+      height: 42px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.2s ease;
+    }
+    .btn-icon:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent-emerald);
+      color: var(--accent-emerald);
+      transform: translateY(-2px);
+    }
+
+    h1.hero-title {
+      font-family: var(--font-heading);
+      font-size: 2.35rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+      background: linear-gradient(135deg, #ffffff 30%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .light h1.hero-title {
+      background: linear-gradient(135deg, #0f172a 30%, #334155 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p.hero-subtitle {
+      font-size: 1.12rem;
+      color: var(--text-secondary);
+      font-weight: 400;
+      max-width: 1050px;
+      margin-bottom: 1.5rem;
+      line-height: 1.55;
+    }
+
+    .scholar-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+      font-size: 0.92rem;
+    }
+    .scholar-item {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--text-secondary);
+    }
+    .scholar-item strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+    .scholar-item i {
+      color: var(--accent-emerald);
+    }
+
+    /* KPI Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+
+    .kpi-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 18px;
+      padding: 1.4rem 1.6rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .kpi-card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(255, 255, 255, 0.18);
+      box-shadow: var(--shadow-md);
+    }
+    .kpi-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+    }
+    .kpi-card.kpi-total::after { background: var(--accent-emerald); }
+    .kpi-card.kpi-indian::after { background: var(--accent-gold); }
+    .kpi-card.kpi-intl::after { background: var(--accent-cyan); }
+    .kpi-card.kpi-penalty::after { background: var(--accent-rose); }
+    .kpi-card.kpi-duty::after { background: var(--accent-purple); }
+
+    .kpi-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+    .kpi-label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+    .kpi-icon {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+    }
+    .kpi-value {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 0.25rem;
+      line-height: 1.1;
+    }
+    .kpi-subtext {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+    /* Synthesis Matrix Section */
+    .synthesis-section {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 1.75rem;
+      margin-bottom: 2.5rem;
+      box-shadow: var(--shadow-md);
+    }
+    .synthesis-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .synthesis-title-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .synthesis-title-group h2 {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 700;
+    }
+
+    .matrix-table-container {
+      overflow-x: auto;
+      margin-top: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+    table.matrix-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      text-align: left;
+    }
+    table.matrix-table th {
+      background: var(--bg-secondary);
+      padding: 1rem 1.2rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      border-bottom: 1px solid var(--border-color);
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      letter-spacing: 0.05em;
+    }
+    table.matrix-table td {
+      padding: 1rem 1.2rem;
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      vertical-align: top;
+    }
+    table.matrix-table tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+      color: var(--text-primary);
+    }
+
+    /* Control Panel & Filters */
+    .control-panel {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-md);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .search-box-wrapper {
+      flex: 1;
+      min-width: 300px;
+      position: relative;
+    }
+    .search-box-wrapper i.search-icon {
+      position: absolute;
+      left: 1.2rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+    input.search-input {
+      width: 100%;
+      padding: 0.95rem 1.2rem 0.95rem 3rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-size: 0.98rem;
+      transition: all 0.2s ease;
+    }
+    input.search-input:focus {
+      outline: none;
+      border-color: var(--accent-emerald);
+      box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15);
+    }
+    input.search-input::placeholder {
+      color: var(--text-muted);
+    }
+
+    .view-actions {
+      display: flex;
+      gap: 0.6rem;
+      align-items: center;
+    }
+
+    .btn-action {
+      padding: 0.8rem 1.2rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      color: var(--text-primary);
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .btn-action:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent-emerald);
+      color: var(--accent-emerald);
+    }
+
+    /* Filter Chips / Tabs */
+    .filter-section {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+    .filter-label-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+    .chips-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .chip {
+      padding: 0.45rem 0.95rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+    }
+    .chip:hover {
+      background: var(--bg-card-hover);
+      color: var(--text-primary);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+    .chip.active {
+      background: var(--accent-emerald);
+      color: #042f22;
+      border-color: var(--accent-emerald);
+      font-weight: 700;
+      box-shadow: 0 2px 10px rgba(16, 185, 129, 0.3);
+    }
+    .chip-count {
+      background: rgba(0, 0, 0, 0.15);
+      padding: 0.1rem 0.45rem;
+      border-radius: 9999px;
+      font-size: 0.72rem;
+    }
+    .chip.active .chip-count {
+      background: rgba(0, 0, 0, 0.25);
+      color: #ffffff;
+    }
+
+    /* Cases Container */
+    .cases-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .results-count-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 0.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+    }
+
+    .case-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      transition: all 0.25s ease;
+      scroll-margin-top: 1.5rem;
+    }
+    .case-card:hover {
+      border-color: rgba(255, 255, 255, 0.16);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-2px);
+    }
+
+    .case-card-header {
+      padding: 1.5rem 1.75rem;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      user-select: none;
+      position: relative;
+    }
+    .case-card-header:hover {
+      background: rgba(255, 255, 255, 0.015);
+    }
+
+    .case-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .case-name-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    h3.case-name {
+      font-family: var(--font-heading);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.3;
+    }
+
+    .case-citation-row {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+    }
+    .case-citation-text {
+      background: rgba(255, 255, 255, 0.04);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+    }
+
+    .btn-copy-cite {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 0.85rem;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      transition: all 0.2s ease;
+    }
+    .btn-copy-cite:hover {
+      color: var(--accent-emerald);
+      background: rgba(16, 185, 129, 0.1);
+    }
+
+    .case-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    .badge {
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 0.25rem 0.65rem;
+      border-radius: 9999px;
+      letter-spacing: 0.02em;
+    }
+    .badge-court {
+      background: rgba(59, 130, 246, 0.12);
+      color: #60a5fa;
+      border: 1px solid rgba(59, 130, 246, 0.25);
+    }
+    .badge-year {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-secondary);
+      border: 1px solid var(--border-color);
+    }
+    .badge-theme {
+      background: rgba(16, 185, 129, 0.1);
+      color: var(--accent-emerald);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+    }
+    .badge-jurisdiction {
+      background: rgba(245, 158, 11, 0.12);
+      color: var(--accent-gold);
+      border: 1px solid rgba(245, 158, 11, 0.25);
+    }
+
+    .case-summary-bar {
+      font-size: 0.93rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      padding-top: 0.35rem;
+    }
+
+    .chevron-indicator {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      transition: transform 0.3s ease, color 0.2s ease;
+      flex-shrink: 0;
+    }
+    .case-card.expanded .chevron-indicator {
+      transform: rotate(180deg);
+      color: var(--accent-emerald);
+      border-color: var(--accent-emerald);
+    }
+
+    /* Card Deep Dive Body */
+    .case-card-body {
+      display: none;
+      padding: 0 1.75rem 1.75rem 1.75rem;
+      border-top: 1px solid var(--border-color);
+      background: rgba(0, 0, 0, 0.1);
+    }
+    .case-card.expanded .case-card-body {
+      display: block;
+    }
+
+    .card-grid-sections {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+
+    .detail-block {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 1.25rem;
+    }
+    .detail-block-title {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .detail-block-title i {
+      color: var(--accent-emerald);
+    }
+    .detail-block-content {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      line-height: 1.65;
+    }
+    .detail-block-content ul {
+      padding-left: 1.25rem;
+      margin-top: 0.5rem;
+    }
+    .detail-block-content li {
+      margin-bottom: 0.4rem;
+    }
+
+    .thesis-significance-block {
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.06), rgba(6, 182, 212, 0.04));
+      border: 1px solid rgba(16, 185, 129, 0.25);
+      border-radius: 14px;
+      padding: 1.35rem;
+    }
+    .thesis-significance-block .detail-block-title {
+      color: var(--accent-emerald);
+    }
+    .thesis-significance-block .detail-block-title i {
+      color: var(--accent-emerald);
+    }
+    .thesis-significance-block .detail-block-content {
+      color: var(--text-primary);
+      font-weight: 450;
+    }
+
+    .thesis-citations-block {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 1rem 1.25rem;
+      font-size: 0.85rem;
+    }
+    .thesis-cite-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-muted);
+    }
+    .thesis-cite-item strong {
+      color: var(--text-primary);
+    }
+    .thesis-cite-badge {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+    }
+
+    /* Doctrinal Architecture Synthesis */
+    .doctrinal-synthesis-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+    .doctrinal-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 1.75rem;
+      box-shadow: var(--shadow-sm);
+    }
+    .doctrinal-card h3 {
+      font-family: var(--font-heading);
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.85rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      color: var(--text-primary);
+    }
+    .doctrinal-card h3 i {
+      color: var(--accent-emerald);
+    }
+    .doctrinal-card p {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: #10b981;
+      color: #042f22;
+      padding: 0.8rem 1.4rem;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      z-index: 1000;
+      pointer-events: none;
+    }
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    /* Footer */
+    footer.reckoner-footer {
+      margin-top: 4rem;
+      padding: 2.5rem 0;
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+    footer.reckoner-footer strong {
+      color: var(--text-primary);
+    }
+
+    /* Print Optimization */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #000000 !important;
+      }
+      .glow-bg, .control-panel, .header-controls, .btn-copy-cite, .chevron-indicator, .toast {
+        display: none !important;
+      }
+      .case-card-body {
+        display: block !important;
+      }
+      .case-card {
+        border: 1px solid #cccccc !important;
+        box-shadow: none !important;
+        page-break-inside: avoid;
+        margin-bottom: 1.5rem !important;
+      }
+      header.hero-header {
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 1.75rem !important;
+      }
+      .scholar-bar {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      .case-title-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Luminous Glow Background -->
+  <div class="glow-bg">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+    <div class="glow-3"></div>
+  </div>
+
+  <div class="container">
+    
+    <!-- Hero Header -->
+    <header class="hero-header">
+      <div class="header-top">
+        <div class="meta-badge">
+          <i class="fa-solid fa-scale-balanced"></i> Ph.D. Viva Voce Defense Ready Reckoner
+        </div>
+        <div class="header-controls">
+          <button class="btn-icon" id="themeToggle" title="Toggle Light/Dark Theme">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button class="btn-icon" onclick="window.print()" title="Print Dossier / Save PDF">
+            <i class="fa-solid fa-print"></i>
+          </button>
+        </div>
+      </div>
+
+      <h1 class="hero-title">Doctoral Thesis Case Law Ready Reckoner</h1>
+      <p class="hero-subtitle">
+        A Comprehensive Analytical Compendium of 40 Landmark Indian & International Precedents for 
+        <em>“Corporate Responsibility Regarding the Concern of Greenwashing, Policy and Legal Initiatives: A Critical Study”</em>.
+      </p>
+
+      <div class="scholar-bar">
+        <div class="scholar-item">
+          <i class="fa-solid fa-user-graduate"></i>
+          <span>Scholar: <strong>Saumya Singh</strong> (Roll No. PL-2121)</span>
+        </div>
+        <div class="scholar-item">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <span>Supervisor: <strong>Dr. Puripanda Parvateeswararao</strong></span>
+        </div>
+        <div class="scholar-item">
+          <i class="fa-solid fa-building-columns"></i>
+          <span>Institution: <strong>Chanakya National Law University (CNLU), Patna</strong></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- KPI Metrics Dashboard -->
+    <div class="kpi-grid">
+      <div class="kpi-card kpi-total">
+        <div class="kpi-header">
+          <span class="kpi-label">Total Case Corpus</span>
+          <i class="fa-solid fa-book-bookmark kpi-icon"></i>
+        </div>
+        <div class="kpi-value" id="kpiTotal">40</div>
+        <div class="kpi-subtext">22 Indian + 18 International Cases</div>
+      </div>
+
+      <div class="kpi-card kpi-indian">
+        <div class="kpi-header">
+          <span class="kpi-label">Indian Jurisdictions</span>
+          <i class="fa-solid fa-gavel kpi-icon"></i>
+        </div>
+        <div class="kpi-value" id="kpiIndian">22</div>
+        <div class="kpi-subtext">Supreme Court, HCs, NGT, NCLT, SEBI</div>
+      </div>
+
+      <div class="kpi-card kpi-intl">
+        <div class="kpi-header">
+          <span class="kpi-label">Global Precedents</span>
+          <i class="fa-solid fa-globe kpi-icon"></i>
+        </div>
+        <div class="kpi-value" id="kpiIntl">18</div>
+        <div class="kpi-subtext">Australia, UK, EU/Netherlands, USA</div>
+      </div>
+
+      <div class="kpi-card kpi-penalty">
+        <div class="kpi-header">
+          <span class="kpi-label">Max Global Penalties</span>
+          <i class="fa-solid fa-money-bill-wave kpi-icon"></i>
+        </div>
+        <div class="kpi-value">AUD 12.9M</div>
+        <div class="kpi-subtext">ASIC v. Vanguard / $5.5M US FTC</div>
+      </div>
+
+      <div class="kpi-card kpi-duty">
+        <div class="kpi-header">
+          <span class="kpi-label">Constitutional Axis</span>
+          <i class="fa-solid fa-landmark-dome kpi-icon"></i>
+        </div>
+        <div class="kpi-value">Art. 14 & 21</div>
+        <div class="kpi-subtext">Fused with § 166(2) Companies Act</div>
+      </div>
+    </div>
+
+    <!-- Comparative Synthesis Matrix Table (Collapsible) -->
+    <div class="synthesis-section">
+      <div class="synthesis-header" onclick="toggleSynthesis()">
+        <div class="synthesis-title-group">
+          <i class="fa-solid fa-table-columns" style="color: var(--accent-emerald); font-size: 1.25rem;"></i>
+          <h2>Comparative Regulatory & Enforcement Matrix</h2>
+        </div>
+        <div class="chevron-indicator" id="synthesisChevron">
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+
+      <div id="synthesisBody" style="display: block;">
+        <div class="matrix-table-container">
+          <table class="matrix-table">
+            <thead>
+              <tr>
+                <th>Jurisdiction & Forum</th>
+                <th>Statutory & Regulatory Basis</th>
+                <th>Ex-Ante Substantiation Rule</th>
+                <th>Max Penalty / Relief Imposed</th>
+                <th>Director Fiduciary Liability</th>
+                <th>Landmark Precedent</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>🇮🇳 India (SC & NGT)</strong></td>
+                <td>Art. 14 & 21, EPA 1986, NGT Act §15, Co. Act §166(2)</td>
+                <td>Burden of Proof on polluter (<em>Vellore</em>); SDC diluted</td>
+                <td><span style="color: var(--accent-rose); font-weight: 700;">₹500 Crore ($70M)</span> (NGT)</td>
+                <td>Recognized under §166(2) in <em>Ranjitsinh</em>; 0 prosecutions</td>
+                <td><em>M.K. Ranjitsinh (2024)</em>; <em>VW India (2019)</em></td>
+              </tr>
+              <tr>
+                <td><strong>🇮🇳 India (CCPA / SEBI)</strong></td>
+                <td>CPA 2019, CCPA Guidelines 2024, SEBI BRSR Core</td>
+                <td>Mandatory under CCPA Guidelines; voluntary ESG assurance</td>
+                <td><span style="color: var(--text-muted);">₹0 specifically for ESG greenwash</span></td>
+                <td>No direct board-level prosecution under LODR / CPA</td>
+                <td><em>IMA v. UOI (2024)</em>; <em>Gensol (2025)</em></td>
+              </tr>
+              <tr>
+                <td><strong>🇦🇺 Australia (FCA / ASIC)</strong></td>
+                <td>ASIC Act 2001 §12DB & §12DF, Corporations Act</td>
+                <td>Strict ex-ante disclosure & product exclusion screening</td>
+                <td><span style="color: var(--accent-rose); font-weight: 700;">AUD 12.9 Million</span> ($8.9M USD)</td>
+                <td>Active surveillance & director public accountability</td>
+                <td><em>ASIC v. Vanguard (2024)</em>; <em>ASIC v. Mercer (2024)</em></td>
+              </tr>
+              <tr>
+                <td><strong>🇬🇧 United Kingdom (CMA / FCA)</strong></td>
+                <td>DMCCA 2024, FCA Anti-Greenwashing Rule, CA 2006 §172</td>
+                <td>Green Claims Code 6-principles; FCA SDR labels</td>
+                <td>Up to <span style="color: var(--accent-rose); font-weight: 700;">10% global turnover</span> (DMCCA)</td>
+                <td>Parent duty of care (<em>Vedanta</em>); BJR in derivatives</td>
+                <td><em>CMA Fast Fashion (2024)</em>; <em>Vedanta (2019)</em></td>
+              </tr>
+              <tr>
+                <td><strong>🇳🇱 EU / Netherlands</strong></td>
+                <td>CSRD (2022), Green Claims Directive, Civil Code 6:162</td>
+                <td>Mandatory Scope 1-3 audit; ban on generic green terms</td>
+                <td>Marketing injunctions & mandatory corrective notices</td>
+                <td>General duty of care under tort & ECHR Art. 2 & 8</td>
+                <td><em>Fossielvrij v. KLM (2024)</em>; <em>Shell (2024)</em></td>
+              </tr>
+              <tr>
+                <td><strong>🇺🇸 United States (FTC / SEC)</strong></td>
+                <td>FTC Act §5 & §45(m), SEC Rules, State Consumer Acts</td>
+                <td>FTC Green Guides; Penalty Offense Notices</td>
+                <td><span style="color: var(--accent-rose); font-weight: 700;">$5.5 Million</span> (Walmart) / <span style="color: var(--accent-rose); font-weight: 700;">$14.7B</span> (VW)</td>
+                <td>Subject to strict scienter (<em>Hochfelder</em>) & BJR</td>
+                <td><em>US v. Walmart (2022)</em>; <em>NY v. JBS USA (2024)</em></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interactive Control Panel & Filters -->
+    <div class="control-panel">
+      <!-- Search Row -->
+      <div class="search-row">
+        <div class="search-box-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="caseSearchInput" class="search-input" placeholder="Search case name, citation, judges, keywords, holding, or thesis significance..." autocomplete="off">
+        </div>
+        <div class="view-actions">
+          <button class="btn-action" id="expandAllBtn" onclick="toggleAllCases(true)">
+            <i class="fa-solid fa-up-right-and-down-left-from-center"></i> Expand All
+          </button>
+          <button class="btn-action" id="collapseAllBtn" onclick="toggleAllCases(false)">
+            <i class="fa-solid fa-down-left-and-up-right-to-center"></i> Collapse All
+          </button>
+        </div>
+      </div>
+
+      <!-- Jurisdiction Filter -->
+      <div class="filter-section">
+        <div class="filter-label-group">
+          <i class="fa-solid fa-earth-americas"></i> Jurisdiction Filter:
+        </div>
+        <div class="chips-row" id="jurisdictionChips">
+          <button class="chip active" data-filter="all" onclick="setJurisdictionFilter('all', this)">
+            All Jurisdictions <span class="chip-count">40</span>
+          </button>
+          <button class="chip" data-filter="Indian" onclick="setJurisdictionFilter('Indian', this)">
+            🇮🇳 Indian Precedents <span class="chip-count">22</span>
+          </button>
+          <button class="chip" data-filter="International" onclick="setJurisdictionFilter('International', this)">
+            🌐 International Precedents <span class="chip-count">18</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Forum / Court Category Filter -->
+      <div class="filter-section">
+        <div class="filter-label-group">
+          <i class="fa-solid fa-building-columns"></i> Court / Forum Filter:
+        </div>
+        <div class="chips-row" id="courtChips">
+          <button class="chip active" data-court="all" onclick="setCourtFilter('all', this)">All Forums</button>
+          <button class="chip" data-court="Supreme Court of India" onclick="setCourtFilter('Supreme Court of India', this)">Supreme Court of India (12)</button>
+          <button class="chip" data-court="High Courts of India" onclick="setCourtFilter('High Courts of India', this)">High Courts (2)</button>
+          <button class="chip" data-court="National Green Tribunal (NGT)" onclick="setCourtFilter('National Green Tribunal (NGT)', this)">National Green Tribunal (3)</button>
+          <button class="chip" data-court="Corporate & Securities Tribunals (NCLT / SAT / SEBI)" onclick="setCourtFilter('Corporate & Securities Tribunals (NCLT / SAT / SEBI)', this)">NCLT / SAT / SEBI (5)</button>
+          <button class="chip" data-court="Australian Federal Court" onclick="setCourtFilter('Australian Federal Court', this)">Australian Federal Court (2)</button>
+          <button class="chip" data-court="Netherlands & European Union" onclick="setCourtFilter('Netherlands & European Union', this)">EU & Netherlands (3)</button>
+          <button class="chip" data-court="United Kingdom" onclick="setCourtFilter('United Kingdom', this)">United Kingdom (4)</button>
+          <button class="chip" data-court="United States Federal & State Courts" onclick="setCourtFilter('United States Federal & State Courts', this)">United States (9)</button>
+        </div>
+      </div>
+
+      <!-- Theme Filter -->
+      <div class="filter-section">
+        <div class="filter-label-group">
+          <i class="fa-solid fa-tags"></i> Thematic Legal Pillars:
+        </div>
+        <div class="chips-row" id="themeChips">
+          <button class="chip active" data-theme="all" onclick="setThemeFilter('all', this)">All Themes</button>
+          <button class="chip" data-theme="Constitutional Climate Rights" onclick="setThemeFilter('Constitutional Climate Rights', this)">Constitutional Climate Rights</button>
+          <button class="chip" data-theme="Directors' Duties §166(2)" onclick="setThemeFilter('Directors' Duties §166(2)', this)">Directors' Duties §166(2)</button>
+          <button class="chip" data-theme="Absolute Liability" onclick="setThemeFilter('Absolute Liability', this)">Absolute Liability & Enterprise Risk</button>
+          <button class="chip" data-theme="ESG Fund Greenwashing" onclick="setThemeFilter('ESG Fund Greenwashing', this)">ESG Fund Greenwashing</button>
+          <button class="chip" data-theme="Fly Responsibly Greenwashing" onclick="setThemeFilter('Fly Responsibly Greenwashing', this)">Carbon Offsets & Net Zero</button>
+          <button class="chip" data-theme="E-Commerce Safe Harbor" onclick="setThemeFilter('E-Commerce Safe Harbor', this)">Intermediary & Consumer Law</button>
+          <button class="chip" data-theme="Fake Plastic EPR Credits" onclick="setThemeFilter('Fake Plastic EPR Credits', this)">Fake EPR & Verification Deficit</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Case Results Counter -->
+    <div class="results-count-bar">
+      <span>Showing <strong id="visibleCount">40</strong> of 40 cases</span>
+      <span id="activeFilterSummary">All jurisdictions and courts</span>
+    </div>
+
+    <!-- Cases List Container -->
+    <div class="cases-container" id="casesContainer">
+      <!-- Dynamically rendered cards -->
+    </div>
+
+    <!-- Doctrinal Architecture Synthesis Section -->
+    <div class="doctrinal-synthesis-grid">
+      <div class="doctrinal-card">
+        <h3><i class="fa-solid fa-diagram-project"></i> 1. The Consumer Law Deficit</h3>
+        <p>
+          Consumer protection frameworks (CPA 2019, CCPA Greenwashing Guidelines 2024) target only the external marketing statement ex-post. They fail to reach internal board-level decision making, ESG capital allocation, or corporate reporting integrity, necessitating company law interventions.
+        </p>
+      </div>
+
+      <div class="doctrinal-card">
+        <h3><i class="fa-solid fa-balance-scale"></i> 2. Fusing Art. 21 with § 166(2)</h3>
+        <p>
+          By fusing the constitutional climate right in <em>M.K. Ranjitsinh (2024)</em> with the pluricentric directorial duty under Section 166(2) of the Companies Act (<em>Tata v. Cyrus 2021</em>), the thesis creates an enforceable legal bridge between constitutional environmentalism and corporate law.
+        </p>
+      </div>
+
+      <div class="doctrinal-card">
+        <h3><i class="fa-solid fa-gavel"></i> 3. Overcoming Penalty Arbitrage</h3>
+        <p>
+          Global regulators impose massive monetary deterrents (AUD 12.9M in <em>ASIC v. Vanguard</em>, $5.5M in <em>FTC v. Walmart</em>) while Indian corporate regulators suffer from a zero-penalty deficit. The thesis's proposed Integrated Liability Model cures this penalty arbitrage.
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="reckoner-footer">
+      <p>
+        <strong>Ph.D. Doctoral Research Compendium</strong> • Chanakya National Law University (CNLU), Patna<br>
+        Research titled <em>“Corporate Responsibility Regarding the Concern of Greenwashing, Policy and Legal Initiatives: A Critical Study”</em><br>
+        Author: <strong>Saumya Singh</strong> (Roll No. PL-2121) • Under the Supervision of <strong>Dr. Puripanda Parvateeswararao</strong>
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toastMsg">Citation copied to clipboard!</span>
+  </div>
+
+  <script>
+    // Embedded Data
+    const casesData = [{"id": "ranjitsinh-2024", "name": "M.K. Ranjitsinh & Ors. v. Union of India & Ors.", "citation": "2024 SCC OnLine SC 1259 / (2024) 6 SCC 441 / 2025 INSC 1472", "year": "2024\u20132025", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "Dr. D.Y. Chandrachud CJI, J.B. Pardiwala & Manoj Misra JJ.", "summary": "Continuing Great Indian Bustard litigation: the 21 March 2024 judgment recognised a justiciable right to be free from the adverse effects of climate change under Articles 14 and 21 and replaced a blanket undergrounding order with an expert committee. The 19 December 2025 judgment accepted the committee\u2019s revised priority areas and, at paragraphs 35\u201340, applied Section 166(2) of the Companies Act, 2013 (with Section 135 and Schedule VII) to hold that directors\u2019 fiduciary duty and CSR include protection of the environment and endangered-species recovery.", "themes": ["Constitutional Climate Rights", "Directors' Duties \u00a7166(2)", "Corporate Environmental Responsibility"], "badge_color": "emerald", "facts": "A public interest litigation was filed seeking urgent judicial protection for the critically endangered Great Indian Bustard (GIB) against fatal collisions with high-voltage overhead electricity transmission lines traversing priority habitat areas in Rajasthan and Gujarat. In 2021, the Supreme Court had issued blanket directions requiring undergrounding of all low and high-voltage transmission lines. The Union Ministry of Power, MoEFCC, and solar/wind renewable energy developers sought modification, submitting that undergrounding high-voltage lines was technically infeasible, prohibitively expensive, and would paralyze India's international climate commitments under the Paris Agreement to scale up renewable energy capacity to 500 GW by 2030. In the 19 December 2025 disposal the Court added a dedicated section (paragraphs 35\u201340) on CSR and directors\u2019 duties, quoting Section 166(2).", "issues": ["Whether Articles 14 and 21 of the Constitution include an enforceable right to be free from the adverse effects of climate change (2024 INSC 280).", "How the Court should reconcile site-specific conservation of the Great Indian Bustard with the national clean-energy transition and international climate commitments.", "Whether CSR under Section 135, read with directors\u2019 duties in Section 166(2) and Schedule VII of the Companies Act, 2013, includes Corporate Environmental Responsibility and requires power generators in GIB habitat to fund species recovery (2025 INSC 1472)."], "holding": "On 21 March 2024 (2024 INSC 280, Dr D.Y. Chandrachud CJI, J.B. Pardiwala and Manoj Misra JJ.) the Court recognised a distinct, justiciable right to be free from the adverse effects of climate change under Articles 21 and 14; recalled the 2021 blanket undergrounding direction for the ~99,000 sq km priority/potential habitat; and appointed an expert committee. That 2024 judgment does not cite the Companies Act, 2013 or Section 166(2). On 19 December 2025 (2025 INSC 1472, P.S. Narasimha and A.S. Chandurkar JJ.) the Court accepted the committee\u2019s revised priority areas (14,013 sq km in Rajasthan; 740 sq km in Gujarat) and issued line-specific mitigation directions. In a separate section headed \u2018CSR to include Corporate Environmental Responsibility\u2019 (paragraphs 35\u201340) it held that Section 135 converted CSR from philanthropy into a statutory obligation; that Section 166(2) \u2018dismantled\u2019 shareholder-only duty and legally mandates directors to act in good faith for the company, employees, shareholders, the community and \u2018the protection of environment\u2019; that Schedule VII treats environmental sustainability and protection of flora and fauna as CSR; that a company as a legal person shares the Article 51A(g) duty; and that, applying Polluter Pays and the \u2018species best interest\u2019 standard, CSR funds of power generators in GIB habitat must be directed to in-situ and ex-situ recovery. Non-renewable generators were told they operate as \u2018guests\u2019 in the Godawan\u2019s abode.", "significance": "The 2024 climate-rights holding is the constitutional premise for treating unsubstantiated environmental claims as more than consumer-law untruths. The 2025 judgment is the Supreme Court\u2019s own application of Section 166(2) to corporate environmental duty: directors must have regard to protection of the environment, CSR includes Corporate Environmental Responsibility, and polluting or habitat-threatening enterprises must fund species recovery. That is direct company-law authority for analysing greenwashing as a breach of statutory directorial duty, not only as a misleading advertisement.", "thesis_refs": {"chapters": ["Abstract (p. xxvii)", "Chapter 1 (p. 4, 27-28, 56, 79-80)", "Chapter 3 (p. 182-185)", "Chapter 5 (p. 242-243, 261, 263, 265-266, 307)", "Bibliography (p. 342)"], "footnotes": "Fn. 10, 20, 237, 384-388, 447, 455, 461"}}, {"id": "tata-cyrus-2021", "name": "Tata Consultancy Services Ltd. v. Cyrus Investments Pvt. Ltd. & Ors.", "citation": "(2021) 9 SCC 449 / 2021 SCC OnLine SC 272 (26 March 2021)", "year": "2021", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "S.A. Bobde CJI, A.S. Bopanna & V. Ramasubramanian JJ.", "summary": "Supreme Court authoritatively ruled that Section 166(2) of the Companies Act, 2013 establishes a 'pluricentric' stakeholder model of corporate governance, mandating directors to protect the environment alongside shareholder interests.", "themes": ["Directors' Duties \u00a7166(2)", "Pluricentric Corporate Model", "Corporate Governance"], "badge_color": "blue", "facts": "A landmark corporate dispute arising from the abrupt removal of Cyrus Pallonji Mistry from the Executive Chairmanship of Tata Sons in October 2016. Mistry-affiliated investment companies (Cyrus Investments and Sterling Investment) filed a company petition alleging oppression and mismanagement under Sections 241 and 242 of the Companies Act, 2013, challenging the governance architecture, board-level decision-making, and the role of Tata Trusts.", "issues": ["The precise statutory scope and judicial interpretation of directors' fiduciary duties codified under Section 166 of the Companies Act, 2013.", "Whether Indian corporate law adheres to the traditional Anglo-American shareholder wealth maximization model or mandates a multi-stakeholder governance framework."], "holding": "The Supreme Court (S.A. Bobde CJI, A.S. Bopanna and V. Ramasubramanian JJ.) allowed the Tata appeals, set aside the NCLAT order that had reinstated Cyrus Mistry, and restored the NCLT\u2019s dismissal of the Sections 241\u2013242 petition. The lis was oppression, removal from the chair, Articles 75/121 and conversion to a private company \u2014 not an environmental claim. At paragraph 19.30 the Court, answering an argument about Trust-nominee directors, held that Section 166(2) requires a director to act in the best interests of the company, its employees, the shareholders, the community and the protection of the environment, and that what is ordained under Section 166(2) is \u2018a combination of private interest and public interest\u2019. The Court did not use the word \u2018pluricentric\u2019. The passage was used to uphold, not strike down, the Trusts\u2019 affirmative voting rights.", "significance": "Paragraph 19.30 is Supreme Court language that Section 166(2) includes protection of the environment as part of a director\u2019s good-faith mandate. That is the statutory hook for treating a board-authorised false green claim as a fiduciary failure. The judgment itself decides an oppression appeal; it does not find greenwashing, does not prosecute a director for an environmental misstatement, and does not announce a general rejection of shareholder primacy as the ratio of the case.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 1 (p. 56)", "Chapter 3 (p. 183-185)", "Chapter 5 (p. 264-265, 307)"], "footnotes": "Fn. 460, 473"}}, {"id": "ima-patanjali-2024", "name": "Indian Medical Association (IMA) & Anr. v. Union of India & Ors.", "citation": "W.P.(C) No. 645/2022, order 7 May 2024 (Hima Kohli & Ahsanuddin Amanullah JJ.); further orders 14 May and 9 July 2024", "year": "2024", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "Hima Kohli & Ahsanuddin Amanullah JJ.", "summary": "Supreme Court mandated ex-ante Self-Declaration Certificates (SDC) for all advertisements to prevent misleading claims, exposing severe regulatory capture when the executive subsequently diluted the mandate.", "themes": ["Misleading Advertisements", "Self-Declaration Certificate Mandate", "Regulatory Backsliding"], "badge_color": "amber", "facts": "The Indian Medical Association filed a writ petition against Patanjali Ayurved Ltd. and its managing directors for publishing persistent, aggressive misleading advertisements disparaging modern medicine and claiming unverified cures for chronic lifestyle diseases. The Supreme Court took stern notice of corporate defiance and expanded the proceedings into a comprehensive judicial inquiry into systemic misleading advertising, regulatory inaction by State Licensing Authorities, and consumer deception across FMCG, healthcare, and consumer goods sectors.", "issues": ["The judicial enforceability of statutory prohibitions on false and misleading advertisements under the Consumer Protection Act, 2019 and Drugs and Magic Remedies Act.", "Whether mandatory ex-ante verification mechanisms (Self-Declaration Certificates) should be imposed on commercial advertisers across all sectors to prevent deceptive marketing."], "holding": "On 7 May 2024 the Court directed that advertisers and advertising agencies upload a Self-Declaration Certificate on the Broadcast Seva portal (television) and the Press Council of India portal (print) before an advertisement is issued, certifying compliance with the advertising code and the 2022 misleading-advertisement guidelines. Celebrities and social-media influencers were held equally liable if they endorse deceptive claims. The proceedings arose from Patanjali\u2019s disease-cure and anti-modern-medicine advertisements and from contempt for breach of earlier undertakings. The later MIB advisories that confined the operational SDC upload to food and health advertisements are executive instruments, not holdings of the Court.", "significance": "The judgment is about misleading health advertising, not environmental claims. Its significance for greenwashing is structural: the Court required ex-ante self-certification and endorser liability \u2014 the same architecture the CCPA Greenwashing Guidelines 2024 use. The subsequent executive narrowing of the portal is evidence of backsliding, not a judicial retreat.", "thesis_refs": {"chapters": ["Abstract (p. xxvii)", "Chapter 1 (p. 28, 80)", "Chapter 5 (p. 251, 288, 299)"], "footnotes": "Fn. 417-419"}}, {"id": "mc-mehta-oleum-1987", "name": "M.C. Mehta v. Union of India (Oleum Gas Leak / Shriram)", "citation": "(1987) 1 SCC 395 / AIR 1987 SC 1086 / 1987 SCR (1) 819 (20 December 1986)", "year": "1987", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "5-Judge Constitution Bench: P.N. Bhagwati CJI, Ranganath Misra, G.L. Oza, M.M. Dutt and K.N. Singh JJ.", "summary": "Formulated the doctrine of Absolute Liability and capacity-linked compensation, establishing that hazardous corporate enterprises owe non-delegable duties to the community with zero exceptions.", "themes": ["Absolute Liability", "Enterprise Liability", "Capacity-Linked Compensation"], "badge_color": "rose", "facts": "In December 1985, within a year of the Bhopal disaster, a major escape of toxic oleum gas occurred from the caustic chlorine plant of Shriram Foods and Fertilizer Industries in Delhi, causing one death, widespread panic, and severe pulmonary injuries to local residents. M.C. Mehta filed a PIL under Article 32 seeking immediate plant closure, enterprise relocation, and victim compensation.", "issues": ["Whether the 19th-century English common law doctrine of Strict Liability (Rylands v. Fletcher) with its traditional defenses is adequate for modern hazardous industrial enterprises.", "What should be the standard of liability and quantum of damages applicable to hazardous corporate enterprises operating in populated areas?"], "holding": "The Constitution Bench held that an enterprise engaged in a hazardous or inherently dangerous activity owes an absolute, non-delegable duty to the community. If harm results, the enterprise is absolutely liable to compensate, even if it took all reasonable care and the harm occurred without negligence. Rylands v. Fletcher, with its 19th-century exceptions (including act of God and act of a stranger), was held inadequate for modern hazardous industry. The measure of compensation \u2018must be co-related to the magnitude and capacity of the enterprise\u2019 because it must deter: \u2018The larger and more prosperous the enterprise, the greater must be the amount of compensation.\u2019 The Court did not itself quantify damages; it directed the Delhi Legal Aid and Advice Board to sue in the ordinary courts. Whether Shriram was \u2018State\u2019 under Article 12 was expressly left open.", "significance": "The operative environmental rule is absolute enterprise liability plus capacity-linked, deterrent damages. That supports turnover-linked sanctions for concealed environmental harm (defeat devices, hidden emissions, false \u2018clean\u2019 branding). The judgment is not a greenwashing or advertising case, and it did not decide Article 12 applicability to a private chemical company.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 5 (p. 245, 342, 364)"], "footnotes": "Fn. 395, 38, 40"}}, {"id": "vellore-citizens-1996", "name": "Vellore Citizens\u2019 Welfare Forum v. Union of India & Ors.", "citation": "AIR 1996 SC 2715 / (1996) 5 SCC 647", "year": "1996", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "Kuldip Singh, Faizan Uddin & K. Venkataswami JJ.", "summary": "Enshrined the Precautionary Principle and Sustainable Development into Indian law, establishing the vital principle of Reversal of Burden of Proof on commercial actors.", "themes": ["Precautionary Principle", "Reversal of Burden of Proof", "Sustainable Development"], "badge_color": "emerald", "facts": "Untreated toxic industrial effluent discharged by over 900 tanneries in Tamil Nadu heavily contaminated the Palar River basin, poisoning ground aquifers, destroying agricultural soil, and rendering drinking water toxic across 35,000 hectares of land.", "issues": ["Whether the Precautionary Principle and the Polluter Pays Principle are essential features of Sustainable Development and part of Indian environmental law under Articles 21, 47, 48A, and 51A(g).", "Where does the legal burden of proof lie when commercial industrial activities cause environmental risks?"], "holding": "Kuldip Singh J. (for the Court, 28 August 1996) held that sustainable development is part of customary international law received into India, and that the precautionary principle and the polluter-pays principle are essential features of it and \u2018part of the environmental law of the country\u2019 under Articles 21, 47, 48A and 51A(g). Precaution, in municipal law, means: (i) the State must anticipate, prevent and attack the causes of degradation; (ii) lack of scientific certainty is not a reason to postpone measures against serious or irreversible damage; (iii) \u2018the onus of proof is on the actor or the developer/industrialist to show that his action is environmentally benign.\u2019 Polluter pays, following Bichhri, means absolute liability to compensate victims and to pay the cost of reversing damaged ecology. The Court directed constitution of an EPA s.3(3) authority, a \u20b910,000 pollution fine on each tannery in five districts, CETPs/ETPs by 30 November 1996, and consent as a condition of reopening.", "significance": "The reversed onus is the closest Indian Supreme Court formula to substantiation of green claims: the actor who asserts that an industrial activity or product is environmentally benign must prove it. Vellore\u2019s onus was framed for tannery effluent and ecological harm, not for advertising copy. Applying it to \u2018carbon-neutral\u2019 or \u2018100% recyclable\u2019 labels is a legitimate doctrinal extension, not something the 1996 Court itself ordered.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 5 (p. 244)"], "footnotes": "Fn. 391, 393"}}, {"id": "bichhri-enviro-legal-1996", "name": "Indian Council for Enviro-Legal Action v. Union of India (Bichhri)", "citation": "(1996) 3 SCC 212 / AIR 1996 SC 1446 (13 February 1996)", "year": "1996", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "B.P. Jeevan Reddy & B.N. Kirpal JJ.", "summary": "Formally incorporated the Polluter Pays Principle into Indian jurisprudence, holding polluters absolutely liable for the full economic cost of ecological restoration.", "themes": ["Polluter Pays Principle", "Ecological Remediation", "Corporate Environmental Tort"], "badge_color": "rose", "facts": "Chemical manufacturing plants in Bichhri village (Udaipur, Rajasthan) produced toxic H-acid without proper treatment facilities, dumping hazardous sludge that leached into the aquifers, turning wells dark and water undrinkable across several villages.", "issues": ["The judicial scope of the Polluter Pays Principle under Indian environmental law.", "Can polluters be compelled under Article 32 to pay the entire cost of environmental remediation and restoration?"], "holding": "B.P. Jeevan Reddy J. (with B.N. Kirpal J.) applied the oleum-gas rule of absolute liability and treated polluter pays as governing law. H-acid units at Bichhri (Silver Chemicals, Jyoti Chemicals and associated concerns) were held responsible for untreated mother liquor and 2,400\u20132,500 MT of toxic sludge that contaminated aquifers over about 350 ha. The Court rejected the objection that Article 32 does not lie against private companies in this setting. It attached plant and machinery, ordered closure of the \u2018rogue industries\u2019, and directed the Secretary, MoEF, to quantify the cost of remediation (NEERI had estimated about \u20b937.385 crore for restoration plus villager losses) and recover it from the units. Villagers\u2019 personal-injury claims were left to civil suits. Costs of \u20b950,000 were awarded to the petitioner NGO.", "significance": "Polluter pays here is a court-ordered bill for restoring soil and groundwater, not a marketing slogan. A company that advertises eco-efficiency while leaving sludge, emissions or plastic unrepaired is evading the rule the Court applied. The judgment is about hazardous chemical waste, not green labels.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 5 (p. 245)"], "footnotes": "Fn. 394"}}, {"id": "kamal-nath-1997", "name": "M.C. Mehta v. Kamal Nath & Ors. (Span Motels)", "citation": "(1997) 1 SCC 388; (2000) 6 SCC 213", "year": "1997, 2000", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "Kuldip Singh & S. Saghir Ahmad JJ.", "summary": "Incorporated the Public Trust Doctrine into Indian environmental law, ruling that natural resources cannot be alienated for private commercial enrichment and levying exemplary pollution fines.", "themes": ["Public Trust Doctrine", "Ecological Commons", "Pollution Fine"], "badge_color": "cyan", "facts": "Span Motels Ltd. (in which a former Union Minister of Environment and Forests held commercial interests) built a luxury commercial resort on the banks of the Beas River in Himachal Pradesh and used earthmoving equipment to divert the river channel, causing severe environmental damage and floods.", "issues": ["Whether natural resources such as rivers, forests, and air can be alienated for commercial exploitation under the Public Trust Doctrine.", "Whether the Supreme Court can levy exemplary damages / pollution fines on commercial violators under Article 32."], "holding": "In (1997) 1 SCC 388 (13 December 1996, Kuldip Singh and S. Saghir Ahmad JJ.) the Court adopted the public-trust doctrine: the State holds rivers, forests, air and similar resources in trust for the public and cannot transfer them for private commercial use that substantially impairs ecology. The 1994 lease of Beas bank forest land to Span Motels was quashed; the motel was liable for restitution of the river and ecology. In (2000) 6 SCC 213 the Court, after withdrawing a \u2018pollution fine\u2019 notice issued without a criminal trial, imposed exemplary damages of \u20b910 lakh on Span Motels, in addition to a fair share of restoration cost (further quantum in (2002) 3 SCC 653).", "significance": "Public trust is the opposite of treating a river, forest or carbon sink as a private commodity that can be diverted, leased or credited away. Offset and \u2018net-positive nature\u2019 marketing that monetises a commons without restoring it sits uneasily with this doctrine. The Court decided a river-diversion and lease case, not an advertising claim.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 5 (p. 243-244, 342)"], "footnotes": "Fn. 386, 390"}}, {"id": "charan-lal-sahu-1990", "name": "Charan Lal Sahu v. Union of India (Bhopal Act Challenge)", "citation": "(1990) 1 SCC 613", "year": "1990", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "5-Judge Constitution Bench: Sabyasachi Mukharji CJI", "summary": "Upheld the Parens Patriae doctrine for mass corporate disasters, affirming the affirmative constitutional obligation of the State to protect citizens against corporate tortfeasors.", "themes": ["Parens Patriae Doctrine", "Mass Corporate Harm", "State Duty"], "badge_color": "purple", "facts": "Constitutional challenge to the Bhopal Gas Leak Disaster (Processing of Claims) Act, 1985, which granted the Central Government the exclusive right to represent all victims of the Union Carbide disaster.", "issues": ["Constitutional validity of the State assuming exclusive representation of corporate disaster victims under the Parens Patriae doctrine."], "holding": "The five-judge Bench (Sabyasachi Mukharji CJI, 22 December 1989 / reported (1990) 1 SCC 613) upheld the constitutional validity of the Bhopal Gas Leak Disaster (Processing of Claims) Act, 1985. Exclusive statutory representation of victims by the Central Government was sustained as an exercise of the sovereign\u2019s parens patriae power to protect persons who cannot effectively litigate a mass industrial disaster against a multinational. The decision did not itself fix Union Carbide\u2019s liability or approve the quantum of the 1989 settlement.", "significance": "Not a greenwashing case. Its use is institutional: when misleading environmental claims inflict diffuse loss on consumers or ESG investors, SEBI and the CCPA are the statutory parens patriae organs. The 1990 Court was deciding the Bhopal Claims Act, not advertising or ESG disclosure.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 5 (p. 245)"], "footnotes": "Fn. 396"}}, {"id": "rural-litigation-1985", "name": "Rural Litigation and Entitlement Kendra v. State of U.P. (Doon Valley)", "citation": "AIR 1985 SC 652 / (1985) 2 SCC 431 / 1985 SCR (3) 169 (order 12 March 1985)", "year": "1985", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "P.N. Bhagwati, A.N. Sen and Ranganath Misra JJ.", "summary": "First case in Indian jurisprudence linking environmental preservation directly with the fundamental right to life under Article 21, ordering the closure of lethal limestone quarries.", "themes": ["Environmental Constitutionalism", "Article 21", "Ecological Preservation"], "badge_color": "emerald", "facts": "Reckless and unauthorized limestone mining in the Mussoorie-Dehradun hills caused catastrophic environmental degradation, deforestation, landslides, and drying up of natural water springs in the valley.", "issues": ["Whether environmental devastation caused by mining infringes the fundamental right to life under Article 21.", "Balancing economic industrial activity against permanent ecological damage."], "holding": "The 12 March 1985 order (reasons to follow) closed Bhargav category-C quarries and the Sahasradhara block, closed most Working Group category-2 quarries, allowed specified category-A/1 quarries outside Mussoorie city limits to continue under mining law, and sent category-B and in-city category-A quarries to the Bandyopadhyay Committee. Leases of closed mines stood terminated. The Court described the case as \u2018the first case of its kind in the country involving issues relating to environment and ecological balance\u2019 and said closure was \u2018a price that has to be paid for protecting and safeguarding the right of the people to live in healthy environment with minimal disturbance of ecological balance\u2019. The headnote is Articles 32 and 48A. The order does not declare that environmental protection is a component of Article 21; that formula is stated later, notably in Subhash Kumar (1991) and Virender Gaur (1995).", "significance": "It is the opening environmental PIL, not the first Article 21 environment holding. It shows that industrial activity advertised as development can be stopped when the ecological cost is irreversible. That is the continuum later cases, including Ranjitsinh, sit on \u2014 without rewriting the 1985 ratio as an Article 21 case.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 5 (p. 242)"], "footnotes": "Fn. 380, 381"}}, {"id": "subhash-kumar-1991", "name": "Subhash Kumar v. State of Bihar", "citation": "(1991) 1 SCC 598 / AIR 1991 SC 420 (9 January 1991)", "year": "1991", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "K.N. Singh & N.D. Ojha JJ.", "summary": "Supreme Court declared that the Right to Life under Article 21 includes the right to the enjoyment of pollution-free water and air.", "themes": ["Right to Pollution-Free Water & Air", "Article 21"], "badge_color": "emerald", "facts": "Petition challenging the discharge of toxic slurry from coal washeries into the Bokaro River, impacting public health.", "issues": ["Whether the Right to Life in Article 21 includes the right to pollution-free water and air."], "holding": "K.N. Singh J. (with N.D. Ojha J.) stated that the right to life under Article 21 \u2018includes the right of enjoyment of pollution free water and air for full enjoyment of life\u2019, and that a genuine public-interest petition under Article 32 will lie to remove such pollution. On the facts the Court found no good reason to accept that TISCO/West Bokaro washeries were polluting the Bokaro river; the State Board had required settling tanks and there was no material discharge. The petition was held to have been filed for the petitioner\u2019s private slurry business (he sought interim permission to collect sludge himself), dismissed as an abuse of PIL, and costs of \u20b95,000 were imposed.", "significance": "The Article 21 sentence is part of the constitutional matrix for corporate environmental duty and for treating false \u2018clean water / clean air\u2019 claims as rights-touching speech. The operative order is a dismissal. Significance is the dictum plus the warning that environmental process cannot be a private commercial vehicle.", "thesis_refs": {"chapters": ["Chapter 5 (p. 242)"], "footnotes": "Fn. 382"}}, {"id": "virender-gaur-1995", "name": "Virender Gaur & Ors. v. State of Haryana & Ors.", "citation": "(1995) 2 SCC 577 (Virender/Virendra Gaur v. State of Haryana)", "year": "1995", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "K. Ramaswamy & N. Venkatachala JJ.", "summary": "Affirmed that hygienic environment is an integral facet of Article 21 and reinforced State and citizen duties under Articles 48A and 51A(g).", "themes": ["Constitutional Environmental Duty", "Articles 48A & 51A(g)"], "badge_color": "emerald", "facts": "Municipal land designated as open green space/park was leased to a private trust for construction.", "issues": ["Whether state/corporate encroachment on open green space violates constitutional duties under Articles 21, 48A, and 51A(g)."], "holding": "The Court held that Article 21 protects life with dignity and that a hygienic, clean environment is an integral facet of that right, reading Articles 48A and 51A(g) with the Stockholm principles. Land reserved in a municipal scheme as open space/park in Hisar could not be diverted to private construction; the unauthorised structure was to go. Environmental protection was treated as a constitutional duty of the State and of every person, including juristic persons.", "significance": "A municipal \u2018green space\u2019 that exists only on a brochure while the reserved park is built over is a local form of greenwashing. The holding is about reserved open land, not product labelling.", "thesis_refs": {"chapters": ["Chapter 5 (p. 364)"], "footnotes": "Fn. 38, 40"}}, {"id": "miheer-mafatlal-1997", "name": "Miheer H. Mafatlal v. Mafatlal Industries Ltd.", "citation": "(1997) 1 SCC 579", "year": "1997", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Supreme Court of India", "court_category": "Supreme Court of India", "bench": "S.B. Majmudar & M. Srinivasan JJ.", "summary": "Recognized the Business Judgment Rule in Indian corporate law, establishing that courts will not interfere in bona fide commercial decisions made in good faith.", "themes": ["Business Judgment Rule", "Corporate Restructuring", "Director Fiduciary Standards"], "badge_color": "slate", "facts": "Shareholder challenge to a corporate amalgamation scheme alleging unfair share exchange ratio and non-disclosure.", "issues": ["The standard of judicial scrutiny over commercial decisions and the scope of the Business Judgment Rule under Indian company law."], "holding": "The Court (S.B. Majmudar J., 11 September 1996 / (1997) 1 SCC 579) laid down the limits of the company court\u2019s scrutiny of a scheme of arrangement under Section 391 of the 1956 Act. If the statutory majorities are obtained, material interests are disclosed, the scheme is not contrary to law or public policy and is fair and reasonable on its face, the court does not sit in appeal over the commercial wisdom of the board or the class meetings. The judgment does not adopt the Delaware label \u2018business judgment rule\u2019 as a named Indian doctrine.", "significance": "Boards invoke commercial-judgment deference to defend sustainability strategy. That deference, even on Miheer\u2019s own terms, assumes honesty and full disclosure. A misleading environmental claim is not a protected commercial decision. The case is about an amalgamation scheme, not ESG.", "thesis_refs": {"chapters": ["Chapter 5 (p. 267, 342)"], "footnotes": "Fn. 472"}}, {"id": "christian-louboutin-2018", "name": "Christian Louboutin SAS v. Nakul Bajaj & Ors.", "citation": "2018 SCC OnLine Del 12215 / (2018) 253 DLT 728 (Prathiba M. Singh J.)", "year": "2018", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "High Court of Delhi", "court_category": "High Courts of India", "bench": "Prathiba M. Singh J.", "summary": "Landmark ruling on intermediary liability: e-commerce platforms actively curating, promoting, or badging products lose Section 79 safe-harbor immunity and bear joint liability.", "themes": ["E-Commerce Safe Harbor", "Active Curation vs Passive Transmission", "Reasonable Consumer"], "badge_color": "indigo", "facts": "Luxury brand Christian Louboutin sued an e-commerce platform (darveys.com) for marketing counterfeit/unauthorized luxury products under its trademark. The platform claimed Section 79 IT Act safe-harbor immunity as an intermediary.", "issues": ["When does an e-commerce intermediary lose statutory safe-harbor protection under Section 79?", "What distinguishes passive conduit transmission from active commercial promotion and curation?"], "holding": "An e-commerce operator (darveys.com) that curated sellers, promoted goods and offered authenticity assurances was held not to be a passive intermediary. Active plotting, promotion, advertising or commercial control takes the operator outside Section 79 of the IT Act, 2000; joint liability for unlawful offers can follow. Safe harbour is confined to technical, automatic and passive transmission.", "significance": "The active-curation test travels to green badges. A marketplace that algorithms or labels goods \u2018Eco-Choice\u2019 or \u2018Climate Friendly\u2019 is making an environmental representation. The judgment is a trademark/intermediary case; the green-badge application is analogical.", "thesis_refs": {"chapters": ["Chapter 5 (p. 361, 364)"], "footnotes": "Fn. 30"}}, {"id": "rajeev-saumitra-2016", "name": "Rajeev Saumitra v. Neetu Singh & Ors.", "citation": "2016 SCC OnLine Del 512 / CS(OS) 2528/2015 (Manmohan J., 27 January 2016)", "year": "2016", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "High Court of Delhi", "court_category": "High Courts of India", "bench": "Manmohan J.", "summary": "Affirmed that Section 166 of the Companies Act codifies directors' fiduciary duties, holding defaulting directors personally liable to account for damages.", "themes": ["Section 166 Enforcement", "Fiduciary Duty Breach", "Director Personal Liability"], "badge_color": "slate", "facts": "Managing Director of an educational company breached fiduciary duties by establishing a competing business using corporate goodwill and assets.", "issues": ["Scope and enforcement of directors' codified fiduciary duties under Section 166 of the Companies Act, 2013."], "holding": "The Delhi High Court held that Section 166 of the Companies Act, 2013 codifies directors\u2019 fiduciary duties and that a director who diverts business to a competing company (here, from Paramount Coaching to K.D. Campus) is personally liable to account for profits. A derivative action by the other 50% shareholder was maintainable. The duties enforced were principally Section 166(4) and (5) (conflict and no-profit), not the environmental limb of Section 166(2).", "significance": "Shows that Section 166 is justiciable and can yield a personal account of profits. The same personal-liability logic is unused for Section 166(2) when directors authorise false green claims. The case is a coaching-centre conflict, not an environmental prosecution.", "thesis_refs": {"chapters": ["Chapter 5 (p. 270)"], "footnotes": "Fn. 481"}}, {"id": "ngt-volkswagen-2019", "name": "In re Volkswagen India Pvt. Ltd. (Emissions Defeat Device)", "citation": "Saloni Ailawadi v. Union of India, O.A. No. 581/2018, NGT (PB), 7 March 2019; Supreme Court stay 6 May 2019", "year": "2019", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "National Green Tribunal", "court_category": "National Green Tribunal (NGT)", "bench": "Adarsh Kumar Goel J. (Chairperson)", "summary": "NGT imposed a landmark \u20b9500 Crore ($70M) Environmental Compensation on Volkswagen India for using defeat-device cheat software to mask real-world NOx emissions.", "themes": ["Defeat Devices", "\u20b9500 Crore Environmental Penalty", "Corporate Environmental Responsibility"], "badge_color": "rose", "facts": "Investigations by ARAI and CPCB revealed that Volkswagen cars sold in India used defeat-device software to pass lab emissions tests while emitting up to 9 times more Nitrogen Oxides (NOx) during on-road driving, while being advertised as eco-friendly clean diesel.", "issues": ["NGT's jurisdiction to levy environmental compensation for corporate technological emissions fraud under the NGT Act, 2010.", "Quantification of ecological and public health damage from vehicular emissions cheating."], "holding": "The NGT (Adarsh Kumar Goel, Chairperson) held that use of defeat-device software on Volkswagen-group diesel cars sold in India (ARAI/CPCB record; about 3.23 lakh vehicles recalled) was a deliberate violation of environmental norms causing excess NOx. It levied \u20b9500 crore environmental compensation to be deposited with CPCB. On 6 May 2019 the Supreme Court stayed that order and directed that no coercive steps be taken. The compensation has not been a finally executed decree.", "significance": "The leading Indian instance of technological concealment of environmental performance \u2014 the same structure as \u2018Clean Diesel\u2019 marketing worldwide. Significance includes the inter-agency gap (NGT compensation, no parallel SEBI/CCPA marketing case) and the Supreme Court stay as part of the present legal status.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 1 (p. 5, 53)", "Chapter 3 (p. 106, 116, 119)", "Chapter 4 (p. 187, 199, 220)", "Chapter 5 (p. 270, 275-276, 295)"]}}, {"id": "ngt-lg-polymers-2020", "name": "In re LG Polymers India Pvt. Ltd. (Vizag Gas Leak)", "citation": "O.A. No. 73/2020 (PHC), National Green Tribunal (May 2020)", "year": "2020", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "National Green Tribunal", "court_category": "National Green Tribunal (NGT)", "bench": "Adarsh Kumar Goel J. (Chairperson)", "summary": "NGT held chemical enterprise strictly and absolutely liable for toxic styrene gas leak and unauthorized operations without environmental clearances, mandating \u20b950 Cr interim deposit.", "themes": ["Strict & Absolute Liability", "Operating Without EC", "Environmental Restitution"], "badge_color": "rose", "facts": "Toxic styrene gas leaked from LG Polymers' chemical manufacturing plant in Visakhapatnam in May 2020, causing 12 deaths and widespread hospitalizations. Investigations revealed the plant had operated for decades without valid environmental clearance from MoEFCC.", "issues": ["Application of strict and absolute liability on industrial operators under Section 15 NGT Act.", "Corporate liability for operating without mandatory statutory environmental clearances."], "holding": "In O.A. No. 73/2020 the NGT, on 8 May 2020, directed an immediate interim deposit of \u20b950 crore after the 7 May 2020 styrene leak at Visakhapatnam (11 deaths on the NGT record; hundreds hospitalised). In June 2020 it held LG Polymers prima facie strictly and absolutely liable on the oleum-gas principle, including for operating without a current environmental clearance, and confirmed the deposit for restoration and compensation pending full assessment. Parallel criminal and State proceedings continued.", "significance": "Operating without clearance while presenting as a compliant chemical manufacturer is a compliance-form of environmental misrepresentation. Absolute liability attaches to the hazardous activity. The \u20b950 crore figure is an interim deposit, not a final quantified greenwashing penalty.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 1 (p. 53)", "Chapter 3 (p. 106)", "Chapter 5 (p. 275, 301)"], "footnotes": "Fn. 500, 553"}}, {"id": "ngt-fake-epr-2024", "name": "Suo Motu Proceedings on 600,000 Fake EPR Certificates", "citation": "NGT Suo Motu Cognizance (July 2024) / Notices to CPCB & MoEFCC", "year": "2024", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "National Green Tribunal", "court_category": "National Green Tribunal (NGT)", "bench": "Principal Bench, NGT", "summary": "NGT initiated suo motu proceedings into 600,000 fake plastic EPR certificates, uncovering structural verification deficits and plastic credit greenwashing.", "themes": ["Fake Plastic EPR Credits", "Verification Deficit", "Systemic Greenwashing"], "badge_color": "amber", "facts": "In 2024, CPCB investigations uncovered that fake plastic recycling companies generated over 600,000 fraudulent Extended Producer Responsibility (EPR) certificates to help major brand owners falsely claim statutory plastic recycling compliance without recycling any plastic.", "issues": ["Structural vulnerability of self-certified online regulatory portals.", "Whether buying unverified EPR certificates constitutes unlawful corporate greenwashing and evasion of statutory environmental mandates."], "holding": "Taking suo motu cognisance of The Hindu report of 14 July 2024 on about 6,00,000 fake plastic EPR certificates generated by four recyclers in Gujarat, Maharashtra and Karnataka (CPCB 2023 physical audits; CPCB had already levied large compensation on the recyclers), the NGT Principal Bench issued notices to CPCB, MoEFCC and the State Boards and called for a factual report on the audit trail, cancellation of fake credits and enforcement. That is an inquiry order. It is not a concluded finding of liability against named FMCG brand owners and it does not, at the opening stage, \u2018demand punitive prosecution\u2019 of those brand owners.", "significance": "A concrete Indian instance of credit-based greenwashing: recycling certificates were sold as proof of circularity that never occurred. The completed administrative record is the CPCB recycler audits; the NGT file, as of the opening notices, is supervisory.", "thesis_refs": {"chapters": ["Abstract (p. xxv)", "Chapter 1 (p. 26, 78)", "Chapter 2 (p. 133)"], "footnotes": "Fn. 8, 18, 126"}}, {"id": "nclt-ilfs-2018", "name": "Union of India v. Infrastructure Leasing & Financial Services Ltd. (IL&FS)", "citation": "NCLT Mumbai Bench, C.P. No. 3638/2018 (Order dated Oct 1, 2018)", "year": "2018", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "National Company Law Tribunal", "court_category": "Corporate & Securities Tribunals (NCLT / SAT / SEBI)", "bench": "NCLT Mumbai Bench", "summary": "Precedent for Section 241(2) MCA board supersession in cases of systemic corporate governance collapse and public interest detriment.", "themes": ["Section 241(2) Board Supersession", "Systemic Governance Collapse", "Public Interest"], "badge_color": "blue", "facts": "Following the catastrophic default of IL&FS (with >\u20b991,000 Crore debt), the Ministry of Corporate Affairs invoked Section 241(2) alleging that company management was being conducted in a manner prejudicial to public interest.", "issues": ["Powers of Central Government under Section 241(2) and NCLT under Section 242 to supersede an entire corporate board for governance collapse."], "holding": "On 1 October 2018 the NCLT Mumbai allowed the MCA\u2019s petition under Sections 241(2) and 242, superseded the IL&FS board (group debt of the order of \u20b991,000 crore) and inducted a government-proposed board headed by Uday Kotak to prevent financial contagion and prepare a resolution plan.", "significance": "Section 241(2) is the most severe company-law intervention when affairs are prejudicial to the public interest. The case is a financial-governance collapse, not greenwashing. It is precedent for the statutory tool, not for an environmental finding.", "thesis_refs": {"chapters": ["Chapter 5 (p. 269-270)"], "footnotes": "Fn. 480"}}, {"id": "nclt-majolica-2017", "name": "Fidaali Moiz Mithiborwala v. Majolica Properties (India) Pvt. Ltd.", "citation": "NCLT Mumbai Bench, C.P. No. 90/2016 (Order 2017)", "year": "2017", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "National Company Law Tribunal", "court_category": "Corporate & Securities Tribunals (NCLT / SAT / SEBI)", "bench": "NCLT Mumbai Bench", "summary": "Application of the Business Judgment Rule as a fulcrum when testing directorial decisions under Section 166.", "themes": ["Business Judgment Rule", "Section 166 Review", "Director Discretion"], "badge_color": "slate", "facts": "Shareholder petition challenging commercial property transactions by board directors under Sections 241/242.", "issues": ["Application of the Business Judgment Rule as a fulcrum when testing directorial decisions under Section 166."], "holding": "In the 2016\u20132017 NCLT Mumbai orders in the Mithiborwala / Majolica property petitions, the Tribunal treated the business-judgment rule as the fulcrum of review of directors\u2019 commercial decisions under Sections 241/242 and 166: it will not substitute its own preference unless the decision is tainted by fraud, illegality, bad faith or conflict of interest.", "significance": "Confirms that Indian company tribunals defer to bona fide board decisions. That deference stops where a sustainability statement is not bona fide. The underlying dispute was a closely held property company, not an ESG report.", "thesis_refs": {"chapters": ["Chapter 5 (p. 269)"], "footnotes": "Fn. 479"}}, {"id": "sat-piramal-2019", "name": "Piramal Enterprises Ltd. v. SEBI", "citation": "Piramal Enterprises Ltd. v. SEBI, SAT Appeal Nos. 466 & 467 of 2016, order 15 May 2019 (Tarun Agarwala, PO)", "year": "2019", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Securities Appellate Tribunal", "court_category": "Corporate & Securities Tribunals (NCLT / SAT / SEBI)", "bench": "Tarun Agarwala J. (Presiding Officer)", "summary": "Securities tribunal ruling on internal compliance attribution and board oversight failure in statutory market disclosures.", "themes": ["Compliance Attribution", "Board Responsibility", "Securities Disclosure"], "badge_color": "blue", "facts": "SEBI penalized Piramal Enterprises and senior management for failing to close trading windows during price-sensitive acquisition talks.", "issues": ["Allocation of compliance responsibility between designated officers, key management personnel, and the corporate board."], "holding": "SAT set aside the 2016 SEBI adjudication order and the penalties on Piramal Enterprises, Ajay Piramal and specified officers for alleged failure to close the trading window around unpublished talks on the sale of the domestic healthcare business. SAT held that UPSI had been preserved and not misused on that record. It discussed that window-closure is not in every case the compliance officer\u2019s duty alone, but the operative result was exoneration, not an affirmation of SEBI\u2019s penalties or a direction that \u2018the board must maintain systemic oversight\u2019 as a finding of breach.", "significance": "Useful only for the attribution discussion (controls are organisational). It is not an environmental or greenwashing decision, and it is not a precedent that SAT upholds SEBI disclosure penalties \u2014 on these facts SAT reversed them.", "thesis_refs": {"chapters": ["Chapter 5 (p. 268-269)"], "footnotes": "Fn. 477"}}, {"id": "sebi-bajaj-sugar-2023", "name": "In re Bajaj Hindusthan Sugar Ltd.", "citation": "SEBI Adjudication Order dated 8 July 2022 \u2014 \u20b910 lakh under LODR for non-disclosure of unit-closure orders", "year": "2022", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Securities and Exchange Board of India", "court_category": "Corporate & Securities Tribunals (NCLT / SAT / SEBI)", "bench": "SEBI Adjudicating Officer", "summary": "SEBI enforcement penalty for selective and delayed market disclosures under LODR Regulations, establishing rigorous disclosure materiality standards.", "themes": ["Disclosure Materiality", "Selective Signalling", "LODR Enforcement"], "badge_color": "blue", "facts": "Proceedings against Bajaj Hindusthan Sugar for delayed and selective disclosure of material credit rating downgrades and loan defaults under LODR Regulations.", "issues": ["Materiality thresholds and deterrence penalties for selective corporate market disclosures."], "holding": "On 8 July 2022 SEBI\u2019s Adjudicating Officer imposed a \u20b910 lakh penalty on Bajaj Hindusthan Sugar Ltd. for not disclosing mill/unit closure orders that had a substantial impact on production, sales, revenue and profit (FY 2018\u201319 and 2019\u201320) as material events under the LODR Regulations. A later October 2023 show-cause notice on alleged related-party fund routing is a separate, then-pending proceeding and is not this penalty.", "significance": "Pollution-control or operational closures are environmental-compliance facts that also move the securities price. Selective silence is the disclosure-side counterpart of a green going-concern story. The same LODR materiality engine is what BRSR sustainability metrics should be held to. The order is about mill closures, not a 2023 credit-rating case.", "thesis_refs": {"chapters": ["Chapter 5 (p. 269)"], "footnotes": "Fn. 478"}}, {"id": "sebi-gensol-2025", "name": "In the Matter of Gensol Engineering Limited", "citation": "SEBI Interim Order in the matter of Gensol Engineering Limited, 15 April 2025 (Whole Time Member)", "year": "2025", "jurisdiction": "Indian", "jurisdiction_flag": "\ud83c\uddee\ud83c\uddf3", "court": "Securities and Exchange Board of India", "court_category": "Corporate & Securities Tribunals (NCLT / SAT / SEBI)", "bench": "SEBI Whole Time Member", "summary": "SEBI interim regulatory intervention probing diversion of green bond / clean tech capital and deceptive ESG market signaling.", "themes": ["Clean Energy Debt Scrutiny", "Green Capital Diversion", "ESG Market Signalling"], "badge_color": "amber", "facts": "SEBI initiated intensive regulatory investigation into Gensol Engineering (solar EPC & EV leasing) regarding related-party fund transfers and potential diversion of capital raised for clean energy projects.", "issues": ["Regulatory oversight of sustainable debt, clean-tech market signaling, and end-use of green bond proceeds."], "holding": "On a prima facie record the Whole Time Member restrained promoters Anmol Singh Jaggi and Puneet Singh Jaggi from the securities market and from key roles, halted a stock split, restricted specified fund movements and ordered a forensic audit. The capital in issue was IREDA and PFC project debt (about \u20b9978 crore) taken largely to buy electric vehicles for BluSmart, not a labelled green-bond issue. SEBI recorded alleged diversion to related parties and personal use and misleading market disclosures. The order is interim and protective.", "significance": "Clean-tech market signalling plus misuse of public green-finance loans is capital-markets greenwashing even without a green-bond prospectus. The order does not finally adjudicate penalty or label the instruments as green bonds.", "thesis_refs": {"chapters": ["Chapter 5 (p. 259-260)"]}}, {"id": "asic-vanguard-2024", "name": "ASIC v. Vanguard Investments Australia Ltd", "citation": "[2024] FCA 308 (Liability) & [2024] FCA (Penalty, Sept 2024)", "year": "2024", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\udde6\ud83c\uddfa", "court": "Federal Court of Australia", "court_category": "Australian Federal Court", "bench": "O\u2019Bryan J.", "summary": "Landmark record AUD 12.9 Million ($8.9M USD) civil penalty for misleading 'Ethically Conscious' ESG fund claims where 74% of bond assets were never screened against fossil fuels.", "themes": ["ESG Fund Greenwashing", "AUD 12.9M Penalty", "Screening Deficit", "Misleading Conduct"], "badge_color": "teal", "facts": "Vanguard heavily promoted its 'Vanguard Ethically Conscious Global Aggregate Bond Index Fund' (>AUD 1 Billion AUM), claiming it tracked an index that excluded bond issuers involved in fossil fuels (thermal coal, oil, gas), weapons, tobacco, and gambling. In reality, approximately 74% of the fund\u2019s assets by market value were never researched or screened against the claimed ESG criteria, and the fund held investments in major fossil fuel companies.", "issues": ["Whether Vanguard engaged in false, misleading, or deceptive conduct regarding financial services under Sections 12DB(1)(a) and 12DF(1) of the ASIC Act 2001.", "Appropriate civil penalty for deceptive ESG fund marketing."], "holding": "The Federal Court held Vanguard liable for serious, widespread greenwashing. In September 2024, Justice O\u2019Bryan imposed a record AUD 12.9 Million ($8.9M USD) civil penalty\u2014the highest greenwashing penalty in Australian history\u2014and ordered mandatory adverse publicity notices.", "significance": "Premier international benchmark in Chapters 1, 4, and 5. The thesis contrasts ASIC\u2019s record AUD 12.9M penalty against SEBI\u2019s zero-penalty record for ESG fund misrepresentations, demonstrating the power of proactive regulatory surveillance and high-deterrence financial penalties.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 1 (p. 6, 27)", "Chapter 4 (p. 148, 223)", "Chapter 5 (p. 342)"], "footnotes": "Fn. 355"}}, {"id": "asic-mercer-2024", "name": "ASIC v. Mercer Superannuation (Australia) Pty Ltd", "citation": "[2024] FCA 850 (Order dated Aug 2, 2024)", "year": "2024", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\udde6\ud83c\uddfa", "court": "Federal Court of Australia", "court_category": "Australian Federal Court", "bench": "Christopher Horan J.", "summary": "Landmark AUD 11.3 Million ($7.5M USD) penalty for false 'Sustainable Plus' superannuation exclusions containing 15 fossil fuel, 15 alcohol, and 19 gambling companies.", "themes": ["Superannuation Greenwashing", "AUD 11.3M Penalty", "False ESG Exclusions"], "badge_color": "teal", "facts": "Mercer marketed seven 'Sustainable Plus' investment options to superannuation members 'deeply committed to sustainability', claiming strict exclusions of carbon-intensive fossil fuels (thermal coal), alcohol, and gambling. In reality, the options held substantial investments in 15 fossil fuel giants (BHP, Glencore, Whitehaven Coal), 15 alcohol producers (Heineken, Carlsberg), and 19 gambling companies (Crown Resorts).", "issues": ["Contravention of Sections 12DB(1)(a) and 12DF(1) of the ASIC Act through unsubstantiated sustainable investment claims."], "holding": "Mercer admitted liability. On August 2, 2024, the Federal Court ordered Mercer to pay an AUD 11.3 Million ($7.5M USD) civil penalty, publish corrective website notices for 6 months, and pay ASIC\u2019s legal costs.", "significance": "Landmark comparative precedent in Chapters 1, 4, and 5. Proves that pension funds use misleading green claims to capture retail savings, validating the thesis's call for strict ESG product auditing in India.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 1 (p. 6, 27, 59, 211, 223, 310)"], "footnotes": "Fn. 9"}}, {"id": "klm-fossielvrij-2024", "name": "Fossielvrij NL v. KLM Royal Dutch Airlines", "citation": "District Court of Amsterdam, ECLI:NL:RBAMS:2024:1512 (March 20, 2024)", "year": "2024", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddf3\ud83c\uddf1", "court": "District Court of Amsterdam", "court_category": "Netherlands & European Union", "bench": "Amsterdam District Court", "summary": "Dutch Court invalidated 15 of 19 'Fly Responsibly' environmental claims, ruling that SAF (<1%) and tree-planting carbon offsets painted an 'overly rosy picture' of aviation impact.", "themes": ["Fly Responsibly Greenwashing", "Carbon Offset Invalidation", "Overly Rosy Picture"], "badge_color": "sky", "facts": "Environmental NGO Fossielvrij NL (supported by ClientEarth) sued KLM over its global 'Fly Responsibly' campaign. KLM advertised that passengers could fly 'carbon neutral' or 'sustainably' by purchasing tree-planting carbon offsets or contributing to Sustainable Aviation Fuels (SAF).", "issues": ["Whether KLM's environmental marketing constituted misleading commercial practices under the EU Unfair Commercial Practices Directive (2005/29/EC) and Dutch Civil Code."], "holding": "The court ruled that 15 out of 19 challenged claims were unlawful and misleading. The Court held that KLM painted an 'overly rosy picture': SAF constituted <1% of fuel, tree-planting offsets cannot guarantee permanent carbon sequestration, and advertising air travel as 'sustainable' is inherently deceptive.", "significance": "International gold standard for invalidating carbon offset greenwashing in Chapters 1, 4, and 5. Directly supports the thesis\u2019s recommendation that Indian CCPA guidelines must ban vague carbon-neutral claims based on unverified tree-planting credits.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 1 (p. 6, 147, 187, 222, 224, 229)", "Chapter 5 (p. 342)"], "footnotes": "Fn. 351, 352"}}, {"id": "shell-milieudefensie-2021-2024", "name": "Milieudefensie et al. v. Royal Dutch Shell plc", "citation": "Hague Dist. Ct. ECLI:NL:RBDHA:2021:5339 (2021) & Hague App. Ct. ECLI:NL:GHDHA:2024:1931 (2024)", "year": "2021, 2024", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddf3\ud83c\uddf1", "court": "District Court & Court of Appeal of The Hague", "court_category": "Netherlands & European Union", "bench": "The Hague Court of Appeal (Nov 12, 2024)", "summary": "Court of Appeal affirmed general corporate climate duty of care under tort & human rights law, but overturned the specific 45% reduction mandate for Scope 3 emissions.", "themes": ["Corporate Climate Duty of Care", "Scope 1-3 Emissions", "Judicial Intervention Limits"], "badge_color": "sky", "facts": "Environmental NGOs sued Shell under Dutch tort law (Art. 6:162 Civil Code) and ECHR Arts. 2/8. In 2021, the District Court ordered Shell to reduce its net global emissions across Scopes 1, 2, and 3 by 45% by 2030. Shell appealed.", "issues": ["Does a corporation owe a legal duty of care to reduce aggregate greenhouse gas emissions?", "Can civil courts mandate a specific percentage reduction on an individual enterprise for Scope 3 customer emissions?"], "holding": "On November 12, 2024, the Court of Appeal reaffirmed that Shell owes a corporate duty of care to counter dangerous climate change. However, it overturned the 45% court-ordered mandate, holding that civil courts cannot establish a uniform, binding percentage reduction for a single company, especially for Scope 3 emissions prone to carbon leakage.", "significance": "Analyzed in Chapter 4 (p. 147, 221) and Chapter 5 (p. 342-343). Shows the frontier and limits of private climate tort litigation, proving that private lawsuits cannot replace comprehensive, mandatory statutory disclosure and assurance regimes.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 4 (p. 221)", "Chapter 5 (p. 342-343)"], "footnotes": "Fn. 348, 350"}}, {"id": "daimler-diesel-2020-2022", "name": "Daimler AG / Mercedes-Benz Diesel Emissions Enforcement", "citation": "U.S. EPA / DOJ Consent Decrees (2020) & German KBA Orders (2022)", "year": "2020\u20132022", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\udde9\ud83c\uddea", "court": "US Federal Courts & German KBA", "court_category": "Netherlands & European Union", "bench": "US District Court (D.D.C.) & German KBA", "summary": "Daimler paid $1.5 Billion in the US and \u20ac870M+ in Germany to settle enforcement actions over undisclosed emissions defeat software marketed as 'BlueTEC Clean Diesel'.", "themes": ["Defeat Devices", "Auxiliary Emission Control Devices (AECD)", "$1.5B Settlement"], "badge_color": "rose", "facts": "Daimler AG manufactured >250,000 diesel vehicles with undisclosed software functions (AECDs) that lowered emissions during testing while marketing vehicles as 'BlueTEC Clean Diesel'.", "issues": ["Defeat device classification and consumer deception under Clean Air laws."], "holding": "Daimler agreed to pay $1.5 Billion in the US ($875M civil penalty + $700M consumer recall) and >\u20ac870 Million in Germany to settle regulatory enforcement.", "significance": "Examined in Chapter 4 (p. 200, 220). Demonstrates that emissions defeat-device greenwashing was a structural, cross-border corporate practice requiring massive financial deterrence.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 4 (p. 200, 220)"]}}, {"id": "vedanta-lungowe-2019", "name": "Vedanta Resources plc v. Lungowe & Ors.", "citation": "[2019] UKSC 20", "year": "2019", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddec\ud83c\udde7", "court": "Supreme Court of the United Kingdom", "court_category": "United Kingdom", "bench": "Lord Briggs", "summary": "UK Supreme Court held parent company liable for foreign subsidiary's environmental harms based on published group sustainability reports and ESG commitments.", "themes": ["Parent Company Duty of Care", "Group ESG Statements", "Cross-Border Environmental Tort"], "badge_color": "indigo", "facts": "1,826 Zambian citizens sued UK-domiciled parent Vedanta Resources plc and its Zambian subsidiary for toxic pollution from the Nchanga copper mine.", "issues": ["Whether a parent company incurs a common-law duty of care to third parties harmed by its foreign subsidiary based on published group sustainability reports and ESG policies."], "holding": "The UK Supreme Court held that a parent company incurs a direct duty of care if it exerts operational control or publicly holds itself out in published sustainability policies as supervising environmental standards across subsidiaries.", "significance": "Pivotal in Chapter 4 (p. 233). Demonstrates how public ESG commitments and sustainability reports create enforceable legal duties of care, piercing corporate veil defenses.", "thesis_refs": {"chapters": ["Chapter 4 (p. 233)"], "footnotes": "Fn. 363"}}, {"id": "clientearth-shell-2023", "name": "ClientEarth v. Shell plc", "citation": "[2023] EWHC 1137 (Ch) & [2023] EWHC 1897 (Ch)", "year": "2023", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddec\ud83c\udde7", "court": "High Court of Justice (Chancery Division, England & Wales)", "court_category": "United Kingdom", "bench": "Trower J.", "summary": "English High Court dismissed shareholder derivative claim against Shell directors under Section 172 CA 2006, upholding board commercial discretion under the Business Judgment Rule.", "themes": ["Derivative Claim", "Section 172 UK CA 2006", "Climate Risk & Business Judgment"], "badge_color": "slate", "facts": "ClientEarth (holding 27 token shares) sought permission under Section 260 UK Companies Act 2006 to bring a derivative claim against Shell's 11 individual directors for failing to adopt an adequate climate transition strategy aligned with 1.5\u00b0C.", "issues": ["Can company directors be sued via shareholder derivative action for alleged mismanagement of corporate climate transition risks under Section 172?"], "holding": "The English High Court dismissed the claim, holding that climate transition management is a matter of commercial business judgment. Courts will not second-guess board strategic balancing unless the decision is irrational.", "significance": "Analyzed in Chapter 4 (p. 233-234) and Chapter 5 (p. 342). Demonstrates why private derivative suits fail against directors, proving that mandatory statutory regulatory enforcement is indispensable.", "thesis_refs": {"chapters": ["Chapter 4 (p. 233-234)", "Chapter 5 (p. 342)"], "footnotes": "Fn. 366"}}, {"id": "cma-fast-fashion-2024", "name": "UK CMA Enforcement on Fast Fashion (ASOS, Boohoo, Asda)", "citation": "Competition and Markets Authority (CMA) Enforcement Outcomes (March 2024)", "year": "2024", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddec\ud83c\udde7", "court": "Competition and Markets Authority", "court_category": "United Kingdom", "bench": "CMA Executive Enforcement", "summary": "UK competition regulator secured legally binding undertakings against major fashion brands, mandating exact fiber percentages and banning vague eco-edits.", "themes": ["Green Claims Code", "Fast Fashion", "Mandatory Fibre Disclosure"], "badge_color": "emerald", "facts": "CMA investigated major fast fashion brands for making vague, unsubstantiated environmental claims ('Eco Edit', 'Responsible') and misleading product filters.", "issues": ["Enforcement of the UK Green Claims Code and Digital Markets, Competition and Consumers Act 2024 (DMCCA)."], "holding": "CMA secured formal legally binding undertakings: brands must provide exact percentages of recycled/organic fibers, ban vague eco-collections, and substantiate all filter criteria.", "significance": "Examined in Chapter 4 (p. 207-208) and Chapter 6 (p. 372, 380). Demonstrates how market sweeps and prescriptive substantiation rules eliminate greenwashing in consumer goods.", "thesis_refs": {"chapters": ["Chapter 4 (p. 207-208)", "Chapter 6 (p. 372, 380)"], "footnotes": "Fn. 318, 319"}}, {"id": "hutton-west-cork-1883", "name": "Hutton v. West Cork Railway Co.", "citation": "(1883) 23 Ch. D. 654 (Court of Appeal, England)", "year": "1883", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddec\ud83c\udde7", "court": "Court of Appeal of England & Wales", "court_category": "United Kingdom", "bench": "Cotton, Bowen & Fry L.JJ.", "summary": "Classical 19th-century common law baseline of Shareholder Primacy: 'No cakes and ale except such as are for the benefit of the company'.", "themes": ["Shareholder Primacy", "Cakes & Ale Doctrine", "Historical Baseline"], "badge_color": "slate", "facts": "A railway company in liquidation voted gratuities to former directors and staff. A debenture holder challenged the payments as ultra vires.", "issues": ["Whether corporate assets can be spent on altruistic or social purposes not generating commercial profit."], "holding": "Bowen L.J. laid down the famous rule: 'The law does not say that there are to be no cakes and ale, but there are to be no cakes and ale except such as are for the benefit of the company.'", "significance": "Historical baseline in Chapter 3 (p. 153). Represents the 19th-century shareholder primacy model fundamentally displaced in India by Section 166(2).", "thesis_refs": {"chapters": ["Chapter 3 (p. 153)"], "footnotes": "Fn. 170, 171"}}, {"id": "jbs-usa-ny-2024", "name": "People of the State of New York v. JBS USA Food Company", "citation": "Index No. 450682/2024 (Supreme Court of the State of New York)", "year": "2024\u20132025", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "New York Supreme Court", "court_category": "United States Federal & State Courts", "bench": "Commercial Division, NY Supreme Court", "summary": "NY Attorney General greenwashing settlement: $1.1M payment and injunction against world's largest meat producer for deceptive 'Net Zero by 2040' claims.", "themes": ["Net Zero by 2040 Greenwashing", "Meat Industry", "$1.1M Settlement & Injunction"], "badge_color": "amber", "facts": "NY Attorney General Letitia James sued JBS USA (world's largest beef producer) for deceptive 'Net Zero by 2040' claims while expanding cattle processing, ignoring Scope 3 Amazon deforestation, and lacking a viable transition roadmap.", "issues": ["Whether aspirational net-zero pledges without credible transition roadmaps violate consumer fraud laws (NY Exec Law \u00a7 63(12))."], "holding": "In late 2025, JBS entered into an Assurance of Discontinuance (AOD), paying $1.1 Million, agreeing to remove misleading 'Net Zero 2040' claims, and submitting to 3 years of compliance monitoring.", "significance": "Featured in Chapter 4 (p. 148, 223) and Chapter 5 (p. 343). Demonstrates that forward-looking net-zero pledges are actionable fraud if unsupported by verifiable capital allocation.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 4 (p. 148, 223)", "Chapter 5 (p. 343)"], "footnotes": "Fn. 353"}}, {"id": "us-walmart-kohls-2022", "name": "United States & FTC v. Walmart Inc. & Kohl\u2019s Inc.", "citation": "Case No. 1:22-cv-00965 (D.D.C. April 8, 2022)", "year": "2022", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "U.S. District Court for the District of Columbia", "court_category": "United States Federal & State Courts", "bench": "D.D.C.", "summary": "FTC and DOJ secured $5.5 Million combined civil penalty against retail giants Walmart and Kohl's for falsely marketing rayon textiles as eco-friendly bamboo.", "themes": ["FTC Green Guides", "False Bamboo Rayon Claims", "$5.5M Civil Penalty"], "badge_color": "emerald", "facts": "FTC and DOJ sued Walmart and Kohl's for marketing rayon textiles as eco-friendly 'bamboo' fabrics when the manufacturing process emits hazardous pollutants.", "issues": ["Enforceability of FTC Green Guides and Penalty Offense Authority for false green claims."], "holding": "Walmart and Kohl's paid a combined $5.5 Million Civil Penalty ($3.0M Walmart, $2.5M Kohl's) with permanent injunctions.", "significance": "Analyzed in Chapter 1, 4, and 6 (p. 27, 204, 343, 349, 374). Demonstrates how the FTC imposes multi-million dollar penalties for deceptive eco-labeling.", "thesis_refs": {"chapters": ["Chapter 1 (p. 27, 79)", "Chapter 4 (p. 204)", "Chapter 6 (p. 343, 349, 374)"], "footnotes": "Fn. 307"}}, {"id": "pg-charmin-2025", "name": "In re P&G Charmin Greenwashing Litigation", "citation": "U.S. District Court, W.D. Wash. (Class Action Filed Jan 16, 2025)", "year": "2025", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "U.S. District Court (W.D. Wash.)", "court_category": "United States Federal & State Courts", "bench": "W.D. Wash.", "summary": "Federal class actions against Procter & Gamble for deceptive 'Protect-Grow-Restore' claims masking Canadian boreal forest clearcutting behind FSC logos.", "themes": ["FSC Eco-Label Abuse", "Boreal Forest Degradation", "Class Action"], "badge_color": "emerald", "facts": "Class actions alleging Procter & Gamble deceptively markets Charmin toilet paper with 'Protect-Grow-Restore' claims while clearcutting primary Canadian boreal forests and replacing them with monoculture chemical-treated plantations ('Frankenforests').", "issues": ["Whether third-party certification logos (FSC) shield corporations from false advertising claims when underlying practices degrade ancient forests."], "holding": "Ongoing federal litigation; established that third-party eco-labels cannot serve as absolute liability shields if marketing creates a misleading net-positive impression.", "significance": "Highlighted in Chapter 4 (p. 149, 205, 224). Supports the thesis's critique of Certification Greenwashing.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 4 (p. 149, 205, 224)"]}}, {"id": "vw-us-clean-diesel-2015", "name": "Volkswagen Clean Diesel Litigation (MDL 2672)", "citation": "MDL 2672 (N.D. Cal. 2016) / EPA-DOJ Settlements ($14.7B+)", "year": "2015\u20132016", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "U.S. District Court (N.D. Cal.)", "court_category": "United States Federal & State Courts", "bench": "Charles Breyer J.", "summary": "Global archetype of corporate greenwashing: Volkswagen agreed to $14.7B+ settlements for defeat-device emissions cheating masked by 'Clean Diesel' marketing.", "themes": ["Global Green Marketing Fraud", "$14.7B Settlement", "Clean Air Act Violations"], "badge_color": "rose", "facts": "Volkswagen installed defeat devices on ~500,000 US diesel vehicles while promoting 'Clean Diesel' green marketing.", "issues": ["Deceptive marketing under Section 5 FTC Act and Clean Air Act violations."], "holding": "Volkswagen pled guilty to criminal charges and agreed to >$14.7 Billion in civil settlements.", "significance": "Historical baseline of modern corporate greenwashing in Chapters 1, 3, and 4.", "thesis_refs": {"chapters": ["Preliminary List (p. 21)", "Chapter 1 (p. 5, 21)", "Chapter 4 (p. 220)"]}}, {"id": "iowa-sec-2024", "name": "State of Iowa et al. v. SEC", "citation": "No. 24-1522 (8th Cir. filed March 15, 2024)", "year": "2024", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "U.S. Court of Appeals for the Eighth Circuit", "court_category": "United States Federal & State Courts", "bench": "8th Circuit", "summary": "Multi-state constitutional and administrative challenge to the SEC's Climate-Related Disclosures Rule under the Major Questions Doctrine.", "themes": ["SEC Climate Disclosures", "Major Questions Doctrine", "Mandatory Scope 1 & 2"], "badge_color": "blue", "facts": "25 U.S. states challenged SEC's Final Rule on Climate-Related Disclosures, alleging the SEC exceeded its statutory authority.", "issues": ["Authority of securities regulators to mandate climate risk reporting under the Major Questions Doctrine."], "holding": "Ongoing consolidated litigation; SEC voluntarily stayed rules pending review.", "significance": "Analyzed in Chapter 4 (p. 202-203). Illustrates federalist resistance to climate disclosures in the US versus the EU's statutory CSRD mandate.", "thesis_refs": {"chapters": ["Chapter 4 (p. 202-203)", "Chapter 5 (p. 342)"], "footnotes": "Fn. 299"}}, {"id": "amg-capital-ftc-2021", "name": "AMG Capital Management, LLC v. FTC", "citation": "141 S. Ct. 1341 (2021)", "year": "2021", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "Supreme Court of the United States", "court_category": "United States Federal & State Courts", "bench": "Stephen Breyer J.", "summary": "US Supreme Court held Section 13(b) FTC Act does not authorize direct monetary restitution, reshaping federal greenwashing penalty strategies.", "themes": ["Section 13(b) FTC Act", "Monetary Relief Limits", "Enforcement Strategy"], "badge_color": "purple", "facts": "FTC sought $1.27B in direct monetary restitution under Section 13(b) FTC Act.", "issues": ["Does Section 13(b) authorize the FTC to demand monetary restitution directly without administrative proceedings?"], "holding": "US Supreme Court held Section 13(b) authorizes only injunctions, not direct monetary restitution.", "significance": "Examined in Chapter 6 (p. 371). Explains why FTC greenwashing enforcement shifted to Section 45(m) Penalty Offenses.", "thesis_refs": {"chapters": ["Chapter 6 (p. 371)"], "footnotes": "Fn. 19"}}, {"id": "revlon-delaware-1986", "name": "Revlon, Inc. v. MacAndrews & Forbes Holdings, Inc.", "citation": "506 A.2d 173 (Del. 1986)", "year": "1986", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "Supreme Court of Delaware", "court_category": "United States Federal & State Courts", "bench": "Moore J.", "summary": "Delaware benchmark for shareholder wealth maximization: in a corporate sale/breakup, duties narrow strictly to highest share price.", "themes": ["Revlon Duties", "Shareholder Wealth Maximization", "Stakeholder Limits"], "badge_color": "slate", "facts": "Hostile takeover where Revlon board attempted to favor noteholders over the highest cash bidder for shareholders.", "issues": ["When must directors maximize immediate shareholder wealth versus considering stakeholder interests?"], "holding": "Delaware Supreme Court held that in a sale/breakup, directorial duty narrows exclusively to obtaining the highest share price (Revlon duties).", "significance": "Analyzed in Chapter 3 (p. 159). US benchmark for shareholder wealth maximization, contrasted with India's Section 166(2).", "thesis_refs": {"chapters": ["Chapter 3 (p. 159)"], "footnotes": "Fn. 197"}}, {"id": "vincent-lake-erie-1910", "name": "Vincent v. Lake Erie Transportation Co.", "citation": "109 Minn. 456, 124 N.W. 221 (1910)", "year": "1910", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "Supreme Court of Minnesota", "court_category": "United States Federal & State Courts", "bench": "O\u2019Brien J.", "summary": "Private necessity and enterprise risk allocation: commercial entities cannot externalize inevitable operational costs without full compensation.", "themes": ["Enterprise Risk Allocation", "Private Necessity", "Ecological Cost Internalization"], "badge_color": "purple", "facts": "A steamship remained moored to a private dock during a storm to preserve the vessel, causing physical damage to the dock.", "issues": ["Must a commercial actor exercising private necessity compensate for third-party damage?"], "holding": "The court held that the shipowner must pay full compensation for the damage caused.", "significance": "Theoretical analysis in Chapter 3 (p. 159). Establishes that commercial entities cannot externalize operational risks onto the public.", "thesis_refs": {"chapters": ["Chapter 3 (p. 159)"], "footnotes": "Fn. 198"}}, {"id": "state-farm-campbell-2003", "name": "State Farm Mut. Auto. Ins. Co. v. Campbell & United States v. Bajakajian", "citation": "538 U.S. 408 (2003) & 524 U.S. 321 (1998)", "year": "1998, 2003", "jurisdiction": "International", "jurisdiction_flag": "\ud83c\uddfa\ud83c\uddf8", "court": "Supreme Court of the United States", "court_category": "United States Federal & State Courts", "bench": "Kennedy & Thomas JJ.", "summary": "US Supreme Court precedents on constitutional proportionality and due process constraints on punitive damages and statutory forfeitures.", "themes": ["Constitutional Proportionality", "Due Process Penalties", "Gross Disproportionality"], "badge_color": "purple", "facts": "State Farm reviewed a $145M punitive damage award on a $1M compensatory claim for deceptive nationwide insurance claims practices. Bajakajian concerned civil forfeiture under the Eighth Amendment Excessive Fines Clause.", "issues": ["Constitutional due process limits and proportionality standards governing statutory penalties for deceptive corporate practices."], "holding": "State Farm held that punitive damages exceeding single-digit ratios to actual harm violate 14th Amendment Due Process. Bajakajian established the 'gross disproportionality' standard.", "significance": "Examined in Chapter 6 (p. 382) to guide the calibration and constitutional validity of the thesis's proposed turnover-based corporate greenwashing penalty scale.", "thesis_refs": {"chapters": ["Chapter 6 (p. 382)"], "footnotes": "Fn. 33, 34"}}];
+
+    // Filter States
+    let currentJurisdiction = 'all';
+    let currentCourt = 'all';
+    let currentTheme = 'all';
+    let searchQuery = '';
+
+    // Render function
+    function renderCases() {
+      const container = document.getElementById('casesContainer');
+      container.innerHTML = '';
+
+      let visible = 0;
+
+      casesData.forEach((c) => {
+        // Filter Matching
+        const matchesJurisdiction = (currentJurisdiction === 'all' || c.jurisdiction === currentJurisdiction);
+        const matchesCourt = (currentCourt === 'all' || c.court_category === currentCourt);
+        const matchesTheme = (currentTheme === 'all' || c.themes.some(t => t.toLowerCase().includes(currentTheme.toLowerCase())));
+        
+        let matchesSearch = true;
+        if (searchQuery.trim() !== '') {
+          const q = searchQuery.toLowerCase();
+          const targetStr = (
+            c.name + ' ' + 
+            c.citation + ' ' + 
+            c.court + ' ' + 
+            c.bench + ' ' + 
+            c.summary + ' ' + 
+            c.facts + ' ' + 
+            c.issues.join(' ') + ' ' + 
+            c.holding + ' ' + 
+            c.significance + ' ' + 
+            c.themes.join(' ')
+          ).toLowerCase();
+          matchesSearch = targetStr.includes(q);
+        }
+
+        if (matchesJurisdiction && matchesCourt && matchesTheme && matchesSearch) {
+          visible++;
+          const card = createCaseCard(c);
+          container.appendChild(card);
+        }
+      });
+
+      document.getElementById('visibleCount').innerText = visible;
+      updateFilterSummary();
+    }
+
+    function createCaseCard(c) {
+      const card = document.createElement('div');
+      card.className = 'case-card';
+      card.id = `case-${c.id}`;
+
+      const issuesListHtml = c.issues.map(i => `<li>${i}</li>`).join('');
+
+      card.innerHTML = `
+        <div class="case-card-header" onclick="toggleCaseCard('${c.id}')">
+          <div class="case-title-row">
+            <div class="case-name-group">
+              <div class="case-badges">
+                <span class="badge badge-jurisdiction">${c.jurisdiction_flag} ${c.jurisdiction}</span>
+                <span class="badge badge-court">${c.court}</span>
+                <span class="badge badge-year"><i class="fa-regular fa-calendar"></i> ${c.year}</span>
+                ${c.themes.map(t => `<span class="badge badge-theme">${t}</span>`).join('')}
+              </div>
+              <h3 class="case-name">${c.name}</h3>
+              <div class="case-citation-row" onclick="event.stopPropagation()">
+                <span class="case-citation-text"><i class="fa-solid fa-scale-balanced" style="color: var(--accent-emerald); margin-right: 4px;"></i> ${c.citation}</span>
+                <button class="btn-copy-cite" onclick="copyCitation('${escapeHtml(c.citation)}')" title="Copy Official Citation">
+                  <i class="fa-regular fa-copy"></i> Copy Citation
+                </button>
+              </div>
+            </div>
+            <div class="chevron-indicator" id="chevron-${c.id}">
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+          <div class="case-summary-bar">
+            <strong>Core Takeaway:</strong> ${c.summary}
+          </div>
+        </div>
+
+        <div class="case-card-body" id="body-${c.id}">
+          <div class="card-grid-sections">
+            
+            <div class="detail-block">
+              <div class="detail-block-title">
+                <i class="fa-solid fa-users"></i> Judicial Bench / Presiding Authority
+              </div>
+              <div class="detail-block-content">
+                <strong>${c.bench}</strong>
+              </div>
+            </div>
+
+            <div class="detail-block">
+              <div class="detail-block-title">
+                <i class="fa-solid fa-file-lines"></i> 1. Factual Matrix
+              </div>
+              <div class="detail-block-content">
+                ${c.facts}
+              </div>
+            </div>
+
+            <div class="detail-block">
+              <div class="detail-block-title">
+                <i class="fa-solid fa-circle-question"></i> 2. Key Legal Issues Framed
+              </div>
+              <div class="detail-block-content">
+                <ul>${issuesListHtml}</ul>
+              </div>
+            </div>
+
+            <div class="detail-block">
+              <div class="detail-block-title">
+                <i class="fa-solid fa-gavel"></i> 3. Judgement, Holding & Penalties
+              </div>
+              <div class="detail-block-content">
+                ${c.holding}
+              </div>
+            </div>
+
+            <div class="thesis-significance-block">
+              <div class="detail-block-title">
+                <i class="fa-solid fa-graduation-cap"></i> 4. Significance to Doctoral Thesis & Anti-Greenwashing Study
+              </div>
+              <div class="detail-block-content">
+                ${c.significance}
+              </div>
+            </div>
+
+            <div class="thesis-citations-block">
+              <div class="thesis-cite-item">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Thesis Chapter References:</span>
+                ${c.thesis_refs.chapters.map(ch => `<span class="thesis-cite-badge">${ch}</span>`).join(' ')}
+              </div>
+              ${c.thesis_refs.footnotes ? `
+              <div class="thesis-cite-item">
+                <i class="fa-solid fa-asterisk"></i>
+                <span>Footnote Citations:</span>
+                <span class="thesis-cite-badge" style="color: var(--accent-gold);">${c.thesis_refs.footnotes}</span>
+              </div>` : ''}
+            </div>
+
+          </div>
+        </div>
+      `;
+
+      return card;
+    }
+
+    function toggleCaseCard(id) {
+      const card = document.getElementById(`case-${id}`);
+      card.classList.toggle('expanded');
+    }
+
+    function toggleAllCases(expand) {
+      const cards = document.querySelectorAll('.case-card');
+      cards.forEach(card => {
+        if (expand) {
+          card.classList.add('expanded');
+        } else {
+          card.classList.remove('expanded');
+        }
+      });
+    }
+
+    function setJurisdictionFilter(jur, btn) {
+      currentJurisdiction = jur;
+      document.querySelectorAll('#jurisdictionChips .chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      renderCases();
+    }
+
+    function setCourtFilter(court, btn) {
+      currentCourt = court;
+      document.querySelectorAll('#courtChips .chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      renderCases();
+    }
+
+    function setThemeFilter(theme, btn) {
+      currentTheme = theme;
+      document.querySelectorAll('#themeChips .chip').forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      renderCases();
+    }
+
+    function updateFilterSummary() {
+      const parts = [];
+      if (currentJurisdiction !== 'all') parts.push(currentJurisdiction);
+      if (currentCourt !== 'all') parts.push(currentCourt);
+      if (currentTheme !== 'all') parts.push(currentTheme);
+      if (searchQuery.trim() !== '') parts.push(`Query: "${searchQuery}"`);
+
+      document.getElementById('activeFilterSummary').innerText = parts.length > 0 ? parts.join(' • ') : 'All jurisdictions and courts';
+    }
+
+    function toggleSynthesis() {
+      const body = document.getElementById('synthesisBody');
+      const chev = document.getElementById('synthesisChevron');
+      if (body.style.display === 'none') {
+        body.style.display = 'block';
+        chev.style.transform = 'rotate(0deg)';
+      } else {
+        body.style.display = 'none';
+        chev.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    function copyCitation(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(`Copied: "${text}"`);
+      }).catch(() => {
+        showToast("Copied to clipboard!");
+      });
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toastMsg').innerText = msg;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2600);
+    }
+
+    function escapeHtml(text) {
+      return text.replace(/'/g, "\\'");
+    }
+
+    // Theme Toggle
+    const themeBtn = document.getElementById('themeToggle');
+    themeBtn.addEventListener('click', () => {
+      const html = document.documentElement;
+      if (html.classList.contains('dark')) {
+        html.classList.remove('dark');
+        html.classList.add('light');
+        themeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
+        localStorage.setItem('theme', 'light');
+      } else {
+        html.classList.remove('light');
+        html.classList.add('dark');
+        themeBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+
+    // Initialize Theme
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') {
+      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.add('light');
+      themeBtn.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    }
+
+    // Search Input Listener
+    const searchInput = document.getElementById('caseSearchInput');
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value;
+      renderCases();
+    });
+
+    // Initial Render
+    document.addEventListener('DOMContentLoaded', () => {
+      renderCases();
+    });
+  </script>
+</body>
+</html>
