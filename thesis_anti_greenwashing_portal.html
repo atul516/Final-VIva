@@ -719,7 +719,7 @@
       backdrop-filter: blur(20px);
       -webkit-backdrop-filter: blur(20px);
       z-index: 100;
-      transition: background-color 0.25s ease, border-color 0.25s ease;
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.3s ease;
     }
 
     .sidebar-brand {
@@ -1019,6 +1019,166 @@
       transform: scale(1.06);
     }
 
+    .sidebar-close-btn {
+      display: none;
+      background: var(--btn-nav-bg);
+      border: 1px solid var(--btn-nav-border);
+      color: var(--btn-nav-color);
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1.05rem;
+      transition: all 0.2s ease;
+      line-height: 1;
+    }
+
+    .sidebar-close-btn:hover {
+      background: var(--btn-nav-hover);
+      transform: scale(1.06);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      background: var(--btn-nav-bg);
+      border: 1px solid var(--btn-nav-border);
+      color: var(--btn-nav-color);
+      font-family: var(--font-sans);
+      font-weight: 600;
+      font-size: 0.84rem;
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      user-select: none;
+    }
+
+    .mobile-menu-btn:hover {
+      background: var(--btn-nav-hover);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .sidebar-overlay {
+      display: none;
+    }
+
+    /* Mobile Responsive Collapsible Sidebar & Layout */
+    @media (max-width: 992px) {
+      .portal-layout {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .portal-sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 320px;
+        max-width: 86vw;
+        min-width: unset;
+        height: 100vh;
+        height: 100dvh;
+        z-index: 1000;
+        transform: translateX(-100%);
+        box-shadow: none;
+      }
+
+      .portal-sidebar.open {
+        transform: translateX(0);
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+      }
+
+      [data-theme="light"] .portal-sidebar.open {
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+      }
+
+      .mobile-menu-btn {
+        display: inline-flex;
+      }
+
+      .sidebar-close-btn {
+        display: inline-flex;
+      }
+
+      .sidebar-overlay {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.65);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+        z-index: 999;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.25s ease;
+      }
+
+      .sidebar-overlay.active {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .portal-content {
+        padding: 20px 18px 48px;
+        width: 100%;
+      }
+
+      .portal-topbar {
+        margin-bottom: 20px;
+        padding-bottom: 14px;
+        gap: 12px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .topbar-stats {
+        display: none;
+      }
+
+      .portal-content {
+        padding: 16px 12px 40px;
+      }
+
+      .hero-header {
+        padding: 20px 16px;
+      }
+
+      .hero-title {
+        font-size: 1.45rem;
+      }
+
+      .card {
+        padding: 18px 16px;
+      }
+
+      .stat-box {
+        padding: 12px 10px;
+      }
+
+      .stat-number {
+        font-size: 1.6rem;
+      }
+
+      .section-nav {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+      }
+
+      .section-nav .nav-link {
+        justify-content: center;
+      }
+    }
+
     /* Light Theme Component & Text Contrast Overrides */
     [data-theme="light"] a[href$=".html"].nav-link {
       background: #faf5ff !important;
@@ -1092,14 +1252,20 @@
 <body>
   <div class="portal-layout">
     <!-- Sidebar -->
-    <aside class="portal-sidebar">
+    <aside class="portal-sidebar" id="portalSidebar">
       <div class="sidebar-brand">
         <div style="display: flex; justify-content: space-between; align-items: center;">
           <div class="brand-title"><span>🛡️</span> Anti-Greenwashing Portal</div>
-          <button class="sidebar-theme-btn" id="sidebarThemeBtn" onclick="toggleTheme()"
-            title="Switch Light / Dark Theme" aria-label="Toggle theme">
-            ☀️
-          </button>
+          <div style="display: flex; gap: 8px; align-items: center;">
+            <button class="sidebar-theme-btn" id="sidebarThemeBtn" onclick="toggleTheme()"
+              title="Switch Light / Dark Theme" aria-label="Toggle theme">
+              ☀️
+            </button>
+            <button class="sidebar-close-btn" id="sidebarCloseBtn" onclick="closeSidebar()"
+              title="Close navigation menu" aria-label="Close navigation menu">
+              ✕
+            </button>
+          </div>
         </div>
         <div class="brand-subtitle">Ph.D. Research Portal | Chapters 2–6</div>
       </div>
@@ -1370,13 +1536,22 @@
       </div>
     </aside>
 
+    <!-- Mobile Drawer Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()" aria-hidden="true"></div>
+
     <!-- Main Viewer -->
     <main class="portal-content" id="mainContent">
       <div class="portal-topbar">
-        <div class="topbar-stats">
-          <div class="topbar-badge">Chapters: <strong>2 to 6</strong></div>
-          <div class="topbar-badge">Sections: <strong>33 Active</strong></div>
-          <div class="topbar-badge">Doctrinal Focus: <strong>Sec 166(2) Fiduciary Duty</strong></div>
+        <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+          <button class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleSidebar()" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="sidebarNav">
+            <span style="font-size: 1.15rem; line-height: 1;">☰</span>
+            <span>Sections</span>
+          </button>
+          <div class="topbar-stats">
+            <div class="topbar-badge">Chapters: <strong>2 to 6</strong></div>
+            <div class="topbar-badge">Sections: <strong>33 Active</strong></div>
+            <div class="topbar-badge">Doctrinal Focus: <strong>Sec 166(2) Fiduciary Duty</strong></div>
+          </div>
         </div>
         <div style="display: flex; gap: 10px; align-items: center;">
           <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleTheme()" title="Switch Light / Dark Theme"
@@ -6708,6 +6883,9 @@
         if (main) main.scrollTop = 0;
       }
 
+      // Close mobile sidebar if open
+      closeSidebar();
+
       // Highlight active nav item and expand its parent chapter accordion
       const targetNav = document.getElementById('nav-' + sectionId);
       if (targetNav) {
@@ -6841,6 +7019,34 @@
       }
     }
 
+    // Mobile Drawer Functions
+    function openSidebar() {
+      const sidebar = document.getElementById('portalSidebar') || document.querySelector('.portal-sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      const toggleBtn = document.getElementById('mobileMenuBtn');
+      if (sidebar) sidebar.classList.add('open');
+      if (overlay) overlay.classList.add('active');
+      if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'true');
+    }
+
+    function closeSidebar() {
+      const sidebar = document.getElementById('portalSidebar') || document.querySelector('.portal-sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      const toggleBtn = document.getElementById('mobileMenuBtn');
+      if (sidebar) sidebar.classList.remove('open');
+      if (overlay) overlay.classList.remove('active');
+      if (toggleBtn) toggleBtn.setAttribute('aria-expanded', 'false');
+    }
+
+    function toggleSidebar() {
+      const sidebar = document.getElementById('portalSidebar') || document.querySelector('.portal-sidebar');
+      if (sidebar && sidebar.classList.contains('open')) {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }
+    }
+
     // Attach click listeners and initialize theme & navigation
     document.addEventListener('DOMContentLoaded', () => {
       // Sync theme button states
@@ -6855,6 +7061,20 @@
           }
         });
       }
+
+      // Close sidebar on Escape key
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          closeSidebar();
+        }
+      });
+
+      // Close sidebar when expanding to desktop size
+      window.addEventListener('resize', () => {
+        if (window.innerWidth > 992) {
+          closeSidebar();
+        }
+      });
 
       document.querySelectorAll('.nav-item').forEach(item => {
         item.addEventListener('click', (e) => {
