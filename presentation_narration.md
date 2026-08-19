@@ -14,7 +14,7 @@ Let me begin with a basic question. What is greenwashing?
 
 It helps to think of greenwashing in two parts. The problem lies in the gap between them.
 
-The first is the green facade. It is what the company shows us. We see earthy brown and green packaging, leaves on the label, and vague words like "100% Eco", "Natural", and "Recycled".
+The first part is the green facade. It is what the company shows us. We see earthy brown and green packaging, leaves on the label, and vague words like "100% Eco", "Natural", and "Recycled".
 
 Companies may also create their own badges and design them to look like official third-party certifications.
 
