@@ -91,9 +91,9 @@ For statutory interpretation, I used textual, contextual, and purposive analysis
 
 For the comparative component, I looked at regulations from EU, US, UK, and Australia, as well as selected developing countries. 
 
-I also carried out a critical assessment of the regulatory system. This maps the design and coordination problems between MCA, SEBI, CCPA, and ASCI, and identifies gaps, penalty arbitrage, and backsliding.
+I also carried out a critical assessment of the Indian regulatory system pertaining to Greenwashing.
 
-Finally, throughout the study I distinguished between *lex lata*, what the law currently provides, and *lex ferenda*, what it ought to provide.
+Finally, throughout the study, I distinguished between what the law currently provides, and what it ought to provide.
 
 ---
 
@@ -101,27 +101,37 @@ Finally, throughout the study I distinguished between *lex lata*, what the law c
 
 The study tests three hypotheses.
 
-My first hypothesis, Accountability Failure, is that greenwashing in India is primarily a consequence of weak corporate governance and the limited implementation of board-level environmental responsibility.
+My first hypothesis is related to Accountability Failure.
 
-My second hypothesis, the Liability Shield, is that the existing legal framework does not create sufficiently clear and stringent liability to deter misleading environmental disclosures. This enables corporations to avoid meaningful accountability.
+My second hypothesis, the Liability Shield.
 
-My third hypothesis, Regulatory Inchoateness, is that the current legal mechanism involving different regulatory bodies is fragmented and incomplete.
+My third hypothesis relates to incompleteness of Regulatory System.
 
-These three hypotheses are not independent; they reinforce one another. Governance gaps under H1 are amplified by non-deterrent sanctions under H2, and both are enabled by fragmented regulators under H3. A company can greenwash comfortably because there is no clear trigger for board accountability, any fine is affordable if it arrives, and no single regulator owns the problem from beginning to end.
+These three hypotheses reinforce each another. Governance gaps under H1 are amplified by non-deterrent sanctions under H2, and both are enabled by fragmented regulators under H3. 
 
 ---
 
 ## Slide 8 — Chapter Outline
 
-The thesis is organised into six chapters. Chapter 1 introduces the study. Chapter 2 conceptualises greenwashing and the corporate governance response. Chapter 3 deals with corporate responsibility and accountability, including the jurisprudential analysis. Chapter 4 presents the international comparative perspective. Chapter 5 maps the Indian regulatory ecosystem. Chapter 6 concludes the thesis and presents the hypothesis testing and recommendations.
+The thesis is organised into six chapters. 
 
-The remaining slides follow the research questions rather than the chapter order, and I will indicate the relevant chapter as I go.
+Chapter 1 introduces the study. 
+
+Chapter 2 conceptualises greenwashing and the corporate governance response. 
+
+Chapter 3 deals with corporate responsibility and accountability, including the jurisprudential analysis. 
+
+Chapter 4 presents the international comparative perspective. 
+
+Chapter 5 maps the Indian regulatory ecosystem. 
+
+Chapter 6 concludes the thesis.
+
+The remaining slides follow the research questions rather than the chapter order.
 
 ---
 
 ## Slide 9 — How Greenwashing Has Evolved and Its Consequences
-
-This answers Research Question 1, which asks what greenwashing is, how it evolved, and what its consequences are. The discussion is based on Chapter 2.
 
 First, the definition in Indian law. The CCPA Guidelines identify three kinds of conduct. These are concealing or omitting information, making vague, false, or unsubstantiated claims, and using misleading words and imagery that emphasise the positive aspects while downplaying the harmful ones.
 
@@ -132,6 +142,8 @@ Second, how it evolved. The key insight is that the *unit of deception* has expa
 A wider scope means higher stakes. A false claim on a shampoo bottle misleads a shopper. A false claim in a BRSR filing or a green bond prospectus can redirect institutional capital.
 
 Third, the harm is multi-layered. In climate terms, it delays real decarbonisation because a company that has announced a transition may face less pressure to carry it out. Financially, it misdirects green capital. It also erodes market trust and disadvantages genuinely green businesses, which bear real compliance costs while competitors bear only a PR cost.
+
+This answers Research Question 1, which asks what greenwashing is, how it evolved, and what its consequences are. The discussion is based on Chapter 2.
 
 ---
 
