@@ -28,49 +28,49 @@ So greenwashing can be defined as any misleading, exaggerated, vague, or unsubst
 
 ## Slide 3 — Why Greenwashing Matters To Us
 
-Why should this concern us? Because greenwashing affects us in three ordinary ways.
+Why should this be of any concern to us? Because greenwashing affects us in three ordinary ways.
 
 First, it affects our wallets. When we deliberately pay extra for something labelled eco-friendly, we spend our hard-earned money in good faith. Too often, that premium supports a PR campaign rather than a genuine environmental solution.
 
-Second, it affects our choices. Millions carry cloth bags, segregate waste, and consciously choose brands they believe are responsible. Deceptive claims make it harder for those choices to have the effect we intend, while industrial pollution continues unchecked.
+Second, it affects our choices. Millions carry cloth bags and consciously choose brands they believe are environmentally responsible. Deceptive claims make it harder for those choices to have the effect that we intend.
 
-Third, it affects our future. A slogan like "Net-Zero by 2050" creates a false sense of comfort, the feeling that someone else is already solving the climate crisis. That is dangerous because it delays urgent action while extreme weather and toxic pollution threaten our families now.
+Third, it affects our future. A slogan like "Net-Zero by 2050" creates a sense of comfort, the feeling that someone else is already solving the climate crisis. But if the slogan is misleading, then it is dangerous because it delays urgent climate action while extreme weather events continue to increase.
 
-This leaves us with an important question. When every label claims to be green, what protects consumers, investors, and the public?
+This leaves us with an important question. When every label claims to be green, how to protect authenticity? And how to protect consumers, investors, and the public?
 
 ---
 
 ## Slide 4 — The Scale of the Problem in India
 
-Let me put this problem into perspective, using Indian data discussed in Section 2.5 of my thesis.
+Let me put this problem into perspective, using some data.
 
-Let us start with consumer-facing deception. ASCI reviewed 211 environmental advertisements in its 2024–25 Annual Report, and every one of them required modification because the claims were not substantiated.
+Let us start with consumer-facing deception. ASCI, that is the Advertisement Standards Council of India, reviewed 211 environmental advertisements in its 2024–25 Annual Report. And every one of those ads required modification because the environmental claims in them were not substantiated.
 
-That means all 211 advertisements required modification.
+Now let us look at some data about listed companies. Two peer-reviewed studies examined the ESG communications of the same Nifty 50 companies. The first study done in 2022 found greenwashing present in 54 percent of Nifty 50 firms ESG reports, and a later study done in 2025, found greenwashing in 47 percent. 
 
-Now let us move to listed companies. Two peer-reviewed studies examined the same Nifty 50 companies. One found greenwashing indicators in 54 percent of those firms in 2022, and a later study found them in 47 percent in 2025. A 2022 CRISIL report also found that nearly 80 percent of 586 companies had weak ESG scores. This is not a fringe problem; it is present in the index.
+A 2022 CRISIL report also found that nearly 80 percent of 586 companies it studied, had weak ESG scores.
 
-Now look at the money connected to these claims. ESG fund assets under management grew from 331 million US dollars in January 2020 to 1.2 billion dollars by March 2024. ESG debt reached roughly 56 billion dollars by December 2024, a 186 percent increase in three years. India is already the fourth-largest source of sustainable debt among emerging markets.
+Now we will look at the amount of money involved in these claims. ESG fund assets under management grew from 331 million US dollars in January 2020 to 1.2 billion dollars by March 2024. ESG debt in India reached roughly 56 billion dollars by December 2024. India is already the fourth-largest source of sustainable debt among emerging markets.
 
-The RBI's 2023 study also found that ESG-based stocks earned higher returns than the market. So there is a measurable incentive to make these claims, whether or not they are true.
+A 2023 study by RBI also found that ESG-based stocks earned higher returns than the market. So there is a measurable incentive to make these claims, whether or not they are true.
 
-Greenwashing therefore distorts the information on which consumers, investors, and regulators rely. It affects both consumer choice and the allocation of capital.
+Greenwashing therefore distorts the information on which consumers, investors, and regulators rely upon. It affects both consumer choice and the allocation of capital.
 
 ---
 
 ## Slide 5 — Research Gap
 
-Let me be precise about what was missing. The gap is not the absence of law; India has laws. The gap is the absence of an integrated analysis of how those rules translate into enforceable accountability. I identified five gaps.
+Next we look at the research gap. 
 
-First, there is an integration gap. Greenwashing is studied as an advertising issue, a disclosure issue, or an environmental issue, but rarely as one accountability problem across all three.
+As we can see on the slide. There is a lack of integrated analysis of the laws and regulations tackling greenwashing.
 
-Second, there is limited legal analysis of board-level accountability. Section 166(2) of the Companies Act, 2013 requires directors to act in the interest of the community and for the protection of the environment. That statutory expectation has received little attention.
+There is limited doctrinal work on board-level accountability for environmental claims.
 
-Third, regulatory fragmentation has not been examined as a *structural cause* of greenwashing. Green claims are dealt with under separate regimes — MCA, SEBI, CCPA, and ASCI. This creates overlap and, in the gaps between these regimes, weak accountability.
+The regulatory fragmentation problem has not been sufficiently examined.
 
-Fourth, there is limited analysis of *why* enforcement is low. Discussion of Section 166(2) is thin, and beyond the Companies Act, little work asks why SEBI so rarely brings deterrent enforcement action.
+There is Limited analysis of the structural reasons for low Enforcement in this domain.
 
-Fifth, there is a verification and assurance gap. Mandatory ESG disclosure has expanded, but third-party verification has not kept pace.
+And there is limited study on Verification & Assurance Gaps that plague Indian regulation in this regard.
 
 My study addresses these gaps by treating greenwashing as a corporate governance failure at the intersection of company law, securities disclosure, and consumer protection. It then proposes an integrated liability framework.
 
