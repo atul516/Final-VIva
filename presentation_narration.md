@@ -1,6 +1,6 @@
 ## Slide 1 — Title Slide
 
-Good afternoon, respected Vice-Chancellor, esteemed professors, and my colleagues.
+Good afternoon, respected Vice-Chancellor Sir, esteemed professors, and my colleagues.
 
 My name is Saumya Singh, and today I will present my final defence. The title of my study is "Corporate Responsibility Regarding the Concern of Greenwashing, Policy and Legal Initiatives — A Critical Study."
 
@@ -20,11 +20,9 @@ Companies may also create their own badges and design them to look like official
 
 Another tactic is halo marketing. A high-budget campaign focuses on one minor eco-feature, while the core operations that cause pollution are never mentioned.
 
-The second is the hidden reality. Operations may still rely heavily on fossil fuels while generating toxic emissions and plastic waste. There is also a verification gap. There is no scientific proof, independent audit, or verifiable data supporting the claim.
+The second part is the hidden reality. Operations may still rely heavily on fossil fuels while generating toxic emissions and plastic waste. There is also a verification gap. There is no scientific proof, independent audit, or verifiable data supporting the claim.
 
-For this study, I define greenwashing as any misleading, exaggerated, vague, or unsubstantiated environmental claim made by an entity.
-
-In other words, it is more than harmless exaggeration; it can amount to deliberate deception.
+So greenwashing can be defined as any misleading, exaggerated, vague, or unsubstantiated environmental claim made by an entity.
 
 ---
 
