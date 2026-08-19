@@ -72,21 +72,24 @@ There is Limited analysis of the structural reasons for low Enforcement in this 
 
 And there is limited study on Verification & Assurance Gaps that plague Indian regulation in this regard.
 
-My study addresses these gaps by treating greenwashing as a corporate governance failure at the intersection of company law, securities disclosure, and consumer protection. It then proposes an integrated liability framework.
+My study addresses these gaps by treating greenwashing as a corporate governance failure at the intersection of company law, securities disclosure, and consumer protection.
 
 ---
 
 ## Slide 6 — Research Methodology
 
-The study is qualitative, analytical, and comparative. I focus on identifying, analysing, and synthesising legal rules and standards. It is doctrinal, not empirical.
+The study is comparative, qualitative and analytical. I focussed on identifying, analysing, and synthesising legal rules and standards.
 
-The slide lists my sources. They include Indian statutes, decisions of the Supreme Court, the NGT, SEBI, and foreign courts, regulatory instruments such as the BRSR framework and the CCPA and ASCI Guidelines, and parliamentary reports and research papers.
+The slide lists my sources. They include Indian statutes, decisions of the Supreme Court, etc.
 
-For the jurisprudential analysis, I used Hohfeld's framework. It breaks a broad corporate "duty" into four precise legal relations. These are duty and claim-right, privilege and no-right, power and liability, and immunity and disability. I also used principal-agent, legitimacy, stakeholder, decoupling, and institutional theory.
+For the jurisprudential analysis, I used Hohfeld's framework. 
 
-For statutory interpretation, I used textual, contextual, and purposive analysis of the Companies Act 2013, the Consumer Protection Act 2019, and the relevant SEBI Regulations.
+[It breaks a corporate "duty" into four precise legal relations. These are duty and claim-right, privilege and no-right, power and liability, and immunity and disability. 
+I also used principal-agent, legitimacy, stakeholder, decoupling, and institutional theory.]
 
-For the comparative component, I looked at the EU, US, UK, and Australia, as well as selected developing countries. That last inclusion was deliberate because the benchmark should not come only from wealthy jurisdictions.
+For statutory interpretation, I used textual, contextual, and purposive analysis of relevant acts and regulations.
+
+For the comparative component, I looked at regulations from EU, US, UK, and Australia, as well as selected developing countries. 
 
 I also carried out a critical assessment of the regulatory system. This maps the design and coordination problems between MCA, SEBI, CCPA, and ASCI, and identifies gaps, penalty arbitrage, and backsliding.
 
