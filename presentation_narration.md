@@ -187,178 +187,144 @@ That is why the thesis argues for a corporate governance pathway. It moves enfor
 
 ## Slide 12 — Greenwashing as a Corporate Accountability Failure
 
-This answers Research Question 3 and provides the jurisprudential foundation of treating Greenwashing as a Corporate Accountability Failure.
+This slide answers Research Question 3 and provides the jurisprudential basis for treating greenwashing as a corporate accountability failure.
 
-Let me begin with a more basic question. What is a company in law? The thesis tests five classic theories of corporate personality.
+Lets consider what a company is in law. The thesis tests five classic theories of corporation. And the realist and stakeholder position is most close to Indian Legal position. A company is a real social actor, its green promises create legal expectations, and Section 166(2) makes environmental care an inherent duty.
 
-Indian legal position in Companies Act aligns well with the Realist viewpoint that is a company is a real social actor, so its green promises create genuine legal expectations. This is the stakeholder position, and it is also the position Indian law takes in Section 166(2) of Companies Act.
+I then used Hohfeld's framework to ask whether that duty is enforceable.
 
-To identify where that duty fails, I applied Hohfeldian analysis. Hohfeld's point is that every legal relation has a corresponding legal position, so a duty is meaningful only if someone holds the corresponding claim-right. Four findings emerge.
+Briefly, the Hohfeld matrix maps each legal position to its counterpart: duty to claim-right, privilege to no-right, power to liability, and immunity to disability.
 
-First, there is a duty without a claimant. Section 166(2) mandates environmental care, but affected stakeholders have no corresponding claim-right or standing to sue. A duty without a claim-right is not enforceable; it remains aspirational.
+In Hohfeldian terms, they concern duty, privilege, power, and immunity.
 
-Second, management's freedom to communicate can be abused. In Hohfeld's terms, management has a privilege to decide how it advertises, while the public generally has no legal right to control that communication. That freedom is legitimate, but managerial discretion is not a licence to mislead. Greenwashing is where that freedom crosses into deception.
+First, there is a broken duty without a claimant. Section 166(2) mandates environmental care, but affected stakeholders have no corresponding claim-right or standing to sue. The duty remains aspirational.
 
-Third, information asymmetry creates a relationship of power and liability. The company prepares the BRSR disclosures, and they remain unverified. The company therefore holds the informational power, while the public bears the risk of relying on it without independent verification before publication.
+Second, management has commercial freedom to communicate. That privilege is legitimate, but it is not a licence to mislead. Greenwashing begins when managerial discretion crosses into deception and unsubstantiated claims.
 
-Fourth, there is an immunity created by limited liability. The corporate veil shields those who benefit from the company's green reputation. ESG gains remain private, while environmental damage is externalised. In Hohfeldian terms, the public is left with a disability. It cannot effectively challenge that immunity. The result is a failure of deterrence.
+Third, there is an information asymmetry. Companies hold the informational power because BRSR disclosures remain unverified, while the public bears the risk of acting on them without upstream verification.
 
-So greenwashing is not merely a marketing wrong. It is an accountability failure built into these legal relationships.
+Fourth, limited liability creates a shield. The corporate veil protects those who benefit from the green reputation, while ESG gains remain private and environmental harm is externalised.
+
+Greenwashing is therefore more than a marketing wrong. It is an accountability and deterrence failure within the company's legal relationships.
 
 ---
 
-## Slide 13 — Why Section 166(2) Remains Weakly Enforced
+## Slide 13 — Why Section 166(2) of the Companies Act Remains Weakly Enforced
 
-If Section 166(2) is textually strong, why has it led to so little enforcement? The analysis in Chapter 3 groups the reasons under three headings and begins the answer to Research Question 4.
+If Section 166(2) is textually strong, why has it produced so little enforcement? This begins Research Question 4: what duties, disclosure obligations, and assurance requirements under company and securities law can ground liability for misleading environmental claims?
 
-First, there are substantive and doctrinal hurdles. The operative terms are undefined, including "community", "environment", and the "best interests" of stakeholders. There is also the protection given by the business judgment rule. Courts rarely second-guess commercial fiduciary choices, and a board can present a sustainability claim as a commercial judgment. Finally, there is a precedent gap. No case law links an environmental misstatement to a director's breach of duty, so a petitioner has little precedent to rely on.
+There are three barriers. First, substantive and doctrinal hurdles: "community", "environment", and stakeholder "best interests" remain undefined. The business judgment rule protects commercial choices, and there is no precedent connecting an environmental misstatement to a director's breach.
 
-Second, there are procedural and standing barriers. Mismanagement petitions under Sections 241 to 244 are available only to shareholders who meet the eligibility thresholds, so external stakeholders, the very people the environmental duty protects, are shut out. There is also no referral bridge. A CCPA or SEBI finding of greenwashing does not automatically trigger MCA action under Section 166(2). The finding stops with the authority that made it.
+Second, procedural and standing barriers: Sections 241 to 244 open mismanagement petitions only to qualifying shareholders. External stakeholders are shut out, and a CCPA or SEBI finding does not automatically trigger MCA action under Section 166(2).
 
-Third, there are remedial and economic problems. Section 166(7) sets the penalty within a range of one to five lakh rupees. For a company greenwashing on any serious scale, that is not a deterrent. Directors therefore face a short-term incentive, with immediate profit on one side and an environmental duty with no realistic penalty on the other.
+Third, remedial and economic deficits: Section 166(7) sets a penalty of only one to five lakh rupees. That is too small to deter board-level greenwashing and creates a short-term bias towards immediate profit.
 
-So the duty already exists. What is missing is an effective trigger involving standing, a referral bridge, and a penalty that has a meaningful effect.
+The duty exists, but it lacks an accessible claimant, a referral mechanism, and a credible penalty.
 
 ---
 
 ## Slide 14 — Limitations of SEBI's ESG Regime
 
-The second half of Research Question 4 concerns securities law. The analysis is based on Chapter 5.
+The second part of Research Question 4 concerns securities law.
 
-My finding, in one sentence, is that SEBI's BRSR has improved the *format* of ESG disclosure, but its scope, assurance, and enforcement remain too weak to make greenwashing costly.
+In one sentence: BRSR improved the format of ESG disclosure, but its scope, assurance, and enforcement remain too weak to make greenwashing costly.
 
-Let us look at the trajectory. In 2021, BRSR was introduced and made mandatory for the top 1000 listed entities. In 2023, BRSR Core followed, with defined KPIs, mandatory reasonable assurance, and value-chain reporting. That was the high point. In December 2024, assurance was diluted to "assessment", and value-chain disclosure was deferred and made voluntary. In 2025, the scope was narrowed further.
+BRSR became mandatory for the top 1,000 listed entities in 2021. BRSR Core followed in 2023 with defined KPIs, mandatory reasonable assurance, and value-chain reporting. Since December 2024, assurance has been softened to an "assessment or assurance" option. Value-chain reporting was deferred, made voluntary, and narrowed by a 2 percent threshold and a 75 percent cap. The scope was narrowed further in 2025.
 
-The trend has therefore been a retreat rather than a strengthening of the rules.
-
-There are three problems here. First, there are design limits. BRSR covers only the top 1000 listed firms, leaving large unlisted polluters outside it. Single materiality means the company reports what is financially material to itself, so its impact on the wider environment remains under-reported. Without sector-specific metrics, the data is also difficult to compare.
-
-Then there is the backsliding. Mandatory audits were replaced with a softer "assessment or assurance" option. Value-chain reporting was deferred, made voluntary, and then narrowed with a 2 percent threshold and a 75 percent cap.
-
-Finally, there is the enforcement reality. The Gensol–BluSmart action was triggered by whistleblowers, not by routine ESG monitoring. In January 2025, a SEBI Whole-Time Member publicly flagged false BRSR claims, so the regulator itself acknowledges the problem. Yet SEBI still has no dedicated ESG enforcement team.
+Three problems follow. Large unlisted polluters remain outside the regime. Single materiality underreports a company's wider environmental impact, while the absence of sector-specific metrics limits comparison. Finally, enforcement is largely reactive: the Gensol-BluSmart action followed whistleblowers rather than routine ESG market scans. In January 2025, a SEBI Whole-Time Member publicly flagged false BRSR claims, yet SEBI still has no dedicated ESG enforcement team.
 
 ---
 
 ## Slide 15 — India Has Legal Grounds But Enforcement Is Weak: A Comparison
 
-Let me consolidate India's position, drawing on Chapters 3, 4, and 5. The legal foundation is strong, but it has not been converted into visible, routine enforcement.
+This slide consolidates India's position across Chapters 3, 4, and 5. The legal foundation is strong, but it has not become visible, routine enforcement.
 
-The comparisons on this slide are deliberate. The point is not that the law is absent; it is that each provision is accompanied by an enforcement gap.
+Section 166(2) places environmental protection within directors' duties, yet no reported case has imposed director liability for a green claim. Supreme Court decisions including *Tata Consultancy Services v. Cyrus Mistry* and *M.K. Ranjitsinh* affirm environmental duties and climate rights, but narrow standing limits public and civil-society challenges. BRSR formalises sustainability disclosure, while partial and delayed assurance leaves much of the data effectively self-certified.
 
-Section 166(2) explicitly places environmental protection within directors' duties, yet no reported case has imposed director liability under it for green claims.
+The contrast is clear. ASIC recorded 47 greenwashing interventions in Australia in the 15 months ending June 2024. The US FTC and SEC brought more than 90 actions between 2021 and 2023. France's competition authority issued 141 warnings and 114 injunctions.
 
-The Supreme Court in *Tata Consultancy Services v. Cyrus Mistry* and *M.K. Ranjitsinh* affirms environmental duties and climate rights, yet narrow legal standing prevents the affected public and civil society from bringing a claim.
-
-SEBI's BRSR and BRSR Core formalise detailed sustainability disclosures, while the audits behind them remain partial and delayed, leaving the data largely self-certified.
-
-Now compare that with the enforcement record elsewhere. In Australia, the securities regulator ASIC made 47 greenwashing-related regulatory interventions in the 15 months ending June 2024. In the United States, the FTC and the SEC together brought over 90 greenwashing enforcement actions between 2021 and 2023. In the European Union, France's competition authority alone issued 141 warnings and 114 injunctions for misleading environmental claims.
-
-India, by contrast, has comprehensive rules on paper but scarce enforcement.
-
-The gap is therefore not one of drafting.
+India has rules on paper, but not comparable routine enforcement. The gap is therefore not simply a drafting problem.
 
 ---
 
 ## Slide 16 — India's Enforcement Gap Is a Design Problem: A Comparative Study
 
-It is tempting to say India's problem is poor implementation, meaning that the rules are fine but the regulators are under-resourced. My comparative finding, based on Chapters 4 and 5, is that this is only half true. The enforcement gap is also a design problem.
+The comparative evidence points to a design problem as well as an implementation problem.
 
-Each of the three stronger jurisdictions has features that India currently lacks.
+The EU has an integrated reporting architecture. CSRD provides board accountability, double materiality, phased assurance, and standardised ESRS reporting. The Green Claims Directive adds lifecycle substantiation and accredited verification before publication.
 
-The European Union built an *integrated reporting architecture*. The CSRD gives direct board accountability, double materiality, a phased move to reasonable assurance, and a standardised ESRS format. The Green Claims Directive also requires lifecycle substantiation and accredited verification *before* publication.
+The UK aligns its regulators: the FCA requires claims to be fair, clear, and evidence-backed, while the CMA can impose fines of up to 10 percent of global turnover. Australia provides visible enforcement: ASIC's interventions included an A$11.3 million penalty against Mercer Super, with ASIC and the ACCC treating greenwashing as a joint priority.
 
-The United Kingdom built *aligned regulators*. The FCA requires environmental claims to be fair, clear, not misleading, and evidence-backed. The CMA can fine up to 10 percent of global turnover. Together, the two regulators form a coordinated enforcement structure rather than separate silos.
+A common feature is turnover-linked penalties.
 
-Australia provides *visible enforcement*. ASIC's 47 interventions include an 11.3 million Australian dollar penalty against Mercer Super, and ASIC and the ACCC treat greenwashing as a joint priority.
+India's design failures are five. First, there is no integrated architecture linking Section 166(2), BRSR, and the CCPA Guidelines across the life cycle of a claim. Second, there is no operational coordination protocol between regulators. Third, poor enforcement is not limited to Section 166(2); it also affects the BRSR regime and the CCPA Guidelines. Fourth, the regulatory direction is backsliding rather than tightening, as shown by the assurance and value-chain relaxations. Fifth, penalties remain fixed at low caps: Rs 50 lakh under CCPA, Rs 5 lakh under Section 166(7), and Rs 10 lakh under FSSAI.
 
-One feature appears in all three systems. It is the use of turnover-linked penalties. This is not an EU peculiarity; it is a common design choice.
-
-When we compare India's design with these systems, we can see five failures.
-
-First, there is no integrated architecture. Nothing links Section 166(2), SEBI's BRSR, and the CCPA Guidelines across the life cycle of a single claim. Second, there is no protocol for coordination between regulators.
-
-Third, my analysis shows that poor enforcement is not confined to Section 166(2); it also extends to the BRSR regime and the CCPA Guidelines.
-
-Fourth, the regulatory direction has been one of retreat rather than tightening, as shown by the BRSR assurance and value-chain relaxations.
-
-Fifth, penalties remain fixed at low caps. The CCPA cap is 50 lakh rupees, the Section 166(7) cap is five lakh, and the FSSAI cap is ten lakh. These amounts are far below global practice.
-
-I call this penalty arbitrage. When the maximum penalty is smaller than the marketing budget, greenwashing stops being a serious risk and becomes a rational business strategy.
-
-The practical significance of this comparison is that a design deficit cannot be fixed simply by asking regulators to try harder. It requires structural reform.
+This creates what I call "penalty arbitrage": if the maximum fine is smaller than the marketing budget, greenwashing can become a rational business decision. The lesson is straightforward: regulators need structural reform, not only more effort.
 
 ---
 
 ## Slide 17 — International Best Practices: A Comparative Benchmark
 
-This answers Research Question 5. From the comparative study, I identified ten design features used by effective jurisdictions. These form the basis of my recommendations.
+This answers Research Question 5. The comparative study identifies ten design features, which can be grouped into four principles.
 
-The first is pre-approval for claims, meaning independent certification before a green claim is published, as under the EU Green Claims Directive and in Colombia.
+First, prove claims before publication through pre-approval, lifecycle assessment, phased third-party auditing, and a reversed burden of proof.
 
-The second is mandatory third-party auditing, phased from basic review to full financial-grade audit, under the EU CSRD and in Australia.
+Second, measure the full impact through double materiality, mandatory Scope 3 reporting, and specific standards for carbon claims.
 
-The third is double materiality. This means disclosing both the financial risk to the firm and the firm's impact on the planet, under the EU's ESRS.
+Third, prohibit ambiguity by restricting vague environmental buzzwords unless they are supported by measurable evidence.
 
-The fourth is lifecycle assessment, meaning cradle-to-grave analysis for eco-product claims, under the EU and UK Green Claims frameworks.
+Fourth, make violations costly and coordinated through turnover-linked penalties of 4 to 10 percent of revenue, shared data, and joint investigations across consumer, financial, and corporate regulators.
 
-The fifth is mandatory Scope 3 emissions reporting, so a company cannot hide the pollution generated by its suppliers.
-
-The sixth is a reversed burden of proof. The company must prove that its claim is true. This is the approach taken in Canada and the EU, and it directly addresses the information-asymmetry problem.
-
-The seventh is specific rules for carbon claims, including strict standards for "carbon neutral" claims and the retirement of verified credits.
-
-The eighth is a ban on vague buzzwords without measurable proof, under the EU's Empowering Consumers Directive and UK CMA practice.
-
-The ninth is turnover-linked penalties of 4 to 10 percent of revenue, so the fine cannot be treated as a cost of doing business.
-
-The tenth is a connected multi-agency system, with automatic case-sharing and joint investigations between consumer, financial, and company regulators.
+These features, drawn from the EU, UK, Australia, Canada, and Colombia, form the benchmark for my recommendations.
 
 ---
 
-## Slide 18 — Other Gaps in the Indian Regulatory Ecosystem
+## Slide 18 — Other Gaps in Indian Regulatory Ecosystem
 
-Beyond these design failures, Chapter 5 identifies three further structural gaps. Together with the backsliding and penalty arbitrage discussed on the previous slide, these answer Research Question 6.
+Chapter 5 identifies three further gaps in India's regulatory ecosystem.
 
-The first is definitional fragmentation. CCPA, SEBI, and ASCI each define greenwashing differently according to their separate mandates. Key technical terms such as "carbon neutral" and "net zero" also remain legally undefined in India. The consequence is that companies may invest in *defensible wording* rather than real environmental progress. Legal drafting can become a substitute for decarbonisation.
+First, definitions are fragmented. CCPA, SEBI, and ASCI take different approaches, while terms such as "carbon neutral" and "net zero" remain legally undefined. Companies can therefore focus on defensible wording instead of real decarbonisation.
 
-The second is regulatory proliferation and ambiguity. A single green claim on a food package can simultaneously involve CCPA, SEBI, MCA, FSSAI, and MoEFCC. I call the May 2025 Taxonomy the Green Taxonomy Paradox because it added another parallel, voluntary framework without harmonising the rules already in place. In other words, the response to fragmentation was more fragmentation. There is no lead regulator, mandatory data-sharing, or joint investigative capacity.
+Second, there is regulatory proliferation without coordination. One claim may involve CCPA, SEBI, MCA, FSSAI, and MoEFCC. The May 2025 Taxonomy added another voluntary framework without harmonising the existing rules. I call this the Green Taxonomy Paradox: fragmentation was answered with more fragmentation. There is still no lead regulator, mandatory data-sharing, or joint investigative capacity.
 
-The third is a scientific and technical verification gap. Regulators lack specialised in-house expertise in carbon accounting and lifecycle audits, so even a well-founded complaint can be difficult to assess. India also has no joint enforcement teams, shared technical experts, or unified enforcement database for greenwashing matters.
+Third, regulators lack enough technical capacity in carbon accounting and lifecycle assessment. India also lacks joint enforcement teams, shared technical experts, and a unified enforcement database for greenwashing matters.
 
-This is why even a well-drafted rule can fail in practice. Regulators do not yet have enough capacity to verify the claims.
+A rule can be well drafted and still fail if the system cannot verify the claim.
 
 ---
 
 ## Slide 19 — General Suggestions for Regulatory Reform
 
-That brings me to the recommendations for Research Question 7, based on Chapter 6. I present them at two levels. The first is general institutional reform, and the second is specific statutory amendments.
+These are some of my recommendations based on Chapter 6. I begin with institutional reform.
 
-First, I recommend institutional integration through a permanent inter-regulatory council linking MCA, SEBI, CCPA, MoEFCC, CPCB, BIS, and FSSAI. This ensures that an environmental claim cannot shift its meaning across investor filings, consumer ads, and technical compliance reports.
+First, we need to create a permanent inter-regulatory council linking MCA, SEBI, CCPA, MoEFCC, CPCB, BIS, and FSSAI. It would harmonise the meaning of an environmental claim across advertisements, investor filings, and technical reports.
 
-Second, I recommend a lead-regulator model with one coordinating agency, mandatory cross-referral, shared evidence protocols, and harmonised definitions. This would not displace existing regulators; it gives the system a single point of accountability which it currently lacks.
+Second, designate a lead regulator responsible for coordination, mandatory cross-referral, shared evidence protocols, and common definitions. Existing regulators would retain their powers, but the system would have a clear point of accountability.
 
-Third, I recommend standardised verification. This shifts our regulatory posture from reactive complaints to ex-ante substantiation. It requires lifecycle verification (LCA), product-category rules, and accredited verifiers, giving "substantiation" a defined technical meaning rather than leaving it to be argued case by case.
+Third, standardise ex-ante verification through lifecycle assessment, product-category rules, and accredited verifiers.
 
-Fourth, I recommend proactive surveillance through regular market sweeps in high-risk sectors, anomaly detection, and cross-checking corporate ESG claims against the actual pollution records held by CPCB and state boards. That compliance data already exists; it is simply not connected to the claims.
+Fourth, introduce proactive surveillance through market sweeps in high-risk sectors, anomaly detection, and cross-checking ESG claims against pollution records held by CPCB and state boards.
 
-Fifth, I recommend building enforcement capacity through shared in-house expertise in carbon accounting, GHG scopes, and ESG assurance. Without this, even a well-drafted rule cannot be enforced.
+Finally, give relevant regulators in-house ESG surveillance capacity and shared expert panels in carbon accounting, greenhouse-gas scopes, and ESG assurance. Without technical capacity, even good rules will remain difficult to enforce.
 
 ---
 
 ## Slide 20 — Specific Recommendations for Legal Reform
 
-The specific recommendations translate these principles into detailed amendments across three statutes.
+These principles translate into amendments across three areas.
 
-Let us take the Companies Act first, through the MCA. Section 166(7) should be amended so that penalties scale up to 1 percent of company turnover, with a minimum floor of 5 crore rupees, accompanied by up to three years of director disqualification under Section 164(2)(b). We should also insert Section 166(8) to give affected stakeholders, creditors, and consumer organisations direct standing before the NCLT, explicitly bypassing the 10 percent shareholding barrier under Section 244. This directly solves the Hohfeldian problem—a duty without an accessible claimant cannot create deterrence. Boards meeting Section 135 thresholds should also be required under a new Section 135A to constitute an ESG Committee with independent technical expertise to verify claims before publication, backed by whistleblower protections under Section 177(9).
+Under the Companies Act and MCA, first create direct statutory standing. A new Section 166(8) should give affected persons, creditors, and consumer organisations standing before the NCLT, without the Section 244 shareholding barrier.
 
-Turning to SEBI and securities law, we must reverse the March 2025 dilutions and restore mandatory reasonable assurance under ISAE 3000, alongside comprehensive Scope 3 value-chain reporting without the 75 percent cap. Material ESG misstatements should be explicitly classified as fraudulent under the PFUTP Regulations, with mandatory referral to the MCA for director accountability. BRSR should also transition to a double-materiality model with sector-specific standards, while ESG rating providers face financial penalties and strict competence requirements.
+Second, a new Section 135A should require boards meeting the Section 135 thresholds to establish an ESG committee for ex-ante claim pre-approval. Third, Section 177(9) should expressly protect whistleblowers reporting environmental misrepresentations under Section 166(2). Finally, Section 166(7) should impose a penalty of up to 1 percent of turnover, with a minimum of Rs 5 crore, together with up to three years' director disqualification under Section 164(2)(b).
 
-Finally, under the CCPA and consumer law, the Central Government should use Section 101 to elevate the 2024 Guidelines into formal, binding Greenwashing Rules. Section 21 should introduce graduated turnover-based penalties of 1 to 4 percent alongside mandatory corrective advertising. The puffery exception must be narrowed so that measurable claims like net-zero require published transition plans and budgets, while green imagery carries a rebuttable presumption. Lastly, statutory schedules should set clear testing standards for claims like "biodegradable" and "carbon neutral", supported by a protected whistleblower channel.
+Under securities law, amend BRSR to restore mandatory reasonable assurance and full Scope 3 value-chain disclosure. Material ESG misstatements should be classified as fraud under the PFUTP Regulations and referred automatically to the MCA. BRSR should add impact materiality alongside financial materiality, and ESG rating providers should meet minimum competence and certification requirements.
 
-These are not isolated fixes. They form one interlocking sequence: we substantiate in the boardroom before publication, audit independently in capital markets, refer cases automatically between regulators, and link penalties to turnover so that accountability reaches the decision-makers who approved the claim.
+Under consumer law, use Section 101 to elevate the 2024 Guidelines into binding delegated rules. Section 21 should provide 1 to 4 percent turnover-based penalties and corrective advertising of equal prominence and duration. The puffery exception should be narrowed so that claims, particularly net-zero claims, require published transition plans and budgets. Statutory schedules should set claim-specific testing benchmarks.
+
+Together, these reforms create one sequence: verify in the boardroom, assure in the capital market, refer cases across regulators, and make penalties meaningful.
 
 ---
 
-## Slide 21 — Conclusion and Thanks
+## Slide 21 — Thank You
 
 Thank you for your time and attention.
