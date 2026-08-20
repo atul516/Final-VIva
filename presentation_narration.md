@@ -365,13 +365,13 @@ I therefore find support for all three hypotheses.
 
 That brings me to the recommendations for Research Question 7, based on Chapter 6. I present them at two levels. The first is general institutional reform, and the second is specific statutory amendments.
 
-First, I recommend institutional integration through a standing inter-regulatory council linking MCA, SEBI, CCPA, MoEFCC, CPCB, and BIS, so that a greenwashing finding by any one authority becomes visible to the others.
+First, I recommend institutional integration through a permanent inter-regulatory council linking MCA, SEBI, CCPA, MoEFCC, CPCB, BIS, and FSSAI. This ensures that an environmental claim cannot shift its meaning across investor filings, consumer ads, and technical compliance reports.
 
-Second, I recommend a lead-regulator model with one coordinating agency, mandatory cross-referral, and shared evidence protocols. This would not displace the existing regulators. It would give the system a single point of accountability, which it currently lacks.
+Second, I recommend a lead-regulator model with one coordinating agency, mandatory cross-referral, shared evidence protocols, and harmonised definitions. This would not displace existing regulators; it gives the system a single point of accountability which it currently lacks.
 
-Third, I recommend standardised verification. This would involve lifecycle verification, or LCA, with product-category benchmarks and accredited verifiers. It would give "substantiation" a defined technical meaning rather than leaving it to be argued case by case.
+Third, I recommend standardised verification. This shifts our regulatory posture from reactive complaints to ex-ante substantiation. It requires lifecycle verification (LCA), product-category rules, and accredited verifiers, giving "substantiation" a defined technical meaning rather than leaving it to be argued case by case.
 
-Fourth, I recommend proactive surveillance through regular market sweeps in high-risk sectors, cross-checking ESG claims against the pollution records already held by companies. That data exists; it is simply not connected to the claims.
+Fourth, I recommend proactive surveillance through regular market sweeps in high-risk sectors, anomaly detection, and cross-checking corporate ESG claims against the actual pollution records held by CPCB and state boards. That compliance data already exists; it is simply not connected to the claims.
 
 Fifth, I recommend building enforcement capacity through shared in-house expertise in carbon accounting, GHG scopes, and ESG assurance. Without this, even a well-drafted rule cannot be enforced.
 
@@ -379,15 +379,15 @@ Fifth, I recommend building enforcement capacity through shared in-house experti
 
 ## Slide 22 — Specific Recommendations for Legal Reform
 
-The specific recommendations are organised across three statutes.
+The specific recommendations translate these principles into detailed amendments across three statutes.
 
-Let us take the Companies Act first, through the MCA. Section 166(7) should be amended so that fines scale with company revenue rather than remaining within a fixed range of one to five lakh rupees. Standing should be expanded so that affected stakeholders and civil society can enforce the Section 166(2) duty. This follows directly from the Hohfeldian analysis. A duty without a claimant cannot be effectively enforced. Boards should also have dedicated ESG committees with statutory environmental whistleblower protection.
+Let us take the Companies Act first, through the MCA. Section 166(7) should be amended so that penalties scale up to 1 percent of company turnover, with a minimum floor of 5 crore rupees, accompanied by up to three years of director disqualification under Section 164(2)(b). We should also insert Section 166(8) to give affected stakeholders, creditors, and consumer organisations direct standing before the NCLT, explicitly bypassing the 10 percent shareholding barrier under Section 244. This directly solves the Hohfeldian problem—a duty without an accessible claimant cannot create deterrence. Boards meeting Section 135 thresholds should also be required under a new Section 135A to constitute an ESG Committee with independent technical expertise to verify claims before publication, backed by whistleblower protections under Section 177(9).
 
-Turning to SEBI and securities law, mandatory reasonable assurance should be restored on a time-bound path towards full financial-grade ESG audits. Full Scope 3 value-chain reporting should also return, without the threshold and cap loopholes. Material ESG misstatements should be explicitly classified as fraudulent under the PFUTP Regulations, bringing SEBI's full enforcement powers to bear on a false BRSR disclosure.
+Turning to SEBI and securities law, we must reverse the March 2025 dilutions and restore mandatory reasonable assurance under ISAE 3000, alongside comprehensive Scope 3 value-chain reporting without the 75 percent cap. Material ESG misstatements should be explicitly classified as fraudulent under the PFUTP Regulations, with mandatory referral to the MCA for director accountability. BRSR should also transition to a double-materiality model with sector-specific standards, while ESG rating providers face financial penalties and strict competence requirements.
 
-Finally, under the CCPA and consumer law, the 2024 Guidelines should be converted into formal, binding rules under the Consumer Protection Act. Corrective advertising should be required, meaning public correction notices with turnover-based fines. The puffery exception should also be narrowed, so that buzzwords like "eco-friendly" or "sustainable" cannot be protected as mere puffery.
+Finally, under the CCPA and consumer law, the Central Government should use Section 101 to elevate the 2024 Guidelines into formal, binding Greenwashing Rules. Section 21 should introduce graduated turnover-based penalties of 1 to 4 percent alongside mandatory corrective advertising. The puffery exception must be narrowed so that measurable claims like net-zero require published transition plans and budgets, while green imagery carries a rebuttable presumption. Lastly, statutory schedules should set clear testing standards for claims like "biodegradable" and "carbon neutral", supported by a protected whistleblower channel.
 
-These are not nine separate fixes. They form one sequence. We substantiate before publication, audit independently, refer cases automatically between regulators, and set the penalty against turnover so that the risk reaches the people who approved the claim.
+These are not isolated fixes. They form one interlocking sequence: we substantiate in the boardroom before publication, audit independently in capital markets, refer cases automatically between regulators, and link penalties to turnover so that accountability reaches the decision-makers who approved the claim.
 
 ---
 
