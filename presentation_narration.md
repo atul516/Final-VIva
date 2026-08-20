@@ -191,12 +191,6 @@ This answers Research Question 3 and provides the jurisprudential foundation of 
 
 Let me begin with a more basic question. What is a company in law? The thesis tests five classic theories of corporate personality.
 
-[
-    Fiction & Contractual Theories tend to confine corporate liability to strict, narrow statutory breaches.
-    Realist, Purpose, and Stakeholder Theories justify expansive environmental accountability and fit the substantive mandate of Section 166(2).
-    Thesis Conclusion: Indian corporate law aligns most closely with the Realist–Stakeholder model, treating the corporation as a real social actor bearing non-negotiable statutory duties toward the environment and affected communities.
-]
-
 Indian legal position in Companies Act aligns well with the Realist viewpoint that is a company is a real social actor, so its green promises create genuine legal expectations. This is the stakeholder position, and it is also the position Indian law takes in Section 166(2) of Companies Act.
 
 To identify where that duty fails, I applied Hohfeldian analysis. Hohfeld's point is that every legal relation has a corresponding legal position, so a duty is meaningful only if someone holds the corresponding claim-right. Four findings emerge.
