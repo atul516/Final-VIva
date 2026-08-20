@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Forty likely examiner questions for the Ph.D. defence of Corporate Responsibility Regarding the Concern of Greenwashing — with the pressure point behind each and the line to hold.">
+<title>The Examiner's Forty</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap">
+
+<style>
+:root{
+  --bg:#F2F5F4;
+  --surface:#FFFFFF;
+  --text:#17222A;
+  --muted:#586A70;
+  --faint:#849699;
+  --rule:#D9E2E0;
+  --rule-soft:#E7EDEB;
+  --accent:#2F6F63;
+  --accent-soft:#E2EEEA;
+  --ochre:#93591A;
+  --ochre-soft:#F3E9DA;
+  --shadow:0 1px 2px rgba(23,34,42,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#10161A;
+    --surface:#171F23;
+    --text:#E3EAE7;
+    --muted:#93A4A6;
+    --faint:#6E8085;
+    --rule:#273337;
+    --rule-soft:#1F292D;
+    --accent:#66B7A3;
+    --accent-soft:#1B2E2C;
+    --ochre:#D59A4E;
+    --ochre-soft:#2C2418;
+    --shadow:0 1px 2px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#10161A;
+  --surface:#171F23;
+  --text:#E3EAE7;
+  --muted:#93A4A6;
+  --faint:#6E8085;
+  --rule:#273337;
+  --rule-soft:#1F292D;
+  --accent:#66B7A3;
+  --accent-soft:#1B2E2C;
+  --ochre:#D59A4E;
+  --ochre-soft:#2C2418;
+  --shadow:0 1px 2px rgba(0,0,0,.3);
+}
+
+*{box-sizing:border-box}
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16.5px;
+  line-height:1.62;
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:52rem;margin:0 auto;padding:0 1.5rem 6rem}
+
+/* ---------- masthead ---------- */
+.masthead{
+  border-bottom:1px solid var(--rule);
+  padding:3.5rem 0 2rem;
+  margin-bottom:2.5rem;
+}
+.eyebrow{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.7rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin:0 0 1.1rem;
+}
+h1{
+  font-family:Newsreader,Georgia,serif;
+  font-weight:500;
+  font-size:clamp(2.3rem,6vw,3.4rem);
+  line-height:1.06;
+  letter-spacing:-.015em;
+  margin:0 0 .9rem;
+  text-wrap:balance;
+}
+.standfirst{
+  font-family:Newsreader,Georgia,serif;
+  font-size:1.2rem;
+  line-height:1.5;
+  color:var(--muted);
+  margin:0 0 1.8rem;
+  max-width:38rem;
+}
+.meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.4rem 1.6rem;
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.72rem;
+  letter-spacing:.05em;
+  color:var(--faint);
+}
+
+/* ---------- nav chips ---------- */
+nav.clusters{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.45rem;
+  margin:0 0 3rem;
+}
+nav.clusters a{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.72rem;
+  letter-spacing:.03em;
+  text-decoration:none;
+  color:var(--muted);
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-radius:2px;
+  padding:.34rem .6rem;
+  transition:color .12s,border-color .12s;
+}
+nav.clusters a:hover,nav.clusters a:focus-visible{color:var(--accent);border-color:var(--accent)}
+
+/* ---------- pressure panel ---------- */
+.panel{
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-top:2px solid var(--ochre);
+  padding:1.6rem 1.5rem 1.3rem;
+  margin:0 0 3.5rem;
+  box-shadow:var(--shadow);
+}
+.panel h2{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.72rem;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  color:var(--ochre);
+  margin:0 0 .35rem;
+  font-weight:500;
+}
+.panel p.lede{margin:0 0 1.1rem;color:var(--muted);font-size:.94rem}
+.panel ol{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.62rem}
+.panel li{
+  display:grid;
+  grid-template-columns:2.6rem 1fr;
+  gap:.7rem;
+  align-items:baseline;
+  font-size:.95rem;
+  padding-bottom:.62rem;
+  border-bottom:1px solid var(--rule-soft);
+}
+.panel li:last-child{border-bottom:0;padding-bottom:0}
+.panel li a{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.78rem;
+  color:var(--accent);
+  text-decoration:none;
+  border-bottom:1px solid transparent;
+}
+.panel li a:hover,.panel li a:focus-visible{border-bottom-color:var(--accent)}
+
+/* ---------- clusters ---------- */
+section.cluster{margin:0 0 3.4rem;scroll-margin-top:1.5rem}
+.cluster-head{
+  display:flex;
+  align-items:baseline;
+  gap:.85rem;
+  border-bottom:1px solid var(--rule);
+  padding-bottom:.55rem;
+  margin-bottom:2rem;
+}
+.cluster-head .letter{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.72rem;
+  letter-spacing:.1em;
+  color:var(--accent);
+}
+.cluster-head h2{
+  font-family:Newsreader,Georgia,serif;
+  font-weight:500;
+  font-size:1.5rem;
+  letter-spacing:-.01em;
+  margin:0;
+  flex:1;
+}
+.cluster-head .count{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.7rem;
+  color:var(--faint);
+  font-variant-numeric:tabular-nums;
+}
+
+/* ---------- question blocks ---------- */
+article.q{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:.55rem;
+  margin:0 0 2.6rem;
+  scroll-margin-top:1.5rem;
+}
+@media (min-width:820px){
+  article.q{grid-template-columns:4.6rem 1fr;column-gap:1.6rem}
+  article.q > .gutter{grid-row:1 / span 4}
+}
+.gutter{display:flex;flex-direction:row;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+@media (min-width:820px){.gutter{flex-direction:column;gap:.4rem;padding-top:.28rem}}
+.num{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:1.05rem;
+  font-variant-numeric:tabular-nums;
+  color:var(--text);
+}
+.heat{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.6rem;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  padding:.13rem .34rem;
+  border-radius:2px;
+  white-space:nowrap;
+}
+.heat.certain{background:var(--ochre-soft);color:var(--ochre)}
+.heat.likely{background:var(--accent-soft);color:var(--accent)}
+.heat.possible{background:transparent;color:var(--faint);border:1px solid var(--rule)}
+
+.ask{
+  font-family:Newsreader,Georgia,serif;
+  font-size:1.24rem;
+  line-height:1.42;
+  margin:0;
+  text-wrap:pretty;
+}
+.ask em{font-style:italic}
+.run{margin:0;font-size:.95rem;color:var(--muted)}
+.run .tag{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.63rem;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  color:var(--faint);
+  display:block;
+  margin-bottom:.12rem;
+}
+.run.defence{
+  border-left:2px solid var(--accent);
+  padding-left:.9rem;
+  color:var(--text);
+}
+.run.defence .tag{color:var(--accent)}
+.ref{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.82em;
+  color:var(--faint);
+  white-space:nowrap;
+}
+strong{font-weight:600;color:var(--text)}
+.cite{font-style:italic}
+
+/* ---------- closing ---------- */
+.closing{
+  border-top:1px solid var(--rule);
+  margin-top:1rem;
+  padding-top:2rem;
+  color:var(--muted);
+  font-size:.95rem;
+}
+.closing h2{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.72rem;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  color:var(--accent);
+  margin:0 0 .9rem;
+  font-weight:500;
+}
+.closing p{margin:0 0 .9rem;max-width:38rem}
+
+a:focus-visible,nav.clusters a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+
+  <p style="font-family:'IBM Plex Mono',monospace;font-size:.72rem;letter-spacing:.06em;margin:2rem 0 -1.5rem"><a href="index.html" style="color:var(--accent);text-decoration:none">&larr; Back to Research Suite</a></p>
+
+  <header class="masthead">
+    <p class="eyebrow">Ph.D. Viva Preparation · Chanakya National Law University</p>
+    <h1>The Examiner's Forty</h1>
+    <p class="standfirst">Forty questions a hostile-but-fair external examiner is likely to put to <em>Corporate Responsibility Regarding the Concern of Greenwashing, Policy and Legal Initiatives: A Critical Study</em> — with the pressure point behind each, and the line to hold.</p>
+    <div class="meta">
+      <span>Saumya Singh · PL-2121</span>
+      <span>386 pp. · 6 chapters</span>
+      <span>Law stated: December 2025</span>
+    </div>
+  </header>
+
+  <nav class="clusters" aria-label="Question clusters">
+    <a href="#a">A · Framing</a>
+    <a href="#b">B · Method</a>
+    <a href="#c">C · Companies Act</a>
+    <a href="#d">D · Constitutional</a>
+    <a href="#e">E · SEBI &amp; BRSR</a>
+    <a href="#f">F · Consumer Law</a>
+    <a href="#g">G · Comparative</a>
+    <a href="#h">H · Reform Design</a>
+    <a href="#i">I · Theory</a>
+    <a href="#j">J · Closing</a>
+  </nav>
+
+  <div class="panel">
+    <h2>Highest pressure</h2>
+    <p class="lede">If preparation time is short, these six carry the most risk. Each targets a place where the thesis asserts more than it proves, or where the world has moved since December 2025.</p>
+    <ol>
+      <li><a href="#q7">Q7</a><span>All three hypotheses are “validated” by a doctrinal method. What could have falsified them?</span></li>
+      <li><a href="#q8">Q8</a><span>“Zero prosecutions under s.166(2)” — how do you prove a negative in a jurisdiction where ROC prosecutions and s.454 adjudications go unreported?</span></li>
+      <li><a href="#q17">Q17</a><span>The s.164(2)(b) disqualification cross-reference in your own draft amendment does not fit the mischief.</span></li>
+      <li><a href="#q19">Q19</a><span>M.K. Ranjitsinh binds the State. Companies are not State under Article 12. Where is the bridge?</span></li>
+      <li><a href="#q23">Q23</a><span>The EU — your normative anchor — has been cutting CSRD scope and moving to withdraw the Green Claims Directive since early 2025.</span></li>
+      <li><a href="#q36">Q36</a><span>Your own decoupling theory predicts that mandated ESG committees will themselves be decoupled.</span></li>
+    </ol>
+  </div>
+
+  <!-- ============ A ============ -->
+  <section class="cluster" id="a">
+    <div class="cluster-head"><span class="letter">A</span><h2>Framing, scope and contribution</h2><span class="count">01–06</span></div>
+
+    <article class="q" id="q1">
+      <div class="gutter"><span class="num">01</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">In two sentences, and without listing your chapters — what is this thesis's original contribution to legal knowledge?</p>
+      <p class="run"><span class="tag">Why it lands</span>Your Research Gap <span class="ref">(p. xliii)</span> is written as a gap in <em>integration</em>: the pieces exist, no one has joined them. Examiners hear that as synthesis, and synthesis alone does not carry a doctorate.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Lead with the two things nobody else has done: (i) the re-characterisation of greenwashing as an <strong>allocation failure</strong> — a statutory duty in s.166(2) with no correlative claim-right holder — reached through Hohfeldian decomposition; and (ii) the drafted lex ferenda package that cures it (the s.166(7) proviso, the s.166(8) standing provision, s.135A). Varottil identified the unenforceability; you are the first to draft the standing cure.</p>
+    </article>
+
+    <article class="q" id="q2">
+      <div class="gutter"><span class="num">02</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Give me your definition of greenwashing — in the words you would put into a statute.</p>
+      <p class="run"><span class="tag">Why it lands</span>Chapter 2 catalogues the definitional chaos (Vollero's 14 definitions) and Recommendation 1 is <em>harmonised definitions</em>. But the thesis never commits to one operative definition of its own. That is a visible gap between the critique and the remedy.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Have a four-element formulation memorised and ready to write on the board: a representation, <em>express or implied</em>, as to the environmental attributes, impact or credentials of a product, entity, or financial instrument, which at the time it is made is (a) materially false, (b) not substantiated by evidence in the maker's possession, or (c) rendered misleading by the omission of material qualifying information — including, in the case of forward-looking claims, the absence of a costed and independently reviewed implementation pathway.</p>
+    </article>
+
+    <article class="q" id="q3">
+      <div class="gutter"><span class="num">03</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Greenwashing is misrepresentation. It is already caught by s.2(28) and s.2(47) of the Consumer Protection Act, by s.447 of the Companies Act, and by the PFUTP Regulations. Why does it need a bespoke regime at all?</p>
+      <p class="run"><span class="tag">Why it lands</span>This is the reductive challenge to the whole project. If greenwashing is a subset of an existing wrong, the thesis becomes an enforcement complaint rather than a doctrinal contribution.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Name the four features that defeat the general law: the harm is <strong>non-transactional</strong> (no identified counterparty relied to their detriment); the victims are <strong>diffuse</strong> (market integrity, environmental commons); the subject matter is <strong>technically unverifiable</strong> without a methodology standard (Scope 3, LCA, offsets); and a large class of claims is <strong>forward-looking</strong>, so neither true nor false when made. General misrepresentation doctrine was built for none of these.</p>
+    </article>
+
+    <article class="q" id="q4">
+      <div class="gutter"><span class="num">04</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Your title is “corporate responsibility”. Your thesis is largely about director liability and disclosure obligations. Are those the same thing?</p>
+      <p class="run"><span class="tag">Why it lands</span>Chapter 3 itself distinguishes responsibility from accountability <span class="ref">(§3.5.5)</span> — the examiner will use your own distinction against your title.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Own it as the thesis's argumentative move, not a slip: the study's claim is precisely that <em>responsibility without an allocated accountability route is a category error in law</em>. The title names the field; the thesis narrows it to the enforceable core, which is what a doctoral study should do.</p>
+    </article>
+
+    <article class="q" id="q5">
+      <div class="gutter"><span class="num">05</span><span class="heat possible">Possible</span></div>
+      <p class="ask">You exclude unlisted companies, PSUs and MSMEs from your architecture. Coal India, NTPC and the state oil companies are among the largest emitters and the most active makers of green claims. Why are they outside your framework?</p>
+      <p class="run"><span class="tag">Why it lands</span>Your Scope note <span class="ref">(p. xlvii)</span> excludes sectoral deep-dives except FSSAI, and your own Finding 3 concedes that “large unlisted companies remain outside the framework altogether” — but the recommendations do not fix that.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Point out that your proposed s.135A is deliberately drafted to reach unlisted companies meeting the s.135(1) thresholds — that <em>is</em> the coverage cure, and it is the reason the reform was placed in the Companies Act rather than in LODR. Concede that PSU-specific governance (DPE guidelines, CAG audit) is a distinct study.</p>
+    </article>
+
+    <article class="q" id="q6">
+      <div class="gutter"><span class="num">06</span><span class="heat possible">Possible</span></div>
+      <p class="ask">Your List of Cases runs to nineteen entries, of which roughly seven are Indian. There is no SEBI or SAT order, no consumer commission decision, and no s.166 authority other than Tata–Mistry. Is that a sufficient case base for a doctoral thesis in Indian corporate law?</p>
+      <p class="run"><span class="tag">Why it lands</span>It is the first page an examiner flips to, and the thinness is visible at a glance.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Turn it into evidence: the thinness of the Indian case base <em>is</em> Finding 3. Then immediately demonstrate command of the adjacent authorities you did read — the SEBI adjudication practice discussed in Chapter 5, the ASCI disposals, the NGT's Volkswagen India penalty — so the sparseness reads as a finding rather than a search failure.</p>
+    </article>
+  </section>
+
+  <!-- ============ B ============ -->
+  <section class="cluster" id="b">
+    <div class="cluster-head"><span class="letter">B</span><h2>Method and evidence</h2><span class="count">07–12</span></div>
+
+    <article class="q" id="q7">
+      <div class="gutter"><span class="num">07</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Hypothesis 1 says greenwashing is “primarily a consequence of” weak corporate governance. That is a causal claim about the world. You test it doctrinally, and all three hypotheses come back validated. What finding would have falsified any of them?</p>
+      <p class="run"><span class="tag">Why it lands</span>This is the single sharpest methodological attack available. A three-for-three validation rate invites the charge that the design could only confirm. “Primarily a consequence of” is causal-primacy language that doctrinal analysis cannot reach.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Do not defend the wording — reframe the claim and then defend the substance. H1 is a <strong>doctrinal locational claim</strong>: the legal conditions that permit greenwashing to go unremedied sit in governance law, not in advertising law. State the falsifier plainly: H1 would have failed had you found a functioning enforcement route — reported s.166(2) actions, or CCPA orders reaching board-level actors. H2 would have failed on evidence of penalties exceeding the commercial gain. H3 would have failed on a lead-regulator or cross-referral protocol. You looked for all three and found none. That is a falsifiable design.</p>
+    </article>
+
+    <article class="q" id="q8">
+      <div class="gutter"><span class="num">08</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">You assert there are zero prosecutions under s.166(2) for environmental misrepresentation. How did you establish a negative? Absence from the reporters is not absence in fact.</p>
+      <p class="run"><span class="tag">Why it lands</span>The claim carries Finding 3 and the whole case for reform. Registrar prosecutions under s.439, adjudication orders under s.454, and compounding under s.441 are very often unreported. If the examiner suspects the negative was inferred from database silence alone, the finding wobbles.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Be ready to state the search protocol out loud: which databases (SCC Online, Manupatra, MCA adjudication orders portal, NCLT/NCLAT, SAT), what search strings, what date range, and what you found. Then state the claim at its true strength — <em>no reported decision and no published adjudication order</em> — and say so in exactly those words rather than “zero prosecutions”. If you did not search MCA adjudication orders, say so and treat it as a limitation, not a bluff.</p>
+    </article>
+
+    <article class="q" id="q9">
+      <div class="gutter"><span class="num">09</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Footnote 115. You rely on a figure that 68% of Indian institutional investors doubt corporate ESG claims, and your own footnote concedes the primary report is not publicly available and the statistic comes from secondary sources. Why is that in a doctoral thesis?</p>
+      <p class="run"><span class="tag">Why it lands</span>You flagged it yourself. An examiner scanning footnotes will find the admission and treat it as a test of intellectual honesty under pressure — and of whether anything load-bearing rests on unverifiable data.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Answer in one move: the citation is transparent precisely because it is unverifiable, it is corroborative rather than load-bearing, and the proposition it supports stands independently on the EY 2024 Institutional Investor Survey (n=350) and the peer-reviewed Gidage study. Offer to demote it to a footnote-only mention or delete it in the corrected copy. Do the same audit in advance for the Equirus M&amp;A premium, IBEF and Grand View figures — all commercial sources.</p>
+    </article>
+
+    <article class="q" id="q10">
+      <div class="gutter"><span class="num">10</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Your Finding 1 rests substantially on the claim that 47% of NIFTY 50 companies exhibit greenwashing. How does that study operationalise “greenwashing”, and what does its proxy actually measure?</p>
+      <p class="run"><span class="tag">Why it lands</span>A striking borrowed statistic invites the question whether the candidate has read the methodology or only the abstract.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Explain the proxy honestly: these studies measure <strong>decoupling</strong> — the gap between an ESG disclosure score and an ESG performance score — not deception. The proxy captures no intent and cannot distinguish aspiration from misrepresentation. Then make that limitation work for you: it is exactly why a legal test must be built on substantiation and process, not on outcome gaps.</p>
+    </article>
+
+    <article class="q" id="q11">
+      <div class="gutter"><span class="num">11</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Why is there no primary empirical component? A content analysis of BRSR Core filings for the top 100, or an RTI to the CCPA on complaints disposed since October 2024, would have converted your enforcement deficit from an assertion into a finding.</p>
+      <p class="run"><span class="tag">Why it lands</span>The thesis repeatedly describes itself as reaching “empirical” conclusions <span class="ref">(§2.5)</span> while the methodology is expressly doctrinal and secondary-source based.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Defend the choice on the research question: the inquiry is the <em>adequacy of legal provisions</em>, which is a doctrinal question. Then concede the specific opportunity — an RTI to the CCPA is cheap and would have been decisive — and name it as the immediate follow-on study. Examiners reward a candidate who can identify the next project.</p>
+    </article>
+
+    <article class="q" id="q12">
+      <div class="gutter"><span class="num">12</span><span class="heat possible">Possible</span></div>
+      <p class="ask">On what principle did you select your comparator jurisdictions? China is the world's largest issuer of green bonds and has an extensive ESG disclosure regime, and it is a far closer structural analogue to India than the European Union. It is absent.</p>
+      <p class="run"><span class="tag">Why it lands</span>The comparator set is EU / US / UK / Canada / Australia plus brief treatments of Latin America, Southeast Asia and South Africa. It is a common-law-and-EU set, which reads as convenience rather than design.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>State the selection principle explicitly — the sample was chosen for <strong>variance on the seven design variables</strong> in §4.1.4 (ex ante versus ex post substantiation, assurance level, officer liability, penalty architecture, integration, enforcement posture), not for economic peer-matching. Concede China as a genuine omission and say what it would have tested: whether strong state capacity substitutes for private enforcement.</p>
+    </article>
+  </section>
+
+  <!-- ============ C ============ -->
+  <section class="cluster" id="c">
+    <div class="cluster-head"><span class="letter">C</span><h2>The Companies Act argument</h2><span class="count">13–18</span></div>
+
+    <article class="q" id="q13">
+      <div class="gutter"><span class="num">13</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Read s.166(2) to me. Is “for the protection of environment” a freestanding duty, or a consideration inside the overarching duty to act in good faith to promote the objects of the company? The UK's s.172(1)(d) says directors need only “have regard to” environmental impact. On what canon do you build the stronger Indian reading?</p>
+      <p class="run"><span class="tag">Why it lands</span>Your whole reform architecture rests on the deontological reading at §3.6.2, but that section presents the two readings and then simply prefers one. The examiner will ask for the interpretive work.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Give three arguments, not a preference. <strong>Textual:</strong> Parliament had the UK model before it and deliberately omitted “have regard to”, and every other limb of s.166(2) names a beneficiary class — members, employees, shareholders, the community — while “protection of environment” names an object, which resists being read as a mere interest to be balanced. <strong>Contextual:</strong> s.135 with Schedule VII already commits the Act to environmental objects, so the limb is not an orphan. <strong>Purposive:</strong> post-<span class="cite">M.K. Ranjitsinh</span>, a construction that renders the limb inert should be avoided.</p>
+    </article>
+
+    <article class="q" id="q14">
+      <div class="gutter"><span class="num">14</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">You cite <span class="cite">Tata Consultancy Services v. Cyrus Investments</span>, (2021) 9 SCC 449 at ¶19.30, as “confirming” that the environmental duty is a freestanding limb of s.166(2). Was that the ratio? Was the point argued? What weight can it bear?</p>
+      <p class="run"><span class="tag">Why it lands</span>Your §3.6.6 uses the word “confirms”. The case was an oppression and mismanagement appeal about the removal of an executive chairman; the observations on s.166 arose in a wholly different frame. This is the most attackable single citation in the thesis.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Concede the classification immediately and without distress — it is <strong>obiter</strong>, from a three-judge bench, on the construction of s.166 in a stakeholder-duties discussion. Then hold the ground that matters: obiter of the Supreme Court on the construction of a provision is strongly persuasive and there is no competing authority. Change “confirms” to “supports” in the corrected copy and say you will.</p>
+    </article>
+
+    <article class="q" id="q15">
+      <div class="gutter"><span class="num">15</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Is s.166(7) an offence or an adjudicable penalty? Who initiates action, under what procedure? And given that Parliament's direction of travel since the 2019 and 2020 amendments has been decriminalisation and civil adjudication, are your penalty proposals not swimming against declared legislative policy?</p>
+      <p class="run"><span class="tag">Why it lands</span>The thesis proposes a penalty proviso to s.166(7) without ever mapping the enforcement machinery — s.439 governs cognizance of offences, s.454 governs adjudication of penalties, and which route applies determines whether your reform is workable at all.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Know the mechanism cold before the viva, and answer the policy point head-on: your proposal is <em>consistent</em> with decriminalisation, not against it. You propose no imprisonment. You propose a <strong>monetary penalty scaled to turnover plus disqualification</strong> — which is the civil-adjudication model the amendments favour, made to bite. Decriminalisation was about proportionality of sanction type, not about abandoning deterrence.</p>
+    </article>
+
+    <article class="q" id="q16">
+      <div class="gutter"><span class="num">16</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Your proposed s.166(8) would let “any person affected by the environmental claim” and any recognised consumer organisation move the NCLT. You have just spent Chapter 5 condemning fragmentation. Does this not convert a company-law tribunal into a third environmental forum alongside the NGT and the consumer commissions — and what relief would the NCLT actually grant?</p>
+      <p class="run"><span class="tag">Why it lands</span>It is the internal-consistency trap, and it is a fair one. The remedy reproduces the disease the thesis diagnoses.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Draw the jurisdictional line sharply: the NGT adjudicates <strong>environmental harm</strong>; the consumer commissions adjudicate <strong>consumer detriment</strong>; the NCLT would adjudicate <strong>breach of a director's statutory duty</strong> — a company-law question no other forum can decide. The relief sought is not damages but declaration, penalty and disqualification. Then strengthen the draft on the spot: add a leave requirement, so the NCLT filters out claims properly belonging elsewhere and multiplicity is controlled at the threshold.</p>
+    </article>
+
+    <article class="q" id="q17">
+      <div class="gutter"><span class="num">17</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Your proviso to s.166(7) makes the director “liable for disqualification under Section 164(2)(b)”. Section 164(2)(b) deals with failure to repay deposits, redeem debentures or pay a declared dividend. It has nothing to do with environmental misrepresentation. What did you intend?</p>
+      <p class="run"><span class="tag">Why it lands</span>It is a concrete, checkable drafting error in the thesis's flagship recommendation, and it appears twice — in the abstract at p. lxiii and again at §6.3. An examiner who reads statutes for a living will find it.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Do not argue. Accept it as a drafting error and supply the correct instrument immediately: the disqualification must be created as a <strong>new ground</strong> — a fresh clause (c) in s.164(2), or a consequential amendment to s.164(1) — because s.164(2)(b) is a closed category tied to financial default. Having the corrected draft ready turns a hit into a demonstration of command.</p>
+    </article>
+
+    <article class="q" id="q18">
+      <div class="gutter"><span class="num">18</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Your s.135A would require a board committee to “review and approve all environmental claims before publication”. Every advertisement, every package, every post? And where in India will you find directors with “demonstrable expertise in environmental science or carbon accounting” to sit on several thousand boards?</p>
+      <p class="run"><span class="tag">Why it lands</span>Workability. A board committee cannot clear marketing copy, and the expertise supply constraint is real given the independent director databank and s.149(6) eligibility rules.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Reframe from approval to <strong>system ownership</strong> — the committee approves the <em>claims policy, the substantiation protocol and the claim categories</em>, and personally clears only claims above a materiality threshold (corporate-level, forward-looking, or quantified claims). That mirrors how audit committees handle materiality. On supply, note the same objection was made about independent directors in 2013 and about audit committee financial expertise, and that a phased threshold — listed and large unlisted first — is already built into the draft.</p>
+    </article>
+  </section>
+
+  <!-- ============ D ============ -->
+  <section class="cluster" id="d">
+    <div class="cluster-head"><span class="letter">D</span><h2>Constitutional exposure</h2><span class="count">19–21</span></div>
+
+    <article class="q" id="q19">
+      <div class="gutter"><span class="num">19</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask"><span class="cite">M.K. Ranjitsinh</span> recognises a right against the adverse effects of climate change under Articles 14 and 21 — enforceable against the State. A company is not “State” under Article 12. How exactly do you travel from that judgment to a duty binding private directors? Your §3.6.5 lists this as an open question, but §3.6.6 records the duty as “constitutionalised”.</p>
+      <p class="run"><span class="tag">Why it lands</span>The thesis flags the gap and then writes as if it had been closed. A constitutional-law examiner will put those two passages side by side.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Separate two claims and concede one. You do <strong>not</strong> assert direct horizontal enforcement of Article 21 against a company. You assert <strong>interpretive influence</strong>: constitutional values inform the construction of statutory duties, so s.166(2) is read in the light of a recognised fundamental right. Then supply the authorities the thesis lacks — <span class="cite">Vishaka</span> for constitutional norms binding private employers, <span class="cite">M.C. Mehta</span> (Oleum) for constitutional obligations reaching private enterprise, Articles 48A and 51A(g) as interpretive aids, and above all <span class="cite">Kaushal Kishor v. State of U.P.</span>, (2023) 3 SCC 1, where a Constitution Bench held that rights under Articles 19 and 21 are enforceable against persons other than the State. That case is not in your thesis and it is the strongest answer to this question.</p>
+    </article>
+
+    <article class="q" id="q20">
+      <div class="gutter"><span class="num">20</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">You would narrow the puffery exception and create a rebuttable presumption that generic environmental imagery — a green leaf, an earth symbol — is a claim requiring substantiation. Commercial speech is protected under Article 19(1)(a) since <span class="cite">Tata Press v. MTNL</span>. Where is your Article 19(2) and 19(6) analysis? There is none in the thesis.</p>
+      <p class="run"><span class="tag">Why it lands</span>Genuine gap: the thesis contains no constitutional testing of its own proposals. A presumption attaching to imagery is facially over-inclusive, and the candidate must be able to defend it.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Three steps. First, <span class="cite">Tata Press</span> protects commercial speech but expressly excludes <strong>false, misleading, unfair or deceptive advertising</strong> from that protection — so the regulation of unsubstantiated claims is not a 19(1)(a) intrusion at all. Second, a substantiation requirement is a <em>disclosure obligation</em>, the least restrictive means available, not a prohibition on speech. Third, the presumption is <strong>rebuttable</strong> and the burden discharged by producing the evidence the advertiser must hold anyway. Concede that the thesis should carry this analysis and offer to add it.</p>
+    </article>
+
+    <article class="q" id="q21">
+      <div class="gutter"><span class="num">21</span><span class="heat likely">Likely</span></div>
+      <p class="ask">You would expose an individual director to a penalty of 1% of the <em>company's</em> turnover. The UK's 10% cap applies to the undertaking, not to individuals. SEBI's s.15HA caps even an entity at ₹25 crore. Is there any precedent in Indian law for a personal penalty pegged to corporate turnover, and would it survive an Article 14 proportionality challenge?</p>
+      <p class="run"><span class="tag">Why it lands</span>The recommendation is genuinely novel, and novelty without precedent invites the proportionality question. A director's personal capacity to pay bears no relation to the company's revenue.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Have a fallback ready and offer it before you are pushed. The deterrence logic requires that the sanction scale with the <em>gain</em>, and the gain accrues to the company — so the principled design is a <strong>turnover-linked penalty on the company</strong> coupled with a <strong>remuneration-linked penalty plus disqualification on the director</strong>. Disqualification is the sanction directors actually price. Present the 1% figure as the ceiling under which a graduated schedule sits, not as a flat exposure.</p>
+    </article>
+  </section>
+
+  <!-- ============ E ============ -->
+  <section class="cluster" id="e">
+    <div class="cluster-head"><span class="letter">E</span><h2>SEBI, BRSR and assurance</h2><span class="count">22–26</span></div>
+
+    <article class="q" id="q22">
+      <div class="gutter"><span class="num">22</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Mandatory reasonable assurance on BRSR Core for all reporters by FY 2028–29, plus full Scope 3, plus double materiality. What does that cost, who can supply it, and what is your evidence that it changes behaviour rather than merely raising compliance spend?</p>
+      <p class="run"><span class="tag">Why it lands</span>The recommendations are unpriced. India's assurance provider pool is small, and reasonable assurance over Scope 3 is at the frontier of what the profession can deliver anywhere in the world.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Meet it with sequencing rather than denial: the phasing is deliberately capacity-led — top 150, then top 500, then all — and SEBI's approval framework for assurance providers exists precisely to build the supply side. On evidence, point to the mechanism rather than claiming outcome data India does not yet have: assurance changes behaviour by shifting the <em>cost of asserting</em>, which is the decoupling condition.</p>
+    </article>
+
+    <article class="q" id="q23">
+      <div class="gutter"><span class="num">23</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Your comparative anchor is the EU as a “convergent hard-law framework”. But since February 2025 the Omnibus simplification package has sharply cut CSRD scope and delayed the ESRS; the Commission moved to withdraw the Green Claims Directive in mid-2025; the SEC has abandoned its climate rule; and the ISSB uses single materiality. Your thesis does not mention Omnibus once. Is your model still standing?</p>
+      <p class="run"><span class="tag">Why it lands</span>This is the highest-value currency question in the viva. Law is stated as at December 2025 and the examination is in 2026; an examiner who follows the field will have watched the EU retreat in real time. The thesis describes the Green Claims Directive as merely “pending” <span class="ref">(§4.2.2)</span>.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Verify the current status before you walk in, then draw the distinction that saves the argument: what the EU has cut is <strong>scope and timing</strong>, not the <em>design logic</em>. Ex ante substantiation, independent verification, board responsibility for sustainability reporting and turnover-linked penalties all survive Omnibus. Your thesis does not recommend that India import the CSRD thresholds; it recommends importing the architecture. Then convert the retreat into support for your own Chapter 5 finding on <strong>regulatory backsliding</strong> — the EU is now an example of the phenomenon you identified in India, which strengthens rather than weakens the case for locking obligations into primary legislation rather than circulars.</p>
+    </article>
+
+    <article class="q" id="q24">
+      <div class="gutter"><span class="num">24</span><span class="heat likely">Likely</span></div>
+      <p class="ask">You would make BRSR misstatement a prohibited practice under the PFUTP Regulations. Does an inaccurate sustainability disclosure satisfy the “in connection with dealing in securities” nexus, and what mental element would you require? Does every ESG inaccuracy become fraud?</p>
+      <p class="run"><span class="tag">Why it lands</span>PFUTP has a fraud architecture with a scienter threshold — <span class="cite">SEBI v. Kanaiyalal Baldevbhai Patel</span> and <span class="cite">SEBI v. Kishore R. Ajmera</span>. A blanket deeming provision would over-shoot badly.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Narrow the recommendation on your feet: it should reach <strong>material</strong> misrepresentation made knowingly or recklessly, not error or methodological difference — the word “material” is already in your draft and should be doing this work. Add that a lighter route exists and may be better: a specific disclosure obligation under LODR with s.15HB exposure, reserving PFUTP for the deliberate cases. Showing you can calibrate your own proposal is worth more than defending it whole.</p>
+    </article>
+
+    <article class="q" id="q25">
+      <div class="gutter"><span class="num">25</span><span class="heat possible">Possible</span></div>
+      <p class="ask">You require ESG rating providers to rate on assured data, but assurance is phased in over three years and covers only BRSR Core. On what do rating providers rate in the interim?</p>
+      <p class="run"><span class="tag">Why it lands</span>An internal sequencing problem between two of your own recommendations.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Answer with disclosure rather than prohibition: in the interim, require ERPs to <strong>label the assurance status of each input</strong> and to disclose the proportion of the rating derived from unassured data. That is deliverable now, and it makes the verification gap visible to the market instead of hiding it inside a composite score.</p>
+    </article>
+
+    <article class="q" id="q26">
+      <div class="gutter"><span class="num">26</span><span class="heat possible">Possible</span></div>
+      <p class="ask">Double materiality is the EU's choice; the ISSB, which India is more likely to converge with, uses financial materiality. Which way should India go, and why should it diverge from the global baseline?</p>
+      <p class="run"><span class="tag">Why it lands</span>Recommendation 9 asks for double materiality while also invoking ISSB and SASB materiality maps — the two are not the same instinct.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Ground it in Indian constitutional context rather than in EU preference: where the Supreme Court has recognised a right against the adverse effects of climate change, a disclosure regime that reports only risks <em>to</em> the company and never impacts <em>by</em> the company is structurally incomplete. ISSB can be the baseline for investor-facing disclosure with an impact layer added for high-emission sectors — which is what your sector-specific proposal already contemplates.</p>
+    </article>
+  </section>
+
+  <!-- ============ F ============ -->
+  <section class="cluster" id="f">
+    <div class="cluster-head"><span class="letter">F</span><h2>Consumer law reform</h2><span class="count">27–29</span></div>
+
+    <article class="q" id="q27">
+      <div class="gutter"><span class="num">27</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">You recommend Greenwashing Rules under s.101 of the Consumer Protection Act that would “independently prescribe specific penalties”. Can delegated legislation create penalties the parent Act does not authorise? Is that not plainly ultra vires?</p>
+      <p class="run"><span class="tag">Why it lands</span>It is a clean administrative-law point, and the thesis's own text at §6.3 invites it by using the word “independently”.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Concede the doctrine and then show that the recommendation survives it. Rules under s.101 can carry the <strong>substantiation architecture</strong> — claim-specific standards, evidentiary protocols, the schedules — because those give content to existing statutory concepts of misleading advertisement and unfair trade practice. Penalties must come by <strong>amendment to s.21</strong>, which is exactly what your Recommendation 11 proposes. The two recommendations are designed to operate together; the drafting should say so, and you will correct it.</p>
+    </article>
+
+    <article class="q" id="q28">
+      <div class="gutter"><span class="num">28</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Why should a misleading environmental claim attract 1% and then 4% of turnover, when a misleading claim about a medicine, a child's safety or a financial product attracts ₹10 lakh and ₹50 lakh under the same section? Justify that classification under Article 14.</p>
+      <p class="run"><span class="tag">Why it lands</span>Singling out one category of misleading advertisement for a penalty two orders of magnitude higher requires an intelligible differentia and a rational nexus. The thesis argues the deterrence case but never the equality case.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Offer the differentia: environmental claims are <strong>systematically unverifiable by the consumer</strong> — no purchaser can test a carbon-neutrality claim, whereas most product claims are eventually falsified by use; the harm is <strong>collective and irreversible</strong> rather than individual and compensable; and the gain to the firm is a <strong>market-wide price premium</strong> rather than a single sale. Then say the honest thing: the better long-term answer is turnover-linked penalties across s.21 generally, and your proposal is the pilot case, not a permanent carve-out.</p>
+    </article>
+
+    <article class="q" id="q29">
+      <div class="gutter"><span class="num">29</span><span class="heat likely">Likely</span></div>
+      <p class="ask">ASCI investigated 211 environmental advertisements in 2024–25 and 100% required modification. Does that not show that the self-regulatory layer is working, and cut against your claim of systemic failure?</p>
+      <p class="run"><span class="tag">Why it lands</span>It is your own headline statistic <span class="ref">(§2.5.1)</span>, and it is genuinely double-edged. A good examiner will hand it back to you inverted.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Take the statistic apart. A 100% rate is a <strong>selection artefact</strong> — it is 100% of those investigated, and ASCI is complaint-driven, so it measures the accuracy of complaints, not the incidence of greenwashing. Then name what the number actually proves for you: that <em>every single environmental claim examined by a competent body failed substantiation</em>. And note what follows the finding — modification or withdrawal, no disgorgement, no penalty, no board-level consequence. The advertisement is corrected; the gain is kept.</p>
+    </article>
+  </section>
+
+  <!-- ============ G ============ -->
+  <section class="cluster" id="g">
+    <div class="cluster-head"><span class="letter">G</span><h2>Comparative reasoning and transplant</h2><span class="count">30–32</span></div>
+
+    <article class="q" id="q30">
+      <div class="gutter"><span class="num">30</span><span class="heat likely">Likely</span></div>
+      <p class="ask">You contrast ASIC's 47 greenwashing interventions with India's near-zero record and conclude the difference is regulatory design. Could it not be a base-rate difference? Australia has a compulsory superannuation system saturated with ESG-labelled products. Are you comparing like with like?</p>
+      <p class="run"><span class="tag">Why it lands</span>Finding 4 rests on this inference, and enforcement counts are notoriously sensitive to market structure and regulatory resourcing.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Do not rest on the count. Point out that India's own base rate is documented — ASCI's 211 failed advertisements, the CPCB's six lakh fake EPR certificates, 47% decoupling among NIFTY 50 firms. The conduct is present at scale; the enforcement is absent. That combination isolates design, not incidence, as the variable.</p>
+    </article>
+
+    <article class="q" id="q31">
+      <div class="gutter"><span class="num">31</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Ex ante verification requires an accreditation infrastructure. The Ecomark scheme has existed since 1991 and has been effectively dormant for three decades. What makes you think a verifier layer will materialise this time?</p>
+      <p class="run"><span class="tag">Why it lands</span>It is the transplant-viability question, and Ecomark is the standing Indian counter-example — which your own §5.3.4 discusses.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Diagnose why Ecomark failed rather than defending against the analogy: it was <strong>voluntary</strong>, carried no market consequence for non-participation, and had no demand-side driver. The proposed architecture inverts all three — verification is a condition of making the claim, non-compliance carries a penalty, and the demand comes from listed-company disclosure obligations that already exist. Note also the 2024 revision of the Ecomark Rules as a live base to build on rather than starting cold.</p>
+    </article>
+
+    <article class="q" id="q32">
+      <div class="gutter"><span class="num">32</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Canada's Bill C-59 produced documented greenhushing — firms simply stopped talking about sustainability. Your package raises stringency on every axis at once: ex ante verification, turnover penalties, personal director liability, a presumption against imagery. Your mitigation of that risk runs to three lines. Operationalise it.</p>
+      <p class="run"><span class="tag">Why it lands</span>§4.10.5 identifies the risk honestly and then does almost nothing with it. The gap between the diagnosis and the treatment is visible.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Come with a drafted safe harbour, because this question rewards specificity. Something like: no penalty where the claim was substantiated by evidence held at the time of making, verified by an accredited verifier, and corrected within a defined period of new information coming to light — with the certificate of conformity operating as a defence, as under the EU proposal. Add that <strong>mandatory disclosure defeats greenhushing structurally</strong>: a firm subject to BRSR cannot go silent, so the greenhushing risk is concentrated in voluntary marketing claims, which is where the safe harbour does its work.</p>
+    </article>
+  </section>
+
+  <!-- ============ H ============ -->
+  <section class="cluster" id="h">
+    <div class="cluster-head"><span class="letter">H</span><h2>Reform architecture</h2><span class="count">33–35</span></div>
+
+    <article class="q" id="q33">
+      <div class="gutter"><span class="num">33</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Your first recommendation is a lead-regulator model with mandatory cross-referral across MCA, SEBI, CCPA, MoEFCC, CPCB, BIS and FSSAI. By what legal instrument is it created, and can a coordination mechanism lawfully fetter a statutory regulator's discretion?</p>
+      <p class="run"><span class="tag">Why it lands</span>It is the thesis's headline reform and it is the least specified. Chapter 5 shows that none of the parent statutes contains a coordination power.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>India has the precedent and the thesis does not use it: the SEBI–IRDA dispute over unit-linked products was resolved by ordinance, which inserted a <strong>statutory joint mechanism into s.45 of the SEBI Act</strong> through the Securities and Insurance Laws (Amendment and Validation) Act, 2010. Cite it, and contrast it with the non-statutory FSDC, which coordinates but cannot bind. Your answer is that coordination must be <strong>statutory</strong> — an MoU cannot allocate jurisdiction — and that it does not fetter discretion, it assigns the lead and compels referral while each regulator continues to exercise its own powers.</p>
+    </article>
+
+    <article class="q" id="q34">
+      <div class="gutter"><span class="num">34</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Environment and consumer protection are Concurrent List subjects. Your architecture is entirely central — MCA, SEBI, CCPA. Where do the State Pollution Control Boards, State Consumer Commissions and state authorities sit?</p>
+      <p class="run"><span class="tag">Why it lands</span>A federalism blind spot: the thesis contains no centre–state analysis, and much of the actual enforcement capacity in environmental and consumer law is at state level.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Concede the omission cleanly, then show you can reason about it: corporate disclosure and securities regulation are unambiguously central, so the governance pillar is unaffected; the consumer and environmental pillars need state participation, which is why the coordination mechanism should be modelled on the Central–State architecture the CPA 2019 already uses for the CCPA and the state commissions. Offer it as a limitation and a next question rather than improvising a scheme.</p>
+    </article>
+
+    <article class="q" id="q35">
+      <div class="gutter"><span class="num">35</span><span class="heat likely">Likely</span></div>
+      <p class="ask">Why thirteen amendments across four statutes rather than a single Greenwashing Act with one regulator? A thesis whose central finding is fragmentation ends by legislating into four fragments.</p>
+      <p class="run"><span class="tag">Why it lands</span>The most elegant internal-consistency question available, and examiners enjoy it.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Answer institutionally. A single Act would need a new regulator with no supervisory relationship to the entities it polices — no company registry, no listing power, no advertisement jurisdiction — and would <em>add</em> a body to an already crowded field. The thesis's diagnosis is not too many regulators; it is <strong>unharmonised definitions and no referral duty</strong>. Both are curable within existing institutions, which is cheaper, faster and constitutionally simpler. Then be candid: the single-Act model is the right long-run design if coordination fails, and you would frame it as the fallback.</p>
+    </article>
+  </section>
+
+  <!-- ============ I ============ -->
+  <section class="cluster" id="i">
+    <div class="cluster-head"><span class="letter">I</span><h2>Theory</h2><span class="count">36–38</span></div>
+
+    <article class="q" id="q36">
+      <div class="gutter"><span class="num">36</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">Chapter 2 uses decoupling and institutional theory to explain that firms respond to environmental pressure symbolically rather than substantively. Why will a mandatory ESG committee and a mandated assurance engagement not be decoupled in exactly the same way — ceremonial compliance with a new ceremony?</p>
+      <p class="run"><span class="tag">Why it lands</span>The thesis's own theoretical apparatus predicts the failure of its own remedy. This is the most intellectually satisfying question in the set and a strong examiner will find it.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>The answer is <strong>verifiability</strong>, and it should be delivered as a single clean idea. Decoupling persists only where the gap between claim and conduct is cheap to maintain — that is, where claims are unverifiable and the claimant bears no cost of assertion. Every element of the reform package attacks that condition specifically: ex ante substantiation raises the cost of making the claim; reasonable assurance puts an independent party's liability behind the number; personal director liability removes the ability to locate the claim in a costless part of the organisation. A ceremony that generates documentary evidence and personal exposure is no longer ceremonial. Then concede the residual honestly: committees can still be captured, which is why assurance-provider independence and rotation matter and why the thesis flags that companies choose and pay their own assurers.</p>
+    </article>
+
+    <article class="q" id="q37">
+      <div class="gutter"><span class="num">37</span><span class="heat likely">Likely</span></div>
+      <p class="ask">What did Hohfeld actually add? You conclude that a duty exists with no correlative claim-right holder. Could an ordinary analysis of locus standi and remedies not have got you there without the apparatus?</p>
+      <p class="run"><span class="tag">Why it lands</span>Theoretical frameworks in doctrinal theses are frequently decorative, and examiners test whether the apparatus did work or supplied vocabulary.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Point at the output, not the theory. Hohfeld forces the separation of the duty from the claim-right and from the power to enforce — and that separation is what generated s.166(8), because it showed the defect is not weak drafting of the duty but an <strong>unallocated correlative</strong>. A standing analysis asks who may sue under the existing rules; the Hohfeldian analysis asks who <em>should hold the right</em>, which is a different and prior question. It also produced the privilege analysis showing that managerial discretion never included a licence to mislead <span class="ref">(§3.3.4)</span>.</p>
+    </article>
+
+    <article class="q" id="q38">
+      <div class="gutter"><span class="num">38</span><span class="heat possible">Possible</span></div>
+      <p class="ask">Your own Hohfeldian chapter shows, citing <span class="cite">Vincent v. Lake Erie</span>, that liability can attach to lawful conduct through cost allocation. Why then are all your remedies duty-and-penalty based, rather than a risk-allocation model — a reversed burden of substantiation, or deemed liability with a due-diligence defence?</p>
+      <p class="run"><span class="tag">Why it lands</span>The theory points one way and the reform goes another. It is a subtle question, and it is also an opportunity.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Accept the observation and show that the package already contains the move: the <strong>rebuttable presumption</strong> attaching to environmental imagery and the <strong>substantiation-at-the-time-of-making</strong> requirement are both burden-allocation devices, not prohibitions — the claimant must hold the evidence before speaking, and bears the cost if they do not. Then go further and agree that a statutory due-diligence defence would complete the design, and say you would add it.</p>
+    </article>
+  </section>
+
+  <!-- ============ J ============ -->
+  <section class="cluster" id="j">
+    <div class="cluster-head"><span class="letter">J</span><h2>The closing exchange</h2><span class="count">39–40</span></div>
+
+    <article class="q" id="q39">
+      <div class="gutter"><span class="num">39</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">If the Government would enact exactly one of your thirteen recommendations, which one, and why that one?</p>
+      <p class="run"><span class="tag">Why it lands</span>It tests whether the candidate has a hierarchy or merely a list. Hesitation here is costly; a crisp answer is memorable.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Choose <strong>s.166(8), the standing provision</strong>, and be able to say why in one breath: every other reform depends on someone being able to bring the case. Penalties that are never invoked deter nothing, assurance that no one can litigate is a document, and coordination without a claimant coordinates inaction. Standing is the single change that converts a dormant duty into a live one — and it costs the exchequer nothing.</p>
+    </article>
+
+    <article class="q" id="q40">
+      <div class="gutter"><span class="num">40</span><span class="heat certain">Near-certain</span></div>
+      <p class="ask">What is the weakest part of this thesis, and what would you do differently if you began again?</p>
+      <p class="run"><span class="tag">Why it lands</span>Almost always asked. It is a test of judgment, not humility, and a candidate who names nothing looks either defensive or uncritical.</p>
+      <p class="run defence"><span class="tag">Line of defence</span>Name something real, specific and non-fatal — and choose it in advance rather than improvising. The strongest candidate answer here is the <strong>absence of a primary empirical component</strong>: an RTI to the CCPA on greenwashing complaints disposed since October 2024, and a coded content analysis of BRSR Core filings, would have turned the enforcement deficit from a documented absence into a measured one. Say what you would build next, and the answer reads as a research agenda rather than a confession.</p>
+    </article>
+  </section>
+
+  <div class="closing">
+    <h2>Before you go in</h2>
+    <p><strong>Verify three things.</strong> The current status of the EU Green Claims Directive and the Omnibus package; whether any CCPA order has issued under the October 2024 Guidelines; and whether any adjudication order under s.454 has touched s.166. All three are the sort of fact an examiner may have read this month.</p>
+    <p><strong>Fix two things in the corrected copy.</strong> The s.164(2)(b) cross-reference in the s.166(7) proviso, and the word “confirms” describing Tata–Mistry. Both are small, both are checkable, and offering the correction unprompted is worth more than defending either.</p>
+    <p><strong>Carry three answers in your pocket.</strong> A statutory definition of greenwashing; the search protocol behind the zero-enforcement finding; and <span class="cite">Kaushal Kishor v. State of U.P.</span> on the horizontal reach of Articles 19 and 21 — the authority the thesis needs and does not cite.</p>
+  </div>
+
+</div>
+</body>
+</html>
