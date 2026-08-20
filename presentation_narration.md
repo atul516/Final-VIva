@@ -133,57 +133,53 @@ The remaining slides follow the research questions rather than the chapter order
 
 ## Slide 9 — How Greenwashing Has Evolved and Its Consequences
 
-First, the definition in Indian law. The CCPA Guidelines identify three kinds of conduct. These are concealing or omitting information, making vague, false, or unsubstantiated claims, and using misleading words and imagery that emphasise the positive aspects while downplaying the harmful ones.
+First, we will focus on research question 1, which asks what greenwashing is, how it evolved, and what its consequences are. This is dealt in Chapter 2 of thesis.
 
-That is a broad and useful definition. However, it is important to note that it appears in guidelines, not in binding regulations. I will return to this point.
+To define greenwashing, one of definitions is in new CCPA Greenwashing Guidelines. It identify three kinds of conduct. These are concealing or omitting information, making vague, false, or unsubstantiated claims, and using misleading words and imagery that emphasise the positive aspects while downplaying the harmful ones.
 
-Second, how it evolved. The key insight is that the *unit of deception* has expanded. Around 1986, it operated at the product level, through claims, seals, and imagery on a package. From the 1990s, it moved to the corporate level, where a brand halo masks what operations actually do. Today, it operates at the ESG and financial level through BRSR reports, green debt, ESG funds, and net-zero claims.
+That is a broad and useful definition. However, it is important to note that it appears in guidelines, not in binding regulations.
+
+Next, how greenwashing has evolved. The key insight is that the *unit of deception* has expanded. Around 1986, it operated at the product level, through claims, seals, and imagery on a package. From the 1990s, it moved to the corporate level, where a brand halo masks what operations actually do. Today, it operates at the ESG and financial level through BRSR reports, green debt, ESG funds, and net-zero claims.
 
 A wider scope means higher stakes. A false claim on a shampoo bottle misleads a shopper. A false claim in a BRSR filing or a green bond prospectus can redirect institutional capital.
 
 Third, the harm is multi-layered. In climate terms, it delays real decarbonisation because a company that has announced a transition may face less pressure to carry it out. Financially, it misdirects green capital. It also erodes market trust and disadvantages genuinely green businesses, which bear real compliance costs while competitors bear only a PR cost.
 
-This answers Research Question 1, which asks what greenwashing is, how it evolved, and what its consequences are. The discussion is based on Chapter 2.
-
 ---
 
 ## Slide 10 — India's Legal Ecosystem for Tackling Misleading Environmental Claims
 
-Let me map the legal framework India already has. This is Chapter 5.
+Let me map the legal framework India already has. This is dealt in Chapter 5 of thesis.
 
-The constitutional foundation is strong. Articles 21, 48A, and 51A(g) place environmental protection at the centre of the legal order. The Supreme Court has reinforced this in *Tata Consultancy Services v. Cyrus Mistry*. In *M.K. Ranjitsinh*, it recognised a right against the adverse effects of climate change. Together, these decisions establish a strong basis for taking environmental claims seriously.
+The constitutional foundation is strong. 
 
-This framework rests on three main pillars, and I will briefly examine each one.
+The Supreme Court has reinforced the constitutional foundations via judgements like *Tata Consultancy Services v. Cyrus Mistry* and *M.K. Ranjitsinh*.
 
-The first is consumer protection, covering the Consumer Protection Act 2019, the CCPA, consumer courts, and ASCI, which govern misleading advertisements. Its strength is its broad jurisdiction over advertisements.
+The relevant legal framework can be divided three main pillars, and I will briefly examine each one.
 
-The second is securities and finance, covering SEBI, the BRSR, BRSR Core, the ESG debt rules, and the PFUTP Regulations. Its strength is that it has formalised ESG reporting.
+The first is consumer protection, covering the Consumer Protection Act 2019, the CCPA, consumer courts, and ASCI, which govern misleading advertisements. Its strength is its jurisdiction over advertisements.
+
+The second is securities and finance, involving SEBI, its BRSR and BRSR Core and the ESG debt rules and the PFUTP Regulations. Its strength is that it has formalised ESG reporting.
 
 The third is corporate governance, through the MCA and the Companies Act, which place environmental care within directors' duties. Its strength is the strong wording of Section 166(2).
 
-There are also complementary regimes. Two are worth naming. The Environment Protection Act 1986 supplies objective benchmarks against which a green claim can be tested. The NGT has suo motu powers and can impose proportionate fines, although it is a tribunal rather than a regulator.
+There are also complementary regimes. Two are worth naming. The Environment Protection Act 1986 supplies objective benchmarks against which a green claim can be tested. 
 
-So the architecture exists and, on paper, is comprehensive. The rest of my presentation asks whether these parts work together, and I will discuss the limitations of each pillar over the next three slides.
+The NGT has suo motu powers and can impose proportionate fines, although it is a tribunal rather than a regulator.
+
+So the architecture exists and, on paper, is comprehensive. The rest of my presentation asks whether these parts work together, and I will discuss the limitations of each pillar over the next few slides.
 
 ---
 
 ## Slide 11 — Limitations of Consumer Law in Tackling Greenwashing
 
-This answers Research Question 2 and addresses an obvious objection. Why not simply rely on consumer law? The analysis in Chapters 2 and 5 identifies seven structural limitations.
+We will look at some of the limitations of CCPA Greenwashing Guidelines:
 
-First, it is reactive. It intervenes only after the deceptive claim has entered the market and done its work.
-
-Second, it focuses on individual harm. It treats greenwashing as a series of consumer disputes rather than as a systemic governance failure.
-
-Third, there is an information asymmetry. The burden of proof effectively falls on an ordinary consumer who has no access to emissions data, lifecycle data, or internal records.
-
-Fourth, consumer law does not mandate board-level oversight. It regulates the advertisement, not the internal systems that produced the claim.
-
-Fifth, there is a puffery loophole. Because the law tolerates some exaggeration in advertising, vague green buzzwords can be protected as puffery.
-
-Sixth, the fines apply only to the entity. The penalty comes from the company's budget, not from the directors who approved the claim.
-
-Seventh, the CCPA's 2024 framework is in the form of guidelines, which may not satisfy the legal requirements for binding and enforceable rules.
+1. Reactive by Nature: Intervenes only after deceptive claims enter the market. Rather than proactive systemic regulation.
+2. No Upstream Boardroom Mandates: Regulates ad copy, does not guide internal corporate systems or decision-making.
+3. Individual Harm Focus: Treats greenwashing merely consumer harm, not systemic governance failure.
+4. Puffery Loophole: Scope for exaggerations creates loopholes for vague green buzzwords.
+5. Fixed cap penalties: Not turnover linked. Limited deterrence for big companies.
 
 That is why the thesis argues for a corporate governance pathway. It moves enforcement earlier, requiring verified data before any claim leaves the boardroom. It also uses Section 166(2), together with audit committees, to hold leadership personally responsible for the accuracy of sustainability reporting.
 
@@ -191,9 +187,17 @@ That is why the thesis argues for a corporate governance pathway. It moves enfor
 
 ## Slide 12 — Greenwashing as a Corporate Accountability Failure
 
-This answers Research Question 3 and provides the jurisprudential foundation from Chapter 3.
+This answers Research Question 3 and provides the jurisprudential foundation of treating Greenwashing as a Corporate Accountability Failure.
 
-Let me begin with a more basic question. What is a company in law? The thesis tests five classic theories of corporate personality. I adopt the view that a company is a real social actor, so its green promises create genuine legal expectations. This is the stakeholder position, and it is also the position Indian law takes in Section 166(2).
+Let me begin with a more basic question. What is a company in law? The thesis tests five classic theories of corporate personality.
+
+[
+    Fiction & Contractual Theories tend to confine corporate liability to strict, narrow statutory breaches.
+    Realist, Purpose, and Stakeholder Theories justify expansive environmental accountability and fit the substantive mandate of Section 166(2).
+    Thesis Conclusion: Indian corporate law aligns most closely with the Realist–Stakeholder model, treating the corporation as a real social actor bearing non-negotiable statutory duties toward the environment and affected communities.
+]
+
+Indian legal position in Companies Act aligns well with the Realist viewpoint that is a company is a real social actor, so its green promises create genuine legal expectations. This is the stakeholder position, and it is also the position Indian law takes in Section 166(2) of Companies Act.
 
 To identify where that duty fails, I applied Hohfeldian analysis. Hohfeld's point is that every legal relation has a corresponding legal position, so a duty is meaningful only if someone holds the corresponding claim-right. Four findings emerge.
 
