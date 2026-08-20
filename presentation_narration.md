@@ -335,33 +335,7 @@ This is why even a well-drafted rule can fail in practice. Regulators do not yet
 
 ---
 
-## Slide 19 — Research Questions Addressed
-
-This slide places all seven research questions alongside their chapters and gives a short answer to each. I have addressed the first four during the presentation, so let me focus on the last three.
-
-Question five asked what the comparative models teach us. The answer is the ten core levers, especially pre-publication proof, mandatory audits, connected regulators, and turnover-linked penalties.
-
-Question six asked how fragmentation impedes accountability. The answer is five structural flaws. Three appeared on the last slide. They were disconnected definitions, regulatory clutter, and weak technical verification. The other two came from the preceding comparative analysis. They were diluted auditing and low penalties.
-
-Question seven asked what would fix the problem. The answer is a sequenced, three-statute framework that verifies claims before publication, audits them independently, shares cases automatically, and links fines to turnover. The closing slides set this out.
-
----
-
-## Slide 20 — Testing of Hypotheses
-
-I now turn to the formal testing of the hypotheses. Since the study is doctrinal, I tested them by examining three questions. These are scope, duty allocation, and the enforcement pathway. This analysis comes from Chapter 6.
-
-Hypothesis one concerns weak corporate governance as the primary cause. Looking at scope, greenwashing extends beyond consumer advertising into investor-facing disclosures such as BRSR reports, net-zero roadmaps, and transition pledges. On duty allocation, consumer rules police advertisements, but the proper basis for boardroom oversight is corporate governance. On enforcement, consumer law is reactive and complaint-led, while corporate and securities routes act earlier, at the level of board oversight, internal controls, and assurance. H1 is supported.
-
-Hypothesis two concerns the absence of deterrent liability. The question is whether penalties are large and certain enough to outweigh the gains from greenwashing. The duties do exist, but enforcement routes for Section 166(2) are weak and consumer penalties do not provide deterrence. Weak verification and high burdens of proof then protect the violator. A duty without an accessible trigger does not create real liability. H2 is supported.
-
-Hypothesis three concerns regulatory inchoateness, or an incomplete mechanism. Greenwashing is a lifecycle phenomenon. It spans products, advertisements, annual reports, ESG filings, and green bonds. Across these areas, disconnected regulators produce gaps and conflicting standards. There is no lead agency, mandatory case referral, or shared data. H3 is supported.
-
-I therefore find support for all three hypotheses.
-
----
-
-## Slide 21 — General Suggestions for Regulatory Reform
+## Slide 19 — General Suggestions for Regulatory Reform
 
 That brings me to the recommendations for Research Question 7, based on Chapter 6. I present them at two levels. The first is general institutional reform, and the second is specific statutory amendments.
 
@@ -377,7 +351,7 @@ Fifth, I recommend building enforcement capacity through shared in-house experti
 
 ---
 
-## Slide 22 — Specific Recommendations for Legal Reform
+## Slide 20 — Specific Recommendations for Legal Reform
 
 The specific recommendations translate these principles into detailed amendments across three statutes.
 
@@ -391,6 +365,6 @@ These are not isolated fixes. They form one interlocking sequence: we substantia
 
 ---
 
-## Slide 23 — Conclusion and Thanks
+## Slide 21 — Conclusion and Thanks
 
 Thank you for your time and attention.
