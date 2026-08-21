@@ -170,15 +170,20 @@ So the architecture exists and, on paper, is comprehensive. The rest of my prese
 
 ## Slide 11 — Limitations of Consumer Law in Tackling Greenwashing
 
-We will look at some of the limitations of CCPA Greenwashing Guidelines:
+Now, we will look at some of the main limitations of CCPA Greenwashing Guidelines:
 
-1. Reactive by Nature: Intervenes only after deceptive claims enter the market. Rather than proactive systemic regulation.
-2. No Upstream Boardroom Mandates: Regulates ad copy, does not guide internal corporate systems or decision-making.
-3. Individual Harm Focus: Treats greenwashing merely consumer harm, not systemic governance failure.
-4. Puffery Loophole: Scope for exaggerations creates loopholes for vague green buzzwords.
-5. Fixed cap penalties: Not turnover linked. Limited deterrence for big companies.
+1. Guidelines without Governance Obligations: They prescribe what environmental claims must demonstrate but no obligation is imposed on the boards to establish verification systems or on audit committees to provide assurance over sustainability claims or on directors to certify the accuracy of environmental representation. The guidelines regulate the output or the claims without addressing the organization conditions that produce it.
 
-That is why the thesis argues for a corporate governance pathway. It moves enforcement earlier, requiring verified data before any claim leaves the boardroom. It also uses Section 166(2), together with audit committees, to hold leadership personally responsible for the accuracy of sustainability reporting.
+2. No Board Level Deterrence: Because its remit is restricted to consumer facing products and ads only; the institutional greenwashing such as corporate PR campaigns, annual sustainability overstatements that do not mention any specific product or service are allowed.
+
+3. Weak Oversight on Future Claims: It permits futuristic claims, without mandatory interim milestone reporting and no independent verification of progress or a penalty on non-delivery of these targets. Example: "committed to sustainable future", "net-zero by 2040".
+
+4. Visual Imagery & Puffery Loophole: It exempts generic nature visuals and exaggerated talk in advertisements, which leaves scope for greenwashing.
+
+5. Fixed cap penalties: Not turnover linked. Fines are cheaper than the budgets of PR campaigns.
+
+That is why the thesis argues for a corporate governance pathway. It moves enforcement to upstream level, requiring verified data before any claim leaves the boardroom. 
+It also uses Section 166(2), together with audit committees, to hold leadership responsible for the accuracy of sustainability reporting.
 
 ---
 
